@@ -1,7 +1,7 @@
 ---
 title: "Why go?"
 date: 2017-04-29T09:48:59-06:00
-slug: why-go
+slug: /why-go/
 ---
 
 ![Gopher](https://raw.githubusercontent.com/schollz/gophers/master/NERDY.png)
