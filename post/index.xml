@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on schollz blog</title>
+    <link>https://schollz.github.io/post/</link>
+    <description>Recent content in Posts on schollz blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Sep 2017 09:04:40 -0600</lastBuildDate>
+    
+	<atom:link href="https://schollz.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OSS divisions</title>
+      <link>https://schollz.github.io/oss/</link>
+      <pubDate>Sun, 17 Sep 2017 09:04:40 -0600</pubDate>
+      
+      <guid>https://schollz.github.io/oss/</guid>
+      <description>There are two reasons I think its good for everyone to have a good division between &amp;ldquo;personal&amp;rdquo; and &amp;ldquo;corporate&amp;rdquo; use for open-source software (OSS):
+1. If you, the OSS maintainer, are compensated, everyone benefits.
+While your time spent coding your OSS is valuable, I think the frictionless delivery of new features and bug fixes is something that shouldn&amp;rsquo;t go away.
+Since I&amp;rsquo;m not actively supporting you financially to work on this, I can only hope that someone does so I can benefit.</description>
+    </item>
+    
+    <item>
+      <title>Beware of the free trial</title>
+      <link>https://schollz.github.io/beware-of-the-free-trial/</link>
+      <pubDate>Thu, 29 Jun 2017 09:51:22 -0600</pubDate>
+      
+      <guid>https://schollz.github.io/beware-of-the-free-trial/</guid>
+      <description>tldr: A big company billed me for years without my knowledge. However, they unknowingly violated their own Conditions of Use so I got my money refunded
+I was looking at my bank statement last week and something was wrong. I had a charge of \$15 for The Service (a big company that I will not name here), a service I hadn&amp;rsquo;t used for years after I tried one of their free items.</description>
+    </item>
+    
+    <item>
+      <title>Noun</title>
+      <link>https://schollz.github.io/noun/</link>
+      <pubDate>Sun, 04 Jun 2017 09:48:59 -0600</pubDate>
+      
+      <guid>https://schollz.github.io/noun/</guid>
+      <description>The word &amp;ldquo;noun&amp;rdquo; is a singular word. It is the only word that is what it is.</description>
+    </item>
+    
+    <item>
+      <title>Moderation</title>
+      <link>https://schollz.github.io/moderation/</link>
+      <pubDate>Sat, 29 Apr 2017 09:43:35 -0600</pubDate>
+      
+      <guid>https://schollz.github.io/moderation/</guid>
+      <description>This quote by Oscar Wilde,
+ &amp;ldquo;Everything in moderation, including moderation.&amp;rdquo;,
+ is wrong.
+By doing everything in moderation &amp;ndash; including moderation &amp;ndash; then that means you are overdoing moderation, which the quote forbids.
+It should be amended:
+ &amp;ldquo;Everything in moderation, excepting moderation.&amp;rdquo;
+ </description>
+    </item>
+    
+    <item>
+      <title>Open letter to Duke P&amp;T</title>
+      <link>https://schollz.github.io/biking/</link>
+      <pubDate>Thu, 02 Feb 2017 09:41:01 -0600</pubDate>
+      
+      <guid>https://schollz.github.io/biking/</guid>
+      <description>Dear Parking &amp;amp; Transportation,
+I am writing to you about my experience as a Duke bike-commuter for the past six years. To preface, I have been a bike commuter, in total, for 15 years. I&amp;rsquo;ve commuted between home and school and work in all the places I&amp;rsquo;ve lived - Seattle, New York, and Durham - about 3&amp;ndash;6 miles every day. Unfortunately, I think the most unsafe place I&amp;rsquo;ve biked is within the Duke University campus.</description>
+    </item>
+    
+  </channel>
+</rss>
