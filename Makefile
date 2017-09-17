@@ -2,8 +2,7 @@ build:
 	hugo server --watch -t hugo-bestwebsite -b http://localhost:1313
 
 publish:
-	git commit -am "Update"
-	git push origin source
+	git status -s
 	hugo -t hugo-bestwebsite
 	git checkout master 
 	rsync -avrP tmp/ ./
