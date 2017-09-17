@@ -5,8 +5,15 @@ publish:
 	git commit -am "Update"
 	git push origin source
 	hugo -t hugo-bestwebsite
-	git checkout source 
+	git checkout master 
 	find . | grep -v ".git\|tmp" | xargs rm -rf
+	rsync -avrP tmp/ ./
+	rm -rf tmp
+	git add .
+	git commit -am "Update site"
+	git push origin master
+	git checkout source
+
 	
 
 serve:
