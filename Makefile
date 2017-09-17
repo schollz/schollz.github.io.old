@@ -6,7 +6,6 @@ publish:
 	git push origin source
 	hugo -t hugo-bestwebsite
 	git checkout master 
-	find . | grep -v ".git\|tmp" | xargs rm -rf
 	rsync -avrP tmp/ ./
 	rm -rf tmp
 	git add .
