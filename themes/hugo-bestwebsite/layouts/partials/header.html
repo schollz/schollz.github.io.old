@@ -30,6 +30,7 @@
 <body>
 
   <a href="/"  style="color:black;">Posts</a>&nbsp;
+  <a href="/projects"  style="color:black;">Projects</a>&nbsp;
   {{ range .Site.RegularPages }}
     {{ if or (eq .Type "page") (eq .Type "about") }}
       <a href="{{ .RelPermalink }}" style="color:black;">{{ .Title }}</a>&nbsp;
