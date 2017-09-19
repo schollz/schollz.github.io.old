@@ -1,5 +1,5 @@
 build:
-	hugo server -D --watch -t hugo-bestwebsite -b http://localhost:1313 --verbose
+	hugo server -D --watch -t hugo-bestwebsite -b http://localhost:1313
 
 publish:
 	git status -s
