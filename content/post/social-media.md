@@ -10,3 +10,9 @@ Obviously don't post things that should not be public
 Not thinking about public opinion enables you too emit thoughts without fear of judgement
 
 Take advantage of the cutting edge technology ecosystem and infrastructure that is social media
+
+https://github.com/sferik/t
+
+```
+t search timeline  '#todo'
+```

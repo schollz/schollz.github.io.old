@@ -4,7 +4,7 @@ ul {
   list-style-type: none;
 }
 </style>
-  {{ range first 10 .Pages }}
+  {{ range first 100000 .Pages }}
     {{ if eq .Type "post"}}
       <p><a href="{{ .Permalink }}">{{ .Title }}</a>&nbsp;<small> {{ .Date.Format "January 2, 2006"}}</small></p>
     {{ end }}
