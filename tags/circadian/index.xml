@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Circadian on schollz blog</title>
+    <link>https://schollz.github.io/tags/circadian/</link>
+    <description>Recent content in Circadian on schollz blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jul 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://schollz.github.io/tags/circadian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How can a protein tune the circadian rhythms by switching its fold?</title>
+      <link>https://schollz.github.io/protein-switching/</link>
+      <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://schollz.github.io/protein-switching/</guid>
+      <description>Proteins are central to biology. For the most part, proteins in the body are crucial for catalyzing reactions that carry out almost all of our biologial processes. For a protein to be useful, after it&amp;rsquo;s made by a ribosome, it needs to fold into a 3-dimensional structure that is unique to its sequence.
+Its been widely thought that every unique sequence corresponds to a single unique structure. However, in biology, there are always exceptions to the rule.</description>
+    </item>
+    
+  </channel>
+</rss>

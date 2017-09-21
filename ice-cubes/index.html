@@ -4,6 +4,21 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>How many ice cubes?</title>
+	
+	<meta name="description" content="">
+	
+	<meta itemprop="name" content="How many ice cubes?">
+	<meta itemprop="description" content="">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="How many ice cubes?">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:site" content="@yakczar">
+	<meta name="twitter:creator" content="@yakczar">
+	
+	<meta name="og:title" content="How many ice cubes?">
+	<meta name="og:description" content="">
+	<meta name="og:type" content="website">
 	<style>
 		body{
 			margin:2em auto 1em auto;
@@ -25,6 +40,23 @@
 		a, u {
 		    text-decoration: none;
 		}
+		blockquote {
+		  font-style: italic;
+		  margin: 1.5em 10px;
+		  padding: 0.5em 10px;
+		  quotes: "\201C""\201D""\2018""\2019";
+		}
+		blockquote:before {
+		  color: #ccc;
+		  content: open-quote;
+		  font-size: 4em;
+		  line-height: 0.1em;
+		  margin-right: 0.25em;
+		  vertical-align: -0.4em;
+		}
+		blockquote p {
+		  display: inline;
+		}
 	</style>
 </head>
 <body>
@@ -41,6 +73,38 @@
   
     
       ·&nbsp;&nbsp;<a href="/about/" style="color:black;">About</a>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -101,11 +165,11 @@ MathJax.Hub.Config({
 <p>The hot beverage must lose a certain amount of energy in order to decrease its temperature to a warm temperature. The energy of heat loss is given by a difference of temperature. The equation is</p>
 
 <p>
-$$\Delta H_{beverage} = c_{water} \times m_{beverage} \times \Delta T_{hot-to-warm}$$
+$$\Delta H_{beverage} = c_{water} \times m_{beverage} \times \Delta T_{beverage}$$
 </p>
 
 <p>
-The specific heat of water, $c_{water}$ is 4.2 $J / g / °C$. The mass of a typical cup of coffee or tea, $m_{beverage}$  is 473 grams. The change in temperature is $82°C - 60°C = 22°C$.
+The specific heat of water, $c_{water}$ is 4.2 $J / g / °C$. The mass of a typical cup of coffee or tea, $m_{beverage}$  is 473 grams. The change in temperature is $\Delta T_{beverage} = 82°C - 60°C = 22°C$.
 </p>
 
 <h2 id="the-ice">The ice</h2>
@@ -121,8 +185,8 @@ where $H_{fusion}$ is the enthalpy of fusion for ice, which is 334 $J/g$. Enthal
 <p>
 Once the ice changes into cold water, it will begin to warm up, by absorbing heat from the beverage. As before, the water will absorb according to the equation 
 
-$$\Delta H_{ice-water} = c_{water} \times m_{ice} \times \Delta T_{cold-to-warm}$$ 
-In this case, the change in temperature, $\Delta T = 60°C - 0°C = 60°C$.
+$$\Delta H_{ice-water} = c_{water} \times m_{ice} \times \Delta T_{ice}$$ 
+In this case, the change in temperature, $\Delta T_{ice} = 60°C - 0°C = 60°C$.
 </p>
 
 <h2 id="the-beverage-ice">The beverage + ice</h2>
@@ -131,14 +195,14 @@ In this case, the change in temperature, $\Delta T = 60°C - 0°C = 60°C$.
 When we reach equilibrium, it means that the total energy lost by the beverage equals the sum of the energy of the ice and the cold water (once the ice has transformed), $\Delta H_{beverage}= \Delta H_{ice-water} + \Delta H_{ice}$. When we plug in the equations above we get
 </p>
 $$
-c_{water} \times m_{beverage} \times \Delta T_{hot-to-warm} = m_{ice} \times H_{fusion} \\
-+ c_{water} \times m_{ice} \times \Delta T_{cold-to-warm}
+c_{water} \times m_{beverage} \times \Delta T_{beverage} = m_{ice} \times H_{fusion} \\
++ c_{water} \times m_{ice} \times \Delta T_{ice}
 $$
 <p>
 The only unknown is the mass of the ice, $m_{ice}$, which we can solve for to get
 </p>
 $$
-m_{ice} = \frac{c_{water} \times m_{beverage} \times \Delta T_{hot-to-warm}}{\Delta H_{fusion} + c_{water} \times \Delta T_{cold-to-warm}}
+m_{ice} = \frac{c_{water} \times m_{beverage} \times \Delta T_{beverage}}{\Delta H_{fusion} + c_{water} \times \Delta T_{ice}}
 $$
 <p>
 which after plugging in the above numbers gives
@@ -159,7 +223,7 @@ $$
 @yakczar</a>.</small></p>
 </footer>
 
-<a href="/moderation/" style="float:right;">Moderation →</a>
+<a href="/worm-mortality/">← How do worms help to describe human mortality?</a>&nbsp;<a href="/bitcoin/" style="float:right;">How to evaluate the driving forces behind Bitcoin? →</a>
 
 
 

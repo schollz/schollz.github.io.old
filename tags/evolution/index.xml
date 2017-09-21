@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evolution on schollz blog</title>
+    <link>https://schollz.github.io/tags/evolution/</link>
+    <description>Recent content in Evolution on schollz blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jun 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://schollz.github.io/tags/evolution/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How similar is animal language to human language?</title>
+      <link>https://schollz.github.io/animal-language/</link>
+      <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://schollz.github.io/animal-language/</guid>
+      <description>Language is an extremly important aspects of our human lives, and its aquisition might be an innate part of our brain that separates us from animals. However, different animals can understand language on different levels, as noted by Steven Pinker in his book The Language Instinct:
+ The most receptive trainee for an artificial language with a syntax and semantics has been a parrot; the species with the best claim to recursive structure in its signaling has been the starling; the best vocal imitators are birds and dolphins; and when it comes to reading human intentions, chimps are bested by man&amp;rsquo;s best friend, Canis familiaris.</description>
+    </item>
+    
+    <item>
+      <title>How do you make a brain from scratch?</title>
+      <link>https://schollz.github.io/neuron-origin/</link>
+      <pubDate>Fri, 05 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://schollz.github.io/neuron-origin/</guid>
+      <description>No one knows where neurons, the basic of human thought, come from. They are thought to have evolved once throughout the animal kingdom and perfected ever since. However, the newly revealed DNA sequencing of a comb jelly called &amp;ldquo;Pacific sea gooseberry&amp;rdquo;1 indicates this is not the case, as it has evolved its own neural system independently of any other sea jelly.
+)
+So what? The brain is one of the most complex components of any anatomical system, maybe the most complicated thing in the universe - consisting of neurons, cerebral tissue, neurotransmitters, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

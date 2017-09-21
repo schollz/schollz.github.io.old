@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mortality on schollz blog</title>
+    <link>https://schollz.github.io/tags/mortality/</link>
+    <description>Recent content in Mortality on schollz blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jan 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://schollz.github.io/tags/mortality/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How do worms help to describe human mortality?</title>
+      <link>https://schollz.github.io/worm-mortality/</link>
+      <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://schollz.github.io/worm-mortality/</guid>
+      <description>It&amp;rsquo;s very bold to invent a new word. Its even more bold to invent a new word and add that as a keyword of your science article! That&amp;rsquo;s exactly what Ankita Bansala, Lihua Zhua, Kelvin Yena, and Heidi Tissenbaumam did in their paper1 on which they question the value of the term &amp;ldquo;lifespan&amp;rdquo; and probe key assumptions using worms. Their newly invented term, gerospan, shows up about 34 times and, though they don&amp;rsquo;t say exactly where it comes from, it seems to be a mashup of the more common &amp;ldquo;lifespan&amp;rdquo; with the department of one of the authors (Gerontology, which means - literally - the study of old people).</description>
+    </item>
+    
+  </channel>
+</rss>
