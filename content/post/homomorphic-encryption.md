@@ -1,3 +1,10 @@
+---
+title: "Homomorphic encryption"
+date: 2017-12-31T09:41:01-06:00
+slug: books-2017
+draft: true
+---
+
 How can sensitive information be used and encrypted at the same time?
 
 A lot of information that is distributed on the internet should be encrypted more often that it is. For instance, banks must decrypt your data to calculate your net savings or a loan rate. Governments have to decrypt votes to tally who voted for what. And scientists have to perform analysis on decrypted genomes to understand the underlying intricacies. 

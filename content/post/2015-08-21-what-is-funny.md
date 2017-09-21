@@ -1,3 +1,11 @@
+---
+title: Science of humor
+date: 2015-08-13
+tags: [physics, friction, forces]
+slug: science-of-humor
+draft: true
+---
+
 The general science of humor:
 
 http://www.pnas.org/content/112/23/7105.short

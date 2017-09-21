@@ -1,3 +1,10 @@
+---
+title: Science reproducibility
+date: 2015-08-13
+tags: [physics, friction, forces]
+draft: true
+---
+
 [Science](http://www.sciencemag.org/content/349/6251/aac4716) 1.
 
 [2012 article](http://pps.sagepub.com/content/7/6/657.short) 2.
