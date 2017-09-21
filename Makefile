@@ -5,6 +5,7 @@ publish:
 	git status -s
 	hugo -t hugo-bestwebsite
 	git checkout master 
+	git pull origin master
 	rsync -avrP tmp/ ./
 	rm -rf tmp
 	git add .
