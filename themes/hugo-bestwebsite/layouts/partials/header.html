@@ -4,6 +4,21 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ .Title }}</title>
+	<!-- Search Engine -->
+	<meta name="description" content="{{ .Description }}">
+	<!-- Schema.org for Google -->
+	<meta itemprop="name" content="{{ .Title }}">
+	<meta itemprop="description" content="{{ .Description }}">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="{{ .Title }}">
+	<meta name="twitter:description" content="{{ .Description }}">
+	<meta name="twitter:site" content="@yakczar">
+	<meta name="twitter:creator" content="@yakczar">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta name="og:title" content="{{ .Title }}">
+	<meta name="og:description" content="{{ .Description }}">
+	<meta name="og:type" content="website">
 	<style>
 		body{
 			margin:2em auto 1em auto;
@@ -25,10 +40,29 @@
 		a, u {
 		    text-decoration: none;
 		}
+		blockquote {
+		  font-style: italic;
+		  margin: 1.5em 10px;
+		  padding: 0.5em 10px;
+		  quotes: "\201C""\201D""\2018""\2019";
+		}
+		blockquote:before {
+		  color: #ccc;
+		  content: open-quote;
+		  font-size: 4em;
+		  line-height: 0.1em;
+		  margin-right: 0.25em;
+		  vertical-align: -0.4em;
+		}
+		blockquote p {
+		  display: inline;
+		}
 	</style>
 </head>
 <body>
-
+{{ if .Draft }}
+<h1>DRAFT</h1>
+{{ end }}
 <p><small>
   <a href="/"  style="color:black;">Posts</a>&nbsp;&nbsp;·&nbsp;
   <a href="/projects"  style="color:black;">Projects</a>&nbsp;

@@ -48,11 +48,11 @@ Coffee is initially at a temperature of 82°C. Tea has a similar high, undrinkab
 The hot beverage must lose a certain amount of energy in order to decrease its temperature to a warm temperature. The energy of heat loss is given by a difference of temperature. The equation is
 
 <p>
-$$\Delta H_{beverage} = c_{water} \times m_{beverage} \times \Delta T_{hot-to-warm}$$
+$$\Delta H_{beverage} = c_{water} \times m_{beverage} \times \Delta T_{beverage}$$
 </p>
 
 <p>
-The specific heat of water, $c_{water}$ is 4.2 $J / g / °C$. The mass of a typical cup of coffee or tea, $m_{beverage}$  is 473 grams. The change in temperature is $82°C - 60°C = 22°C$.
+The specific heat of water, $c_{water}$ is 4.2 $J / g / °C$. The mass of a typical cup of coffee or tea, $m_{beverage}$  is 473 grams. The change in temperature is $\Delta T_{beverage} = 82°C - 60°C = 22°C$.
 </p>
 
 ## The ice
@@ -68,8 +68,8 @@ where $H_{fusion}$ is the enthalpy of fusion for ice, which is 334 $J/g$. Enthal
 <p>
 Once the ice changes into cold water, it will begin to warm up, by absorbing heat from the beverage. As before, the water will absorb according to the equation 
 
-$$\Delta H_{ice-water} = c_{water} \times m_{ice} \times \Delta T_{cold-to-warm}$$ 
-In this case, the change in temperature, $\Delta T = 60°C - 0°C = 60°C$.
+$$\Delta H_{ice-water} = c_{water} \times m_{ice} \times \Delta T_{ice}$$ 
+In this case, the change in temperature, $\Delta T_{ice} = 60°C - 0°C = 60°C$.
 </p>
 
 ## The beverage + ice
@@ -78,14 +78,14 @@ In this case, the change in temperature, $\Delta T = 60°C - 0°C = 60°C$.
 When we reach equilibrium, it means that the total energy lost by the beverage equals the sum of the energy of the ice and the cold water (once the ice has transformed), $\Delta H_{beverage}= \Delta H_{ice-water} + \Delta H_{ice}$. When we plug in the equations above we get
 </p>
 $$
-c_{water} \times m_{beverage} \times \Delta T_{hot-to-warm} = m_{ice} \times H_{fusion} \\
-+ c_{water} \times m_{ice} \times \Delta T_{cold-to-warm}
+c_{water} \times m_{beverage} \times \Delta T_{beverage} = m_{ice} \times H_{fusion} \\
++ c_{water} \times m_{ice} \times \Delta T_{ice}
 $$
 <p>
 The only unknown is the mass of the ice, $m_{ice}$, which we can solve for to get
 </p>
 $$
-m_{ice} = \frac{c_{water} \times m_{beverage} \times \Delta T_{hot-to-warm}}{\Delta H_{fusion} + c_{water} \times \Delta T_{cold-to-warm}}
+m_{ice} = \frac{c_{water} \times m_{beverage} \times \Delta T_{beverage}}{\Delta H_{fusion} + c_{water} \times \Delta T_{ice}}
 $$
 <p>
 which after plugging in the above numbers gives
