@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How many ice cubes?</title>
+	<style>
+		body{
+			margin:2em auto 1em auto;
+			max-width:40em;
+			padding:0 .62em;
+			font:1.2em/1.62 sans-serif;
+		}
+		h1,h2,h3 {
+			line-height:1.2;
+		}
+		@media print{
+			body{
+				max-width:none
+			}
+		}
+		img{
+			width: 100%;
+		}
+		a, u {
+		    text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+
+<p><small>
+  <a href="/"  style="color:black;">Posts</a>&nbsp;&nbsp;·&nbsp;
+  <a href="/projects"  style="color:black;">Projects</a>&nbsp;
+  
+    
+  
+    
+  
+    
+  
+    
+      ·&nbsp;&nbsp;<a href="/about/" style="color:black;">About</a>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</small></p>
+
+
+ <h1>How many ice cubes?</h1>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    // Fix <code> tags after MathJax finishes running. This is a
+    // hack to overcome a shortcoming of Markdown. Discussion at
+    // https://github.com/mojombo/jekyll/issues/199
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<p>How many ice cubes do you need to <em>quickly</em> cool down a hot beverage to its perfect drinking temperature?</p>
+
+<p>Coffee is initially at a temperature of 82°C. Tea has a similar high, undrinkable, temperature. The perfect drinking temperature is 60°C. Lets use physics to find the exact number of ice cubes to drop into a scalding hot cup of coffee or tea to make it the perfect temperature.</p>
+
+<h2 id="the-beverage">The beverage</h2>
+
+<p>The hot beverage must lose a certain amount of energy in order to decrease its temperature to a warm temperature. The energy of heat loss is given by a difference of temperature. The equation is</p>
+
+<p>
+$$\Delta H_{beverage} = c_{water} \times m_{beverage} \times \Delta T_{hot-to-warm}$$
+</p>
+
+<p>
+The specific heat of water, $c_{water}$ is 4.2 $J / g / °C$. The mass of a typical cup of coffee or tea, $m_{beverage}$  is 473 grams. The change in temperature is $82°C - 60°C = 22°C$.
+</p>
+
+<h2 id="the-ice">The ice</h2>
+
+<p>Ice melts by absorbing heat, or energy. The heat absorbed by ice is given by</p>
+
+<p>$$ \Delta H_{ice} = m_{ice} \times H_{fusion}$$</p>
+
+<p>
+where $H_{fusion}$ is the enthalpy of fusion for ice, which is 334 $J/g$. Enthalpy of fusion is simply the amount of energy that will be needed to transform ice into cold water.
+</p>
+
+<p>
+Once the ice changes into cold water, it will begin to warm up, by absorbing heat from the beverage. As before, the water will absorb according to the equation 
+
+$$\Delta H_{ice-water} = c_{water} \times m_{ice} \times \Delta T_{cold-to-warm}$$ 
+In this case, the change in temperature, $\Delta T = 60°C - 0°C = 60°C$.
+</p>
+
+<h2 id="the-beverage-ice">The beverage + ice</h2>
+
+<p>
+When we reach equilibrium, it means that the total energy lost by the beverage equals the sum of the energy of the ice and the cold water (once the ice has transformed), $\Delta H_{beverage}= \Delta H_{ice-water} + \Delta H_{ice}$. When we plug in the equations above we get
+</p>
+$$
+c_{water} \times m_{beverage} \times \Delta T_{hot-to-warm} = m_{ice} \times H_{fusion} \\
++ c_{water} \times m_{ice} \times \Delta T_{cold-to-warm}
+$$
+<p>
+The only unknown is the mass of the ice, $m_{ice}$, which we can solve for to get
+</p>
+$$
+m_{ice} = \frac{c_{water} \times m_{beverage} \times \Delta T_{hot-to-warm}}{\Delta H_{fusion} + c_{water} \times \Delta T_{cold-to-warm}}
+$$
+<p>
+which after plugging in the above numbers gives
+$$
+m_{ice} = 75 g
+$$
+</p>
+
+<h2 id="how-many-ice-cubes-do-you-need">How many ice cubes do you need?</h2>
+
+<p><strong>Five</strong>. An ice cube weighs about 16 $g$, so 75 $g$ of ice would require about five ice cubes.</p>
+
+<p>Another question to be considered now is: <em>how strong to make the beverage because you are diluting it?</em> I will leave that up to you.</p>
+
+
+<footer>
+	<p><em><small>Written March 14, 2015.</em> Leave a comment for me on Twitter <a  href="https://twitter.com/intent/tweet?text=%40yakcar%20%23ice-cubes%20">
+@yakczar</a>.</small></p>
+</footer>
+
+<a href="/moderation/" style="float:right;">Moderation →</a>
+
+
+
+</body>
+</html>
