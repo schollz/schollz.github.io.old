@@ -4,6 +4,7 @@ date: 2015-07-17
 tags: [protein folding, circadian, cyanobacteria]
 description: Though most proteins have a single structure, a protein has been found to have two completely different structures that are crucial to the workings of the internal clock.
 slug: protein-switching
+keywords: science
 ---
 
 Proteins are central to biology. For the most part, proteins in the body are crucial for catalyzing reactions that carry out almost all of our biologial processes. For a protein to be useful, after it's made by a ribosome, it needs to *fold* into a 3-dimensional structure that is unique to its sequence. 

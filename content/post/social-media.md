@@ -3,6 +3,7 @@ title: "Use social media without being social"
 date: 2017-09-17T09:04:40-06:00
 slug: /using-social-media/
 draft: true
+keywords: thoughts
 ---
 
 Obviously don't post things that should not be public

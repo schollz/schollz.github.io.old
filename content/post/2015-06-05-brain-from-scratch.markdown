@@ -4,6 +4,7 @@ date: 2015-06-05
 tags: [brain, neurons, thought, human, jellyfish, evolution]
 description: Neurons recently found in jellyfish have made scientists rethink the origins of the brain as it seems that neurons may be able to evolve independently.
 slug: neuron-origin
+keywords: science
 ---
 
 No one knows where neurons, the basic of human thought, come from. They are thought to have evolved once throughout the animal kingdom and perfected ever since. However, [the newly revealed DNA sequencing of a comb jelly called "Pacific sea gooseberry"](http://www.nature.com/nature/journal/v510/n7503/full/nature13400.html)<sup>1</sup> indicates this is not the case, as it has evolved its own neural system *independently* of any other sea jelly. 

@@ -4,6 +4,7 @@ date: 2015-08-13
 tags: [physics, friction, forces]
 slug: science-of-humor
 draft: true
+keywords: science
 ---
 
 The general science of humor:

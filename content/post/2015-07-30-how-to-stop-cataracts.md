@@ -4,6 +4,7 @@ tags: [cataracts, protein folding, health]
 date: 2015-07-30
 description: Researchers know that people that are born with cataracts due to mutations in crystallin proteins. Now, researchers find another cause and cure!
 slug: cataracts
+keywords: science
 ---
 
 

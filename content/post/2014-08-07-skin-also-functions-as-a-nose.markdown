@@ -3,6 +3,8 @@ title: How does your skin act like a nose?
 tags: [olfactory, senses, healing, nose, skin]
 date: 2014-08-07
 slug: skin-as-nose
+keywords: science
+keywords: science
 ---
 
 We smell with our nose, or do we? Recently scientists have found that for some smells we can smell with our skin, and those smells can heal wounds.

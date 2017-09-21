@@ -4,6 +4,7 @@ tags: [brain, neurons, physics]
 date: 2015-07-03
 description: The folds of the brain were once thought to be evolutionary conserved, but now scientists have found that the folding may just be general physics at work.
 slug: brain-folds
+keywords: science
 ---
 
 This paper shows that the crumpling of our brain is much simpler than we thought . The crumples in our brain are just like the ones in crumpled paper.

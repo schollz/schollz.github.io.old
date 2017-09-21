@@ -2,6 +2,7 @@
 title: "Beware of the free trial"
 date: 2017-06-29T09:51:22-06:00
 slug: beware-of-the-free-trial
+keywords: rant
 ---
 
 **tldr: A big company billed me for years without my knowledge. However, they unknowingly violated their own Conditions of Use so I got my money refunded**

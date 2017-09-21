@@ -3,6 +3,7 @@ title: How does Bitcoin work?
 tags: [bitcoin, currency, explainations]
 date: 2015-08-01
 slug: bitcoin
+keywords: science
 ---
 
 (Yes, yet another description of how Bitcoin works)

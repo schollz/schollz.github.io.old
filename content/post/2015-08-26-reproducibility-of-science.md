@@ -3,6 +3,7 @@ title: Science reproducibility
 date: 2015-08-13
 tags: [physics, friction, forces]
 draft: true
+keywords: science
 ---
 
 [Science](http://www.sciencemag.org/content/349/6251/aac4716) 1.

@@ -3,6 +3,7 @@ title: "OSS divisions"
 date: 2017-09-17T09:04:40-06:00
 slug: /oss/
 tags: ["programming"]
+keywords: programming
 ---
 
 There are two reasons I think its good for *everyone* to have a good division between "personal" and "corporate" use for open-source software (OSS):

@@ -3,6 +3,7 @@ title: How do interleaved phonebooks stay together?
 date: 2015-08-13
 tags: [physics, friction, forces]
 slug: interleaved-phonebooks
+keywords: science
 ---
 
 We have all marveled at the astonishing feat of being able to hold up massive amounts of weight with only phonebooks. [Mythbusters even went so far as to use tanks](https://www.youtube.com/watch?v=hOt-D_ee-JE) to try to pull apar the phone books. Since then, however, the origin of this phenomenon has remained very elusive and escaped full description.

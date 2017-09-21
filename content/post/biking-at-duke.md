@@ -3,6 +3,7 @@ title: "Open letter to Duke P&T"
 date: 2017-02-02T09:41:01-06:00
 slug: biking
 draft: true
+keywords: thoughts
 ---
 
 Dear Parking & Transportation,

@@ -4,6 +4,7 @@ title: How do ants survive in the heat in the Sahara desert?
 tags: [physics, ants, biology, light]
 date: 2015-07-17
 slug: ants
+keywords: science
 ---
 
 There is a class of ants that survive in the Sahara desert despite it being one of the hottest places on Earth, where the surface temperature can reach up to 150 degrees Fahrenheit. These ants, called "silver ants" or *Cataglyphis bombycina* have recently been found to harbor specialized triangular hairs that enable them significantly increased thermoregulation, as [reported in the recent issue of *Science*](http://www.sciencemag.org/content/349/6245/298.full). [1] Though the surface of the desert exceeds 150F, the ants can keep an internal temperature of 120F. They do this be frequently cooling off, but the brunt of the work is done by specialized little **hairs that are triangular**. 

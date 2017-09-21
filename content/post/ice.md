@@ -2,6 +2,7 @@
 title: "How many ice cubes?"
 date: 2015-03-14T09:43:35-06:00
 slug: ice-cubes
+keywords: science
 ---
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">

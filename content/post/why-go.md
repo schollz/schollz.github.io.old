@@ -3,6 +3,7 @@ title: "Why go?"
 date: 2017-04-29T09:48:59-06:00
 slug: /why-go/
 draft: true
+keywords: programming
 ---
 
 ![Gopher](/img/NERDY.png)
