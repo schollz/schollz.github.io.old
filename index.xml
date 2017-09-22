@@ -184,10 +184,10 @@ So what? The brain is one of the most complex components of any anatomical syste
     
     <item>
       <title>How to evaluate the driving forces behind Bitcoin?</title>
-      <link>https://schollz.github.io/bitcoin/</link>
+      <link>https://schollz.github.io/bitcoin-forces/</link>
       <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://schollz.github.io/bitcoin/</guid>
+      <guid>https://schollz.github.io/bitcoin-forces/</guid>
       <description>A recent article published in PloS ONE attempts to figure out the origin of the rise in value of bitcoin. [1] The author, Ladislav Kristoufek, dissects the most probable sources of Bitcoin valuation influences using a special technique - cross wavelet transforms. This technique decomposes signals into the frequency domain and allows one to look at correlations between two sets of time-series data over various cycle lengths (e.g. daily or monthly or yearly) over time.</description>
     </item>
     
