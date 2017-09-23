@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Explainations on schollz blog</title>
-    <link>https://schollz.github.io/tags/explainations/</link>
-    <description>Recent content in Explainations on schollz blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://schollz.github.io/tags/explainations/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>How does Bitcoin work?</title>
-      <link>https://schollz.github.io/bitcoin/</link>
-      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://schollz.github.io/bitcoin/</guid>
-      <description>(Yes, yet another description of how Bitcoin works)
-Why isn&amp;rsquo;t USD good enough anymore? Standard currencies like USD, Yen, Euro&amp;rsquo;s all have a central bank associated with them that can print and distribute money at their whim. Bitcoins are a special type of currency - a cryptocurrency that is completely decentralized. Instead of a bank manager looking over the system and injecting cash when needed, the decentralized currency system monitors and regulates itself!</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Explainations on schollz blog</title><link>https://schollz.github.io/tags/explainations/</link><description>Recent content in Explainations on schollz blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://schollz.github.io/tags/explainations/index.xml" rel="self" type="application/rss+xml"/><item><title>How does Bitcoin work?</title><link>https://schollz.github.io/bitcoin/</link><pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate><guid>https://schollz.github.io/bitcoin/</guid><description>(Yes, yet another description of how Bitcoin works)
+Why isn&amp;rsquo;t USD good enough anymore? Standard currencies like USD, Yen, Euro&amp;rsquo;s all have a central bank associated with them that can print and distribute money at their whim. Bitcoins are a special type of currency - a cryptocurrency that is completely decentralized. Instead of a bank manager looking over the system and injecting cash when needed, the decentralized currency system monitors and regulates itself!</description></item></channel></rss>

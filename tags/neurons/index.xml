@@ -1,36 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Neurons on schollz blog</title>
-    <link>https://schollz.github.io/tags/neurons/</link>
-    <description>Recent content in Neurons on schollz blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jul 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://schollz.github.io/tags/neurons/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>How is the brain like a ball of crumpled paper?</title>
-      <link>https://schollz.github.io/brain-folds/</link>
-      <pubDate>Fri, 03 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://schollz.github.io/brain-folds/</guid>
-      <description>This paper shows that the crumpling of our brain is much simpler than we thought . The crumples in our brain are just like the ones in crumpled paper. Bruno Mota and Suzana Herculano-Houzel find that our brain shares something in common with crumbled balls of paper - both did not evolve their folds in response to natural selection of their environment.
-So what? This paper shows that the crumpling of our brain is much simpler than we thought.</description>
-    </item>
-    
-    <item>
-      <title>How do you make a brain from scratch?</title>
-      <link>https://schollz.github.io/neuron-origin/</link>
-      <pubDate>Fri, 05 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://schollz.github.io/neuron-origin/</guid>
-      <description>No one knows where neurons, the basic of human thought, come from. They are thought to have evolved once throughout the animal kingdom and perfected ever since. However, the newly revealed DNA sequencing of a comb jelly called &amp;ldquo;Pacific sea gooseberry&amp;rdquo;1 indicates this is not the case, as it has evolved its own neural system independently of any other sea jelly.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Neurons on schollz blog</title><link>https://schollz.github.io/tags/neurons/</link><description>Recent content in Neurons on schollz blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 03 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://schollz.github.io/tags/neurons/index.xml" rel="self" type="application/rss+xml"/><item><title>How is the brain like a ball of crumpled paper?</title><link>https://schollz.github.io/brain-folds/</link><pubDate>Fri, 03 Jul 2015 00:00:00 +0000</pubDate><guid>https://schollz.github.io/brain-folds/</guid><description>This paper shows that the crumpling of our brain is much simpler than we thought . The crumples in our brain are just like the ones in crumpled paper. Bruno Mota and Suzana Herculano-Houzel find that our brain shares something in common with crumbled balls of paper - both did not evolve their folds in response to natural selection of their environment.
+So what? This paper shows that the crumpling of our brain is much simpler than we thought.</description></item><item><title>How do you make a brain from scratch?</title><link>https://schollz.github.io/neuron-origin/</link><pubDate>Fri, 05 Jun 2015 00:00:00 +0000</pubDate><guid>https://schollz.github.io/neuron-origin/</guid><description>No one knows where neurons, the basic of human thought, come from. They are thought to have evolved once throughout the animal kingdom and perfected ever since. However, the newly revealed DNA sequencing of a comb jelly called &amp;ldquo;Pacific sea gooseberry&amp;rdquo;1 indicates this is not the case, as it has evolved its own neural system independently of any other sea jelly.
 )
-So what? The brain is one of the most complex components of any anatomical system, maybe the most complicated thing in the universe - consisting of neurons, cerebral tissue, neurotransmitters, etc.</description>
-    </item>
-    
-  </channel>
-</rss>
+So what? The brain is one of the most complex components of any anatomical system, maybe the most complicated thing in the universe - consisting of neurons, cerebral tissue, neurotransmitters, etc.</description></item></channel></rss>
