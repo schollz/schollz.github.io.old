@@ -1,7 +1,7 @@
 ---
 title: Protein folding, simulation vs. experiment
 date: 2015-06-15
-tags: [protein folding, simulations, flourescence, molecular dynamics]
+tags: [science]
 description: Experiments on protein folding have been getting closer to simulations and this study makes another small step towards their unification.
 slug: simulation-and-experiment
 keywords: science

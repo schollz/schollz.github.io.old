@@ -1,7 +1,7 @@
 ---
 title: How do worms help to describe human mortality?
 date: 2015-01-05
-tags: [mortality, worms, human, health, hospitalization, lifespan]
+tags: [science]
 description: Researchers use experiments with worms to help define mortality and define a new term, gerospan, to account for the time in life that is less than adequete.
 slug: worm-mortality
 keywords: science

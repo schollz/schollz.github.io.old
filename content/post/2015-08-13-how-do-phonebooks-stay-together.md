@@ -1,7 +1,7 @@
 ---
 title: How do interleaved phonebooks stay together?
 date: 2015-08-13
-tags: [physics, friction, forces]
+tags: [science]
 slug: interleaved-phonebooks
 keywords: science
 ---

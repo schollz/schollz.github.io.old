@@ -1,7 +1,7 @@
 ---
 title: Science of humor
 date: 2015-08-13
-tags: [physics, friction, forces]
+tags: [science]
 slug: science-of-humor
 draft: true
 keywords: science

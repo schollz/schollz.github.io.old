@@ -4,6 +4,7 @@ date: 2017-12-31T09:41:01-06:00
 slug: homomorphic-encryption
 draft: true
 keywords: science
+tags: [science]
 ---
 
 How can sensitive information be used and encrypted at the same time?

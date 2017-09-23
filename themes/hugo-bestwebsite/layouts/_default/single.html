@@ -1,5 +1,11 @@
 {{ partial "header.html" . }}
 
+<header>
+  	{{ range .Params.tags }}
+  		<a href="/tags/{{.}}/" class="w3-tag">{{.}}</a>
+  	{{end}}
+</header>
+
 <article>
 {{ if or (eq .Type "post") }}
  <h1>{{ .Title }}</h1>

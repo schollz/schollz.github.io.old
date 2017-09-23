@@ -1,7 +1,7 @@
 ---
 title: How do you make a brain from scratch?
 date: 2015-06-05
-tags: [brain, neurons, thought, human, jellyfish, evolution]
+tags: [science]
 description: Neurons recently found in jellyfish have made scientists rethink the origins of the brain as it seems that neurons may be able to evolve independently.
 slug: neuron-origin
 keywords: science

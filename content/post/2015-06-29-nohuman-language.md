@@ -1,7 +1,7 @@
 ---
 title: How similar is animal language to human language?
 date: 2015-06-29
-tags: [birds, language, evolution]
+tags: [science]
 description: One thing that divides humans from animals is their ability to use language. Scientists have discovered that the difference is smaller than thought.
 slug: animal-language
 keywords: science

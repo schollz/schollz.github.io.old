@@ -2,6 +2,7 @@
 title: "Moderation"
 date: 2017-04-29T09:43:35-06:00
 keywords: thoughts
+tags: [thoughts]
 ---
 
 This quote by Oscar Wilde,

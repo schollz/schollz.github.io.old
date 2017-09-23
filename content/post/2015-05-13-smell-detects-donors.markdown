@@ -1,6 +1,6 @@
 ---
 title: How can potential transplant donors be identified by their sense of smell?
-tags: [olfactory, senses, smell, transplant, health]
+tags: [science]
 date: 2015-05-13
 description: Using only the uniqueness of a individual's sense of smell, researchers are able to find potential transplant donors.
 slug: sense-of-smell

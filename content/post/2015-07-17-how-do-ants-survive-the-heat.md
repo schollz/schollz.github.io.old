@@ -1,6 +1,6 @@
 ---
 title: How do ants survive in the heat in the Sahara desert?
-tags: [physics, ants, biology, light]
+tags: [science]
 date: 2015-07-17
 slug: ants
 keywords: science

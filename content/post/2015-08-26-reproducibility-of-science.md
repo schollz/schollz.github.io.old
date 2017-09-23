@@ -1,7 +1,7 @@
 ---
 title: Science reproducibility
 date: 2015-08-13
-tags: [physics, friction, forces]
+tags: [science]
 draft: true
 keywords: science
 ---
