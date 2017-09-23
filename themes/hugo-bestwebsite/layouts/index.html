@@ -3,12 +3,58 @@
 ul {
   list-style-type: none;
 }
-.w3-badge,.w3-tag{background-color:#808080;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.w3-badge{border-radius:50%}
+.w3-tag{
+	background-color:#808080;
+	color:#fff;
+	display:inline-block;
+	padding-left:4px;
+	padding-right:4px;
+	text-align:center; 
+	font-style: normal;
+}
+
+.b {
+    font-style: italic;
+}
+
+.lh-title {
+    line-height: 1.35;
+}
+
+.ml0 {
+    margin-left: 0;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.mt2 {
+    margin-top: 1rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
 
 </style>
-  {{ range first 100000 .Pages }}
-    {{ if eq .Type "post"}}
-      <p><div style="min-width: 120px; float: right;"><small>{{ range .Keywords }}<span class="w3-tag">{{.}}</span>{{end}}</small></div><a href="{{ .Permalink }}">{{ .Title }}</a>&nbsp;<small>{{ .Date.Format "January 2, 2006"}}</small></p>
-    {{ end }}
-  {{ end }}
+
+
+<dl class="lh-title mt0">
+{{ range first 100000 .Pages }}
+{{ if eq .Type "post"}}
+  <dt class="f6 b mt2">{{ .Date.Format "January 2, 2006"}} - 
+  	{{ range .Keywords }}
+  		<span class="w3-tag">{{.}}</span>
+  	{{end}}
+  </dt>
+  <dd class="ml0">
+	<strong><a href="{{ .Permalink }}">{{ .Title }}</a></strong>
+  </dd>
+{{ end }}
+{{ end }}
+</dl>
+
+
+
 {{ partial "footer.html" . }}
