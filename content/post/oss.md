@@ -23,4 +23,6 @@ If you are transparent about what is different for personal users then it makes 
 
 **Unfortunately...**
 
-Unfortunately most people think they are entitled to OSS new features, bug fixes, general support. But unfortunately for them, you don't owe anything to anyone excepting your business clients. Your business is your business, and whatever you happen to let spill over in the open-source community should only be seen as a benefit, never a negative, to the universe of open-source code. 
+Unfortunately most people think they are entitled to OSS new features, bug fixes, general support. There are the *vampires* who believe that they can take your lifeforce from you for nothing. Then there are the *zombies* who believe that your mind is not your own, and that whatever is produced should be free and open-source.
+
+But unfortunately for them, you don't owe anything to anyone excepting your business clients. Your business is your business, and whatever you happen to let spill over in the open-source community should only be seen as a benefit, never a negative, to the universe of open-source code. 
