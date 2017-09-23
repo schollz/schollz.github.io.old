@@ -2,7 +2,7 @@ build:
 	hugo server -D --watch -t hugo-bestwebsite -b http://localhost:1313
 
 publish:
-	go get -v github.com/tdewolff/minify/cmd/minify
+	#go get -v github.com/tdewolff/minify/cmd/minify
 	git status -s
 	hugo -t hugo-bestwebsite
 	minify -a -r -o tmp/ tmp
