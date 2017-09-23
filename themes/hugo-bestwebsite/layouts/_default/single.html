@@ -1,9 +1,11 @@
 {{ partial "header.html" . }}
 
+<article>
 {{ if or (eq .Type "post") }}
  <h1>{{ .Title }}</h1>
 {{ end }}
 {{ .Content }}
+</article>
 
 <footer>
 	<p><em><small>Written {{ .Date.Format "January 2, 2006"}}.</em> Leave a comment for me on Twitter <a  href="https://twitter.com/intent/tweet?text=%40yakcar%20%23{{ replace (.URL) "/" "" }}%20">

@@ -57,9 +57,28 @@
 		blockquote p {
 		  display: inline;
 		}
+
+
+		h1 {
+		    font-size: 1.5rem;
+		}
+
+		@media screen and (min-width: 30em) and (max-width: 60em) {
+		    h1 {
+		        font-size: 2.25rem;
+		    }
+		}
+
+		@media screen and (min-width: 60em) {
+		    h1 {
+		        font-size: 3rem;
+		    }
+		}
+
 	</style>
 </head>
 <body>
+
 {{ if .Draft }}
 <h1>DRAFT</h1>
 {{ end }}

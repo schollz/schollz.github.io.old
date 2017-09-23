@@ -40,6 +40,8 @@ ul {
 </style>
 
 
+	
+
 <dl class="lh-title mt0">
 {{ range first 100000 .Pages }}
 {{ if eq .Type "post"}}
@@ -54,7 +56,6 @@ ul {
 {{ end }}
 {{ end }}
 </dl>
-
 
 
 {{ partial "footer.html" . }}
