@@ -1,5 +1,5 @@
 ---
-title: "Theoretical ice cubes"
+title: "How much ice do you need?"
 date: 2017-09-24T09:43:35-06:00
 slug: ice-cubes
 keywords: science
@@ -39,8 +39,6 @@ MathJax.Hub.Config({
     }
 });
 </script>
-
-## How much ice do you need?
 
 How many ice cubes do you need to *quickly* cool down a hot beverage to its perfect drinking temperature? 
 
@@ -109,11 +107,9 @@ $$
 
 ### How many ice cubes do you need? 
 
-Coffee is initially at a temperature of 85°C. Tea has a similar high, undrinkable, temperature. The perfect drinking temperature is 60°C. 
+Coffee is initially at a temperature of 85°C. Tea has a similar high, undrinkable, temperature. The perfect drinking temperature is 50°C.  Given a typical cup of tea is about 480 grams, <a href="http://www.wolframalpha.com/input/?i=((4.2+*+480+*+(85-50)+%2F+(334+%2B4.2*50))+%2F+(30)"><strong>you need about 4 regular sized ice cubes.</strong></a> (A regular ice cube from a ice tray is about 30 g).
 
-Given a typical cup of tea is about 480 grams, <a href="http://www.wolframalpha.com/input/?i=((4.2+*+480+*+25+%2F+(334+%2B4.2*60))+%2F+(30)"><strong>you need about 3 regular sized ice cubes.</strong></a> (A regular ice cube from a ice tray is about 30 g).
-
-## How fast does an ice cube melt?
+# How fast does an ice cube melt?
 
 How much times does it take for the ice to melt? There are several modes of heat transfer - conduction, convection, radiation. It turns out that ice is pretty well described by mainly the convection heat transfer. This is described by [Fourier's law of thermal conduction](https://en.wikipedia.org/wiki/Thermal_conduction#Differential_form):
 
@@ -162,5 +158,18 @@ $$ t_{melt}  = \frac{m_{ice} \times H_{fusion}}{k \times T_{i} \times 6 \times m
 which is measured in seconds.
 
 A typical ice cube weighs about 30 grams and a typical initial temperature for heated water is about 85°C. So <strong><a href="http://www.wolframalpha.com/input/?i=(30+*+334)+%2F+(0.591*+85+*+6+*+30%5E(2%2F3)%2F100%5E2+%2F+0.002))+seconds">a typical ice cube melts in about 70 seconds</a></strong>.
+
+# Theory *versus* Experiment
+
+I hooked up an Arduino to a DS18B20 temperature probe and measured the change in temperature over time of 480 grams of water, with (red line) and without (blue line) ice. 
+
+![Temperature change over time](/img/ice_graph.png) 
+
+The ice melted in about 65 seconds and brought the temperature down to 50.8°C. This is in good agreement to the theoretical time to melt of 70 seconds and the theoretical final temperature of 50°C.
+
+
+
+In comparison, the water without out that started at about 77°C, without ice, took over 15 minutes to get to the same temperature!
+
 
 # References
