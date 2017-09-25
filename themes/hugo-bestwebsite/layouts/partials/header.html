@@ -25,10 +25,31 @@
 			max-width:40em;
 			padding:0 .62em;
 			font:1.2em/1.62 sans-serif;
+			color: #555;
+/*			color: #566b78;
+*/		}
+		h1,
+		h2,
+		h3,
+		strong {
+		  color: #333;
+		  line-height:1.2;
 		}
-		h1,h2,h3 {
-			line-height:1.2;
+		
+		a {
+		  color: #e81c4f;
 		}
+
+		code,
+		pre {
+		  background: #f5f7f9;
+		  color: #a7adba;
+		}
+
+		pre {
+		  border-left: 2px solid #69c;
+		}
+
 		@media print{
 			body{
 				max-width:none
@@ -75,11 +96,19 @@
 		    }
 		}
 
+		code,
 		pre {
-			background-color: #eee;
-			padding: 12px;
+		  background: #eee;
 		}
 
+		code {
+		  padding: 2px 4px;
+		  vertical-align: text-bottom;
+		}
+
+		pre {
+		  padding: 1em;
+		}
 		.twitter-tweet {
 		  display: inline-block;
 		  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
