@@ -24,8 +24,8 @@ The following will be instructions for **Android phones only** on any operating 
 3. Plug in your phone, and follow the prompts on the phone to let it connect. Then open the swiping app (Tinder / OkCupid / Bumble) app, and in a terminal type the magic one-liner:
 
 ```
-while true; do ./adb shell input tap 1000 2200; sleep .$[ ( $RANDOM % 10 ) + 1 ]s; done
+while true; do ./adb shell input touchscreen swipe 300 800 1000 800 100; sleep .$[ ( $RANDOM % 10 ) + 1 ]s; done
 ```
-This line of code basically emulates a swipe. If its not swiping in the right place for you, then hange the numbers `1000` and `2200` until it performs the swipe in the right place. You can test the swiping location by downloading any kind of paint app and running the code above.
+This line of code basically emulates a swipe from `(300,800)` to `(1000,800)` over 100 milliseconds. If its not swiping in the right place for you, then change the numbers `300` and `1000` until it performs the swipe in the right place. You can test the swiping location by downloading any kind of paint app and running the code above.
 
 Now you can run that magic one-liner on your phone for an hour so then later that day you'll have a bunch of new people to attempt a conversation!

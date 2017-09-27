@@ -2,6 +2,7 @@ baseURL = "https://schollz.github.io"
 languageCode = "en-us"
 title = "schollz blog"
 publishDir = "tmp"
+RSSLink = "rss.xml"
 
 [permalinks]
   post = "/:slug/"
