@@ -20,7 +20,6 @@ The researchers noticed that a lot of people born with cataracts had some mutati
 
 Anyone with cataracts should care, and people that study protein folding diseases should care! Researchers found that simply increasing the dosage of lanosterol could help cataractous rabbits, so it might also work in humans. It's usually not so simple to solve protein aggregation diseases (like Huntington's and Alzheimers) because we have no way of reversing the aggregation. This simple addition of lanosterol might be useful in the combat against these other protein folding diseases!
 
-![Cataracts are a common ailment of aging](/content/images/2015/07/tumblr_m81ej1wbv21qav5oho1_400.gif)
 
 # Now what?
 
