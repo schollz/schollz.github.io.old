@@ -23,8 +23,6 @@ However, the authors find that the total surface area scales with the exposed su
 
 This paper may be of most interest to scientists who are pursuing the evolution of cortical folding - maybe they should stop pursuing that now...
 
-![Brain power](/content/images/2015/07/roz-chast-comparison-of-einstein-s-brain-and-typical-brain-new-yorker-cartoon.jpg)
-
 
 ## Now what?
 
