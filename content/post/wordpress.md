@@ -1,12 +1,19 @@
 ---
-title: "Wordpress"
+title: "Using wordpress with docker"
 date: 2017-09-27T13:54:51-06:00
 draft: true
+tags: [coding]
+slug: wordpress-on-docker
 ---
 
-2 blogs: 360 MB memory EACH, and 3.1G used total (all files)
+I like wordpress, but it is very intensive to get working, as it uses a lot of PHP and requires SQL. Of course, nowadays you can do everything in Docker, so here is my method for getting wordpress to work great on Docker.
 
-### `docker-compose.yml`
+For info, I was able to make 2 blogs run on the smallest DigitalOcean droplet. Each blog required 360MB of RAM, and the total Docker space was 3.1G.
+
+### Setup 
+
+First make a file `docker-compose.yml`:
+
 
 ```yaml
 version: '2'
@@ -39,11 +46,19 @@ volumes:
     db_data:
 ```
 
-To start: `docker-compose up` (Add `-d` for daemon mode)
+Then, to start just use (add `-d` for daemon mode)
 
-To stop: `docker-compose stop`
+```
+docker-compose up
+```
 
-### `Caddyfile`
+If you need to stop it just use
+
+```
+docker-compose stop
+```
+
+You can easily use Caddy as a reverse proxy. Here is an example `Caddyfile`:
 
 ```
 http://blogname {
@@ -74,3 +89,4 @@ Restore:
 docker exec -i wordpress_db_1 mysql --user=wordpress --password=wordpress wordpress < backup.sql
 tar -xvzf wp_html.tar.gz 
 ```
+
