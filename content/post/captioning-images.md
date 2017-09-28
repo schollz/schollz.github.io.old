@@ -6,9 +6,9 @@ slug: captioning-images
 tags: [coding]
 ---
 
-Here is a nice trick for captioning images with only `alt` tags. This is  useful when using Markdown to generate HTML pages, since Markdown in its natural form only includes information about the alt tag (`![alt tag](img src)`).
+Here is a nice trick for captioning images with only `alt` tags. This is  useful when using Markdown to generate HTML pages, since Markdown in its natural form only includes creates an image tag, i.e. `![alt tag](img src)` -> `<img alt="alt tag" src="img src">`. For good captions, we need to add a `figcaption` and wrap both inside a `figure`.
 
-The trick is to use Javascript to generate figure captions on the load of the page. The script I initially found to do this is the following:
+Turns out this is easily done with Javascript to generate figure captions on the load of the page. The script I initially found to do this is the following:
 
 ```javascript
 <script>  
@@ -30,12 +30,14 @@ $("img").each(
 </script> 
 ```
 
-It works great, but it requires JQuery. Using [You-Dont-Need-jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery) I was able to convert this to just plain Javascript:
+It works great, but it requires JQuery. Using [You-Dont-Need-jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery) 
+I was able to convert this to just plain Javascript:
 
 ```
 <script>
 function ready(fn) {
-if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+if (document.attachEvent ? document.readyState === "complete" : 
+        document.readyState !== "loading") {
     var elements = document.querySelectorAll("img");
     Array.prototype.forEach.call(elements, function(el, i) {
         if (el.getAttribute("alt")) {
@@ -60,6 +62,8 @@ window.onload = ready;
 </script>
 ```
 
-Of course this looks a little more complicated, but it works just the same. This is what is running on this site!
+Of course this looks a little more complicated, but it works just the same. This is what is running on this site! Here's an example of a captioned image:
+
+![This picture of worms has a caption!](/img/worms.svg)
 
 Go ahead and copy that to whatever site you want!
