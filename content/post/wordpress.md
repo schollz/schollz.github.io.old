@@ -1,14 +1,15 @@
 ---
-title: "Using wordpress with docker"
-date: 2017-09-27T13:54:51-06:00
-draft: true
+title: "Using Wordpress with Docker"
+date: 2017-01-11T13:54:51-06:00
 tags: [coding]
 slug: wordpress-on-docker
 ---
 
-I like wordpress, but it is very intensive to get working, as it uses a lot of PHP and requires SQL. Of course, nowadays you can do everything in Docker, so here is my method for getting wordpress to work great on Docker.
+I like wordpress, but it is very intensive to get working, as it uses a lot of PHP and requires SQL. Of course, nowadays you can do everything in Docker, so here is my method for getting wordpress to work great on Docker. 
 
-For info, I was able to make 2 blogs run on the smallest DigitalOcean droplet. Each blog required 360MB of RAM, and the total Docker space was 3.1G.
+Using Docker, I was able to get 2 blogs run on the smallest DigitalOcean droplet (which was already running two dozen other things). Each blog required 360MB of RAM, and the total Docker space was 3.1G. 
+
+The following instructions will enable you to go from zero to Wordpress in about six minutes.
 
 ### Setup 
 
@@ -58,7 +59,9 @@ If you need to stop it just use
 docker-compose stop
 ```
 
-You can easily use Caddy as a reverse proxy. Here is an example `Caddyfile`:
+### Reverse proxy 
+
+If you are using a domain name, you can easily use Caddy as a reverse proxy. Here is an example `Caddyfile`:
 
 ```
 http://blogname {
@@ -70,20 +73,20 @@ http://blogname {
 
 Make sure to goto your blog and update it accordingly to http://blogname.
 
-For using SSL, [checkout this blog](https://www.heavymetalcoder.com/how-to-get-wordpress-working-with-https-behind-a-reverse-proxy/)
+For using SSL, [checkout this blog](https://www.heavymetalcoder.com/how-to-get-wordpress-working-with-https-behind-a-reverse-proxy/) which describes the process for correctly configuring Wordpress to allow it.
 
 ### Backup/Restore 
 
-[(source)](https://libertyseeds.ca/2015/11/24/Backup-migration-and-recovery-with-WordPress-and-Docker-Compose/)
+Wordpress on docker is also nice because its very easy to move. I basically [copied the instructions here](https://libertyseeds.ca/2015/11/24/Backup-migration-and-recovery-with-WordPress-and-Docker-Compose/) to get a simple way to backup and restore a Wordpress instance.
 
-Backup:
+To backup:
 
 ```
 docker exec -i wordpress_db_1 mysqldump --user=wordpress --password=wordpress wordpress > backup.sql
 tar -czvf wp_html.tar.gz wp_html
 ```
 
-Restore:
+To restore:
 
 ```
 docker exec -i wordpress_db_1 mysql --user=wordpress --password=wordpress wordpress < backup.sql

@@ -1,6 +1,6 @@
 ---
 title: "Downloading sounds from the JS-8"
-date: 2017-09-27T13:54:40-06:00
+date: 2015-04-10T13:54:40-06:00
 draft: true
 tags: [hacks]
 ---
