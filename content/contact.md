@@ -3,8 +3,6 @@ title: "Contact"
 date: 2017-09-17T09:04:10-06:00
 ---
 
-# Contact
-
 Please feel free to get in touch!
 
 You can ...

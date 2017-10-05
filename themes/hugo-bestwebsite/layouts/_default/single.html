@@ -7,16 +7,17 @@
 </header>
 
 <article>
-{{ if or (eq .Type "post") }}
- <h1>{{ .Title }}</h1>
-{{ end }}
+<h1>{{ .Title }}</h1>
 {{ .Content }}
 </article>
 
+{{ if (eq .Type "post") }}
 <footer>
-	<p><em><small>Written {{ .Date.Format "January 2, 2006"}}.</em> Leave a comment for me on Twitter <a  href="https://twitter.com/intent/tweet?text=%40yakcar%20%23{{ replace (.URL) "/" "" }}%20">
-@yakczar</a>.</small></p>
+	<p><small><em>Written {{ .Date.Format "January 2, 2006"}}.</em></small></p>
+
+	<p><small>Leave a comment for me on Twitter <a  href="https://twitter.com/intent/tweet?text=%40yakcar%20%23{{ replace (.URL) "/" "" }}%20">@yakczar</a>.</small></p>
 </footer>
+{{ end }}
 
 {{ if .PrevInSection }}<a href="{{ .PrevInSection.URL }}">← {{ .PrevInSection.Title }}</a>&nbsp;{{end}}{{ if .NextInSection }}<a href="{{ .NextInSection.URL }}" style="float:right;">{{ .NextInSection.Title }} →</a>{{ end }}
 

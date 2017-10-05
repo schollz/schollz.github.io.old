@@ -2,7 +2,7 @@
 title: "Skip swiping with simple bash code"
 date: 2016-09-10T06:41:49-06:00
 slug: skip-swiping
-tags: [hacks]
+tags: [coding]
 ---
 
 When using dating apps, I was annoyed at having to search a pool of a lot of people who would never respond to me after I swiped right. It seemed to me to be a waste of time to swipe through those people who would not actually be available in my dating pool. I'd rather only view a pool of people who respond to me so we can open a dialog right away to see whether we would match. 

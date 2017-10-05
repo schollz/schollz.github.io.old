@@ -3,11 +3,9 @@ title: "About"
 date: 2017-09-17T09:04:10-06:00
 ---
 
-# About 
-
 My name is Zack and I am an academic scientist and programmer. 
 
-This site has my notes on [interesting recent science](/tags/science), [coding snippets](/tags/coding) and [hacks](/tags/hacks/).[^hacks]
+This site has my notes on [interesting recent science](/tags/science) and my [adventures in coding](/tags/coding).
 
 I've made other sites, including
 [a list of my open-source projects](https://schollz.github.io/projects),
@@ -19,5 +17,4 @@ I've made other sites, including
 [movie suggestions](https://goodmovies.ninja/) and 
 [a recursive recipe cookbook](https://timetomakefood.com/).
 
-[^hacks]: *hacks = inelegant solutions to problems*
 
