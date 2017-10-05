@@ -19,5 +19,5 @@ I've made other sites, including
 [movie suggestions](https://goodmovies.ninja/) and 
 [a recursive recipe cookbook](https://timetomakefood.com/).
 
-[^hacks]: *hacks = inelegant solutions to problems/8
+[^hacks]: *hacks = inelegant solutions to problems*
 
