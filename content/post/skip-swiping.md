@@ -7,7 +7,9 @@ tags: [coding]
 
 Like many, I've used dating apps (Tinder / Bumble / OkCupid) to find potential dates. I was annoyed at having to swipe right on a lot of people who would probably never respond to me after I swiped right. It seemed to me to be a waste of time to swipe through those people who would not actually be available in my dating pool. I'd rather only view a pool of people who respond to me so we can open a dialog right away to see whether we would match. 
 
-I decided to automate swiping to get past this first block in this process of online dating. With `adb` and bash, I can *swipe right on everyone* and wait for people to match with me before I have to do anything on my phone. This has been successful for me, and I'm making it "open-source" so maybe it will help you.
+I decided to automate swiping to get past this first block in this process of online dating. With `adb` and bash, I can have my phone *swipe right on everyone* automatically. Then, when I use the app I can focus on interacting with the people that match me instead of searching for matches!
+
+This has been successful for me, and I'm making it "open-source" so maybe it will help you.
 
 ### Instructions 
 
