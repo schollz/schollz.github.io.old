@@ -2,7 +2,6 @@
 title: "Skip swiping with adb and bash"
 date: 2016-09-10T06:41:49-06:00
 slug: skip-swiping
-draft: true
 tags: [coding]
 ---
 
