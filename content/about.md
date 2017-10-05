@@ -19,4 +19,5 @@ I've made other sites, including
 [movie suggestions](https://goodmovies.ninja/) and 
 [a recursive recipe cookbook](https://timetomakefood.com/).
 
-[^hacks]:  *hacks = using things in a way that they aren't original meant to.*
+[^hacks]: *hacks = inelegant solutions to problems/8
+
