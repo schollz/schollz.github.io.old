@@ -8,7 +8,7 @@ tags: [coding]
 
 Here is a nice trick for captioning images with only `alt` tags. This is  useful when using Markdown to generate HTML pages, since Markdown in its natural form only includes creates an image tag, i.e. `![alt tag](img src)` -> `<img alt="alt tag" src="img src">`. For good captions, we need to add a `figcaption` and wrap both inside a `figure`.
 
-Turns out this is easily done with Javascript to generate figure captions on the load of the page. The script I initially found to do this is the following:
+Turns out this is easily done with Javascript to generate figure captions on the load of the page. The script [I initially found to do this](https://blog.kchung.co/adding-image-captions-to-ghost/) is the following:
 
 ```javascript
 <script>  

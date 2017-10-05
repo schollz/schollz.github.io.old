@@ -192,10 +192,6 @@
 {{ end }}
 <p><small>
   <a href="/"  style="color:black;">Posts</a>&nbsp;&nbsp;·&nbsp;
-  <a href="/projects"  style="color:black;">Projects</a>&nbsp;
-  {{ range .Site.RegularPages }}
-    {{ if or (eq .Type "page") (eq .Type "about") }}
-      ·&nbsp;&nbsp;<a href="{{ .RelPermalink }}" style="color:black;">{{ .Title }}</a>
-    {{ end }}
-  {{ end }}
+  <a href="/projects"  style="color:black;">Projects</a>&nbsp;·&nbsp;&nbsp;
+  <a href="/about/" style="color:black;">About</a>
 </small></p>
