@@ -15,37 +15,7 @@ The following instructions will enable you to go from zero to Wordpress in about
 
 First make a file `docker-compose.yml`:
 
-
-```yaml
-version: '2'
-
-services:
-   db:
-     image: mysql:5.7
-     volumes:
-       - db_data:/var/lib/mysql
-     restart: always
-     environment:
-       MYSQL_ROOT_PASSWORD: wordpress
-       MYSQL_DATABASE: wordpress
-       MYSQL_USER: wordpress
-       MYSQL_PASSWORD: wordpress
-
-   wordpress:
-     depends_on:
-       - db
-     image: wordpress:latest
-     ports:
-       - "8001:80"
-     restart: always
-     environment:
-       WORDPRESS_DB_HOST: db:3306
-       WORDPRESS_DB_PASSWORD: wordpress
-     volumes:
-       - /path/to/some/folder/on/your/computer/wp_html:/var/www/html
-volumes:
-    db_data:
-```
+<script src="https://gist.github.com/schollz/57543fb00a8fb4564f019427abc468ce.js"></script>
 
 Then, to start just use (add `-d` for daemon mode)
 
