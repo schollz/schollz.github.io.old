@@ -11,9 +11,6 @@ slug: crawdad
 
 *crawdad* is a simple, yet powerful alternative for scraping in a distributed, persistent manner (backed by Redis). It can  do simple things, like generating site maps. It can also do complicated things, like extracting all the quotes from every page on a quotes website (tutorial follows).
 
-
-
-
 ## Install
 
 First [get Docker](https://www.docker.com/community-edition) which will be used for running Redis. 
