@@ -27,13 +27,13 @@ Unlike many other scraping frameworks, *crawdad* is a single binary that has no 
 
 ## Configure
 
-For scraping, *crawdad* requires creating a [pluck configuration file](https://github.com/schollz/pluck#use-config-file):
+For scraping, *crawdad* requires creating a [pluck configuration file](https://github.com/schollz/pluck#use-config-file). Here is the configuration file for scraping [quotes.toscrape.com](http://quotes.toscrape.com):
 
 <script src="https://gist.github.com/schollz/02205b5c1a3c5ade132e17ce61ce1213.js"></script>
 
 *pluck* is a language-agnostic way of extracting structured data from text without HTML/CSS/Regex. Essentially *pluck* is configured in a way you would tell your friend to grab data.
 
-For example, in the first *pluck* unit you look for the string "`span class="text"`" (called an *activator*). Once that is found, you look for a "`>`", the next activator. Then you capture all the characters until a "`<`" is seen (the *deactivator*). This will allow you to collect all the quotes.
+For example, the first *pluck* unit describes how you would get the quote text from [quotes.toscrape.com](http://quotes.toscrape.com). Starting from the beginning of the source, you look for the string "`span class="text"`" (called an *activator*). Once that is found, you look for a "`>`", the next activator. Then you capture all the characters until a "`<`" is seen (the *deactivator*). This will allow you to collect all the quotes.
 
 Each of the *pluck* units will be found simultaneously and extracted from any HTML page crawled by *crawdad*.
 
