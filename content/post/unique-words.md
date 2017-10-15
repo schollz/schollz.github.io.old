@@ -56,6 +56,4 @@ a factor of two.
 [^1]: See the [infinite monkey theorem](https://en.wikipedia.org/wiki/Infinite_monkey_theorem)
 [^2]: See the [Library of Babel .info](https://libraryofbabel.info/)
 [^3]: 25.3 billion is the estimate of web pages containing the letter "a" in a Google search.
-[^4]: At time of writing, the only website that contains "A painting of a donkey
-in the" is from [a Yelp review
-(archived)](https://web.archive.org/web/20171015040441/https://www.yelp.com/list/pittsburgh-cool-stuff-to-do-pittsburgh).
+[^4]: At time of writing, the only website that contains "A painting of a donkey in the" is from [a Yelp review (archived)](https://web.archive.org/web/20171015040441/https://www.yelp.com/list/pittsburgh-cool-stuff-to-do-pittsburgh).
