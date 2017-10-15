@@ -1,9 +1,9 @@
 ---
-title: "Everything we say has never been said"
+title: "What we say has never been said"
 date: 2017-10-14T21:16:56-06:00
 draft: true
 tags: [thoughts]
-slug: monkeys
+slug: words
 ---
 
 The internet is *not* a million monkeys typing on a keyboard.[^1] Although,
@@ -23,13 +23,14 @@ This sentence comes from a painting I made that I'm looking at. For searching
 to 22.4 million. Already we've decreased by a factor of 1,000. The phrase "A
 painting of" decreases it to 5.3 million (4x decrease) and adding "a donkey"
 decreases it to 131,000 (50x decrease). The smallest number of results is "a
-painting of a donkey in the" which yields only 2 results. There are no results
+painting of a donkey in the" which yields only a single result.[^4] There are no results
 for "A painting of a donkey in the desert", at least until this post is
 published.
 
 
-This makes sense, as there are increasing combinatorial factors for each new
-word. Each word has many possibilities as there are hundreds of thousands of
+This makes sense, as there are increasing combinatorial factors that limit the probability of
+a given sentence for each new word. Each word has many possibilities as there
+are hundreds of thousands of 
 english words. Although, most of the words are *not* possible because there are
 requirements on grammar and context. We can very roughly approximate this by
 solving for the 7th root (since we only had seven words that gave us a few
@@ -55,3 +56,6 @@ a factor of two.
 [^1]: See the [infinite monkey theorem](https://en.wikipedia.org/wiki/Infinite_monkey_theorem)
 [^2]: See the [Library of Babel .info](https://libraryofbabel.info/)
 [^3]: 25.3 billion is the estimate of web pages containing the letter "a" in a Google search.
+[^4]: At time of writing, the only website that contains "A painting of a donkey
+in the" is from [a Yelp review
+(archived)](https://web.archive.org/web/20171015040441/https://www.yelp.com/list/pittsburgh-cool-stuff-to-do-pittsburgh).
