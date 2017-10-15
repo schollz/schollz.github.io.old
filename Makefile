@@ -1,5 +1,5 @@
 build:
-	hugo server -D --watch -t hugo-bestwebsite -b http://localhost:1313 --bind 0.0.0.0
+	hugo server -D --watch -t hugo-bestwebsite -b http://localhost:1313 --bind 0.0.0.0 --enableGitInfo 
 
 publish:
 	#go get -v github.com/tdewolff/minify/cmd/minify

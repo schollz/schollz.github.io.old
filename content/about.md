@@ -16,5 +16,3 @@ I've made other sites, including
 [music suggestions](https://www.musicsuggestions.ninja/),
 [movie suggestions](https://goodmovies.ninja/) and 
 [a recursive recipe cookbook](https://timetomakefood.com/).
-
-

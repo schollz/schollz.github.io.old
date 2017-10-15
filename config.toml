@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "schollz blog"
 publishDir = "tmp"
 RSSLink = "rss.xml"
+enableGitInfo = true
 
 [permalinks]
   post = "/:slug/"

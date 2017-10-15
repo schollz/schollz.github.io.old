@@ -16,10 +16,26 @@
 	<p><small><em>Written {{ .Date.Format "January 2, 2006"}}.</em></small></p>
 
 	<p><small>Leave a comment for me on Twitter <a  href="https://twitter.com/intent/tweet?text=%40yakcar%20%23{{ replace (.URL) "/" "" }}%20">@yakczar</a>.</small></p>
+
+	<p>
+	{{ if .PrevInSection }}<a href="{{ .PrevInSection.URL }}">← {{ .PrevInSection.Title }}</a>&nbsp;{{end}}{{ if .NextInSection }}<a href="{{ .NextInSection.URL }}" style="float:right;">{{ .NextInSection.Title }} →</a>{{ end }}
+	</p>
+
+	<br>
+	<span style="color:darkgray">
+	<small>
+	<p>What is with the the URL <em>{{ .Params.Slug}}</em> ?<br>
+		This is a hash of the <em>content</em> of this site. This gaurantees that the link that was given to you corresponds exactly to the content of this site. You can verify it yourself by downloading the <a href="https://raw.githubusercontent.com/schollz/schollz.github.io/source/content/post/{{ .File.LogicalName  }}" style="color:lightslategray">Source</a>, removing the header and trimming the whitespace, and doing an md5 digest. Try it: <code>curl https://raw.githubusercontent.com/schollz/schollz.github.io/source/content/post/{{ .File.LogicalName  }} | sed '/---/,/---/d' | sed 's/^ *//;s/ *$//g' | sed -e :a -e '/./,$!d;/^\n*$/{$d;N;};/\n$/ba' | md5sum</code>
+	</p>
+</small>
+</span>
+
 </footer>
 {{ end }}
 
-{{ if .PrevInSection }}<a href="{{ .PrevInSection.URL }}">← {{ .PrevInSection.Title }}</a>&nbsp;{{end}}{{ if .NextInSection }}<a href="{{ .NextInSection.URL }}" style="float:right;">{{ .NextInSection.Title }} →</a>{{ end }}
+
+
+
 
 
 {{ partial "footer.html" . }}
