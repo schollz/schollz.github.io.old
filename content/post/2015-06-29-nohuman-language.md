@@ -1,10 +1,20 @@
 ---
+
+
+
+
+
 title: How similar is animal language to human language?
 date: 2015-06-29
 tags: [science]
 description: One thing that divides humans from animals is their ability to use language. Scientists have discovered that the difference is smaller than thought.
-slug: animal-language
+slug: b11653e28c3d45b3267a760d386d1849
 keywords: science
+
+
+
+
+
 ---
 
 Language is an extremly important aspects of our human lives, and its aquisition might be an [innate part of our brain](https://en.wikipedia.org/wiki/Innateness_hypothesis) that separates us from animals. However, different animals can understand language on different levels, as noted by Steven Pinker in his book *The Language Instinct*:
