@@ -15,6 +15,10 @@ publish:
 	git push origin master
 	git checkout source
 
+update:
+	git add content/post/
+	git commit -am "Update posts"
+	git push origin source
 	
 
 serve:
