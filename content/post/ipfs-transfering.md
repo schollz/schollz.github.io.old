@@ -1,13 +1,13 @@
 ---
-title: "Using IPFS for sending a file"
+title: "Send a file with IPFS"
 date: 2017-10-15T21:27:07-06:00
 tags: [coding]
-slug: ipfs-transfering
+slug: ipfs-transfer
 ---
 
-Sometimes you need to send someone a file. Previously I had many workarounds for this - my favorite was to make a temporary volume on DigitalOcean, upload the file, and give my friend the link to download it. There is a better way - use IPFS! When you use IPFS, you can transfer the file directly to your friend from your computer.
+Sending a file with IPFS is fun (after all it is leveraging the peer-to-peer network and content-addressable blocks of data!) and easy. 
 
-## First install and start IPFS
+## Install IPFS
 
 Here is the basic instructions to install:
 
@@ -21,7 +21,7 @@ ipfs config Addresses.Gateway /ip4/0.0.0.0/tcp/9001
 ipfs config Addresses.API /ip4/0.0.0.0/tcp/5001
 ```
 
-The last two lines are useful for listening on LAN connected devices.
+The last two lines are useful for listening on LAN connected devices. The port `0.0.0.0` will let run the IPFS daemon on a different computer but still use the peer-to-peer portal from that computer.
 
 Then start the daemon with
 
@@ -31,21 +31,26 @@ ipfs daemon
 
 You could also start the daemon with an init script.[^1]
 
-### Add the file and download
+## Load the file into IPFS
 
 Then add the file to IPFS. When you add the file to IPFS it copy the file to your IPFS repo (usually `~/.ipfs`) and it will not touch the original file.
 
 ```
-ipfs add somefile
+$ ipfs add somefile
+added QmSr1saoM3n1Sx8dBs5bz7ozU somefile
 ```
 
-Then tell your friend to download file using the IPFS hash:
+## Send it!
+
+Then tell your friend to download file using the IPFS hash from the output:
 
 ```
 wget https://ipfs.io/ipfs/QmSr1saoM3n1Sx8dBs5bz7ozU
 ```
 
-You can also download this link from your browser. Or, for much faster downloads, you can use `https://github.com/schollz/pfd` to download all the pieces in parallel.
+This link does *not require* the user to have IPFS. It uses the public gateway, `https://ipfs.io/ipfs/`, which lookup peers from their main IPFS servers.
+
+## Cleanup (optional)
 
 Once your friend has the file, then you can remove the file from being hosted on IPFS (if you want). Even though you'll still have the file in the original location, it will no longer be served from your IPFS daemon.
 
@@ -56,5 +61,7 @@ ipfs repo gc
 
 
 _Note:_ after deletion your content may still be stored in the IPFS Gateway cache for some time (not sure how long).
+
+[^another]: IPFS is still growing, and the distributed hash table lookup means it may take quite awhile to transfer big files.
 
 [^1]: I made an init script here: https://gist.github.com/schollz/da71aa2a5a43d76739ef034331c7b0bb
