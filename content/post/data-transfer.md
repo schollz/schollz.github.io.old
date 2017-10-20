@@ -20,12 +20,12 @@ Here's a table I made of different methods I played with, their associated trans
 | Method     | Rate (MB/s) | Cost       | What I do    | What Jessie does | Jessie's reaction
 | ---------- |:-----------:| ----------:|--------------|:----------:|:-----:
 | [mail](#mail)  | 0.002    |  $1.20    | mail a USB drive  | plug in USB drive | ![](https://twemoji.maxcdn.com/svg/1f600.svg)
-| `scp`         | 1.0         | free    | run `scp`   | setup port-forwarding and determine public IP | ![](https://twemoji.maxcdn.com/svg/1f635.svg)
-| [personal server](#personal-server)    | 0.7         | $0.01 | setup port-forwarding, download a server and a reverse proxy | click a link | ![](http://cdnjs.cloudflare.com/ajax/libs/twemoji/2.2.5/2/svg/1f604.svg)
-| [IPFS](#ipfs)          | 0.8[^ipfs]   |    free     |  [install IPFS](/ipfs-transfer/) and pin file        | click a link  | ![](http://cdnjs.cloudflare.com/ajax/libs/twemoji/2.2.5/2/svg/1f604.svg)
-| [WebTorrent](#web-browsers)          | 0.5   |    free     |  drag-and-drop file       | click a link, hopefully[^issues]  | ![](http://cdnjs.cloudflare.com/ajax/libs/twemoji/2.2.5/2/svg/1f604.svg)
-| [`wormhole`](#command-line)    | 0.6       |   free     | install Python ecosystem and Visual C++  | install Python ecosystem and Visual C++ | ![](https://twemoji.maxcdn.com/svg/1f62d.svg)
-| `croc`        | 1.3       |  free     |      download a program and run       | download a program and run | ![](https://emojipedia-us.s3.amazonaws.com/thumbs/160/facebook/65/thumbs-up-sign_1f44d.png) 
+| `scp`         | 1.0         | free    | run `scp`   | setup port-forwarding and determine public IP | ![](/img/1f635.svg)
+| [personal server](#personal-server)    | 0.7         | $0.01 | setup port-forwarding, download a server and a reverse proxy | click a link | ![](/img/1f604.svg)
+| [IPFS](#ipfs)          | 0.8[^ipfs]   |    free     |  [install IPFS](/ipfs-transfer/) and pin file        | click a link  | ![](/img/1f604.svg)
+| [WebTorrent](#web-browsers)          | 0.5   |    free     |  drag-and-drop file       | click a link, hopefully[^issues]  | ![](/img/1f604.svg)
+| [`wormhole`](#command-line)    | 0.6       |   free     | install Python ecosystem and Visual C++  | install Python ecosystem and Visual C++ | ![](/img/1f62d.svg)
+| `croc`        | 1.3       |  free     |      download a program and run       | download a program and run | ![](/img/thumbs-up-sign_1f44d.png) 
 
 Read the following for a more in-depth description of the methods.
 
