@@ -6,24 +6,32 @@ tags: [coding]
 slug: sending-a-file
 ---
 
-# TL;DR
+My good friend Jessie and I want to watch a documentary movie on turkeys together.[^turkey] I have the file on my computer and she does not, so I want to send this file to her directly[^direct] from my computer. There are a couple of restrictions though:
 
-Don't read this, just look at this table.
+- the turkey documentary is a ~1 GB file
+- Jessie lives 2,000 miles away in a different country
+- Jessie uses Windows OS
+- Jessie is not a programmer, and avoids anything that involves running something on the command-line
 
-| Method        | Rate (MB/s) | Cost  | Requirements         |
-| ------------- |:-----------:| -----------:|----------------------|
-| [mail](#mail)        | 0.002       |  $1.20     | sender needs USB drive   |
-| `scp`         | 3.3         | free    | receiver needs port forwarding   | 
-| [personal server](#personal-server)    | 1.5         | $0.01 | sender needs server |
-| [IPFS](#ipfs)          | 1.0   |    free     |  sender needs [to install IPFS](/ipfs-transfer/)             |
-| [`wormhole`](#command-line)    |  1.8        |   free     | sender+receiver need Python ecosystem |
-| `croc`        | 1.7         |  free     |                      |
+**How should I send the movie, in the fastest possible way, so we can start learning about turkeys together?**[^xkcd] Even though its 2017, the method I use to send a file from my computer to someone else's computer will depend greatly on who that someone is and how comfortable they are with computers.
 
-My good friend Jessie and I want to watch a documentary on turkeys[^turkey] and that I have the movie on my computer and she does not. The problem is that now I want to send a ~1 gigabyte movie to someone who lives 2,000 miles away in a different country. 
+Here's a table I made of different methods I played with, their associated transfer rate[^rates], cost of transferring, and a brief description of what I would do to send the file and what Jessie does to receive the file. The last column is the reaction that Jessie had when I explained what she had to do in each case to receive the file.
+
+| Method     | Rate (MB/s) | Cost       | What I do    | What Jessie does | Jessie's reaction
+| ---------- |:-----------:| ----------:|--------------|:----------:|:-----:
+| [mail](#mail)  | 0.002    |  $1.20    | mail a USB drive  | plug in USB drive | ![](https://twemoji.maxcdn.com/svg/1f600.svg)
+| `scp`         | 1.0         | free    | run `scp`   | setup port-forwarding and determine public IP | ![](https://twemoji.maxcdn.com/svg/1f635.svg)
+| [personal server](#personal-server)    | 0.7         | $0.01 | setup port-forwarding, download a server and a reverse proxy | click a link | ![](http://cdnjs.cloudflare.com/ajax/libs/twemoji/2.2.5/2/svg/1f604.svg)
+| [IPFS](#ipfs)          | 0.8[^ipfs]   |    free     |  [install IPFS](/ipfs-transfer/) and pin file        | click a link  | ![](http://cdnjs.cloudflare.com/ajax/libs/twemoji/2.2.5/2/svg/1f604.svg)
+| [WebTorrent](#web-browsers)          | 0.5   |    free     |  drag-and-drop file       | click a link, hopefully[^issues]  | ![](http://cdnjs.cloudflare.com/ajax/libs/twemoji/2.2.5/2/svg/1f604.svg)
+| [`wormhole`](#command-line)    | 0.6       |   free     | install Python ecosystem and Visual C++  | install Python ecosystem and Visual C++ | ![](https://twemoji.maxcdn.com/svg/1f62d.svg)
+| `croc`        | 1.3       |  free     |      download a program and run       | download a program and run | ![](https://emojipedia-us.s3.amazonaws.com/thumbs/160/facebook/65/thumbs-up-sign_1f44d.png) 
+
+Read the following for a more in-depth description of the methods.
 
 ## Mail
 
-I could mail her a USB with the file. I'd have to buy a USB stick, even though I might get it back, its about $4. For a cross-country letter I would have to buy a stamp for $1.20. Also international postage is quite slow, so it would typically take about 10 days to reach her. Since I could recupe the USB stick cost, sending ~1 gigabyte is basically a flat rate of $1.20, but with a transfer rate is about 0.002 MB/. Though, the benefit here is that neither of us need to have a server, or know what port-forwarding or reverse proxies or DNSs are.
+I could mail Jessie a USB with the file. I'd have to buy a USB stick, even though I might get it back, its about $4. For a cross-country letter I would have to buy a stamp for $1.20. Also international postage is quite slow, so it would typically take about 10 days to reach her. Since I could recuperate the USB stick cost, sending ~1 gigabyte is basically a flat rate of $1.20, but with a transfer rate is about 0.002 MB/s. Though, the benefit here is that neither of us need to have a server, or know what port-forwarding or reverse proxies or DNSs are. One drawback is that this is not encrypted, although their the breaking of federal crimes would help to decentavize interfering with the transfer.
 
 ## Personal server
 
@@ -31,13 +39,13 @@ Since I do know what a server is and how to use it, there is a easy solution. I 
 
 So I spin up my volume, `scp` my file to my personal server and I host the file with something like Caddy. I send Jessie the link, I can let her download it. Once she downloads it I can go log-in to DigitalOcean and delete the volume. If Jessie downloads it in 24 hours it would only cost me exactly $0.01, which is a flat rate.
 
-The transfer rate involves two steps. First I upload the file to DigitalOcean  at 1.8 MB/s. Then Jessie downloads it at about 8.9 MB/s. Assuming Jessie downloads it the instant it is finished uploading (to minimize the time between steps to zero), the overall transfer rate is the harmonic mean of the two rates, about 1.5 MB/s.
+The transfer rate involves two steps. First I upload the file to DigitalOcean  at 0.8 MB/s. Then Jessie downloads it at about 3.5 MB/s. Assuming Jessie downloads it the instant it is finished uploading (to minimize the time between steps to zero), the overall transfer rate is the harmonic mean of the two rates, about 0.7 MB/s.
 
-## Web-browsers
+## WebTorrent
 
-There are web-browsers out there that let you store files temporarily. An example is [send.firefox.com](https://send.firefox.com/). This case would be very similar to the personal server solution, except you are limited to the bandwidths and quotas of the web browser (which is 1 gigabyte for send.firefox.com).
+There are web browsers out there that let you store files temporarily. An example is [send.firefox.com](https://send.firefox.com/). This case would be very similar to the personal server solution, except you are limited to the bandwidths and quotas of the web browser (which is 1 gigabyte for send.firefox.com). The more modern approach is something like [instant.io](https://instant.io/) or [file.pizza](https://file.pizza/) which both leverage the WebTorrent javascript protocols. 
 
-The more modern approach is something like [instant.io](https://instant.io/) or [file.pizza](https://file.pizza/) which both leverage the WebTorrent javascript protocols. These sites let you directly send files from one peer to another. However, I noticed that both have problems with handling big files,[^issues] which may be a browser issue that occurs. Also, speaking of browsers, I'd rather not rely on them to transfer my files. Browsers change too fast, and have too much under the hood to understand what is happening and whether data is saved or exposed or encrypted or what.
+These sites let you directly send files from one peer to another. However, I noticed that both have problems with handling big files,[^issues] which may be a browser issue that occurs (definitely an issue on Chrome). Also, speaking of browsers, I'd rather not rely on them to transfer my files. Browsers change too fast, and have too much under the hood to understand what is happening and whether data is saved or exposed or encrypted or what.
 
 ## IPFS
 
@@ -48,7 +56,15 @@ Peer-to-peer technologies are very popular now, not just in the browser. The int
 It still turns out that there are solutions that work on the command-line. There is [toss](https://github.com/zerotier/toss)[^toss] and there is the amazing [wormhole](https://github.com/warner/magic-wormhole) package. Still, though, when I looked at `wormhole` I realized I would have to install it on Jessie's computer. Normally that wouldn't be a problem, except that Jessie uses Windows and the only thing Jessie knows about Python is that it is a snake. Also the installation for `wormhole` is not simple - it seems to require Visual C++, and very likely some Cygwin-ninjaing. 
 
 
+[^direct]: By "directly" I mean generally without being stored on a server in the process of transferring. Things like email, Dropbox, Google Drive, OneDrive, etc. all have an intermediate server which stores your file before the other person can retrieve it. 
+
 [^turkey]: The documentary is *My Life as a Turkey* which follows an actors real interactions with wild turkeys following methodology put in place through author Joe Hutto's book *Illumination in the Flatwoods.*
+
+[^xkcd]: For posterity's sake [here is the relevant XKCD](https://xkcd.com/949/).
+
+[^rates]: All of these "rates" were estimated from my own computers. I had two computers - computer 1 was connected to a VPN in Seattle and computer 2 was connected to a network in Edmonton. Though physically located in the same place, these tests monitor the transfer speed from a file from computer 1 (Seattle) to computer 2 (Edmonton). Still, you probably shouldn't believe these, or any other benchmarks. Try it yourself!
+
+[^ipfs]: The rate to actually download a file can vary widely. Once it is found in the system, it is pretty fast, but the peers must first be able to find it which can take quite awhile the first time it is requested.
 
 [^issues]: See [instant.io issue #149](https://github.com/webtorrent/instant.io/issues/149) and [file.pizza issue #73](https://github.com/kern/filepizza/issues/73).
 
