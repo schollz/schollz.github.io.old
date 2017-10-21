@@ -1,7 +1,7 @@
 ---
 title: "OSS divisions"
 date: 2017-09-17T09:04:40-06:00
-slug: /oss/
+slug: oss
 tags: ["coding"]
 keywords: coding
 ---

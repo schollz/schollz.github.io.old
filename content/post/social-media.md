@@ -1,7 +1,7 @@
 ---
 title: "Use social media without being social"
 date: 2017-09-23T09:04:40-06:00
-slug: /using-social-media/
+slug: using-social-media
 keywords: thoughts
 description: Social media seems to be more about creating a persona that voicing your thoughts and ideas. Not thinking about public opinion enables you too emit thoughts without fear of judgment, which is why I've found it helpful to use social media without being social.
 tags: [thoughts]
