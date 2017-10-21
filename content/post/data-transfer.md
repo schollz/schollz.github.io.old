@@ -20,18 +20,22 @@ Here's a table I made of different methods I played with, their associated trans
 | Method     | Rate (MB/s) | Cost       | What I do    | What Jessie does | Jessie's reaction
 | ---------- |:-----------:| ----------:|--------------|:----------:|:-----:
 | [mail](#mail)  | 0.002    |  $1.20    | mail a USB drive  | plug in USB drive | ![](https://twemoji.maxcdn.com/svg/1f600.svg)
-| `scp`         | 1.0         | free    | run `scp`   | setup port-forwarding and determine public IP | ![](/img/1f635.svg)
+| [`scp`](#scp)         | 1.0         | free    | run `scp`   | setup port-forwarding and determine public IP | ![](/img/1f635.svg)
 | [personal server](#personal-server)    | 0.7         | $0.01 | setup port-forwarding, download a server and a reverse proxy | click a link | ![](/img/1f604.svg)
 | [IPFS](#ipfs)          | 0.8[^ipfs]   |    free     |  [install IPFS](/ipfs-transfer/) and pin file        | click a link  | ![](/img/1f604.svg)
 | [WebTorrent](#web-browsers)          | 0.5   |    free     |  drag-and-drop file       | click a link, hopefully[^issues]  | ![](/img/1f604.svg)
-| [`wormhole`](#command-line)    | 0.6       |   free     | install Python ecosystem and Visual C++  | install Python ecosystem and Visual C++ | ![](/img/1f62d.svg)
-| `croc`        | 1.3       |  free     |      download a program and run       | download a program and run | ![](/img/thumbs-up-sign_1f44d.png) 
+| [`wormhole`](#wormhole)    | 0.6       |   free     | install Python ecosystem and Visual C++  | install Python ecosystem and Visual C++ | ![](/img/1f62d.svg)
+| [`croc`](#croc)        | 1.3       |  free     |      download a program and run       | download a program and run | ![](/img/thumbs-up-sign_1f44d.png) 
 
 Read the following for a more in-depth description of the methods.
 
 ## Mail
 
 I could mail Jessie a USB with the file. I'd have to buy a USB stick, even though I might get it back, its about $4. For a cross-country letter I would have to buy a stamp for $1.20. Also international postage is quite slow, so it would typically take about 10 days to reach her. Since I could recuperate the USB stick cost, sending ~1 gigabyte is basically a flat rate of $1.20, but with a transfer rate is about 0.002 MB/s. Though, the benefit here is that neither of us need to have a server, or know what port-forwarding or reverse proxies or DNSs are. One drawback is that this is not encrypted, although their the breaking of federal crimes would help to decentavize interfering with the transfer.
+
+## `scp`
+
+I use `scp` for almost everything, since I've got all my computers networked toegether. However, even though it seems like its super easy to do, there is a bit of setup. You have to have an SSH server running and you have to setup port-forwarding and determine your public IP address. Now all of this can be done pretty easily. If I were telling someone I would say: download Cygwin and choose `openssh` for installation, run cygwin and do ifconfig to get your local IP, login to your router and forward port 22 to your local IP address, then goto icanhazip.com to get your public IP address and tell the other person your public address. But, to really be secure (and not share your personal password) you'd also have to share a SSH key with your friend. Well, I guess `scp` is not really great for sharing between friends afterall, but it is certainly great for personal use!
 
 ## Personal server
 
@@ -51,9 +55,14 @@ These sites let you directly send files from one peer to another. However, I not
 
 Peer-to-peer technologies are very popular now, not just in the browser. The interplanetary file system (IPFS) creates a [peer-to-peer hypermedia protocol](https://ipfs.io/) for sharing files. Seem [my previous post](/ipfs-transfer) about sending a file with IPFS. The problem with IPFS is that it requires a long lookup for rare files, in the case of most files you might want to share. However, if you are sharing the file with multiple people the speeds will increase as there are some great caching mechanisms in place on the gateway. Because the peer-to-peer lookup depends on so many factors, the download may be a bit stochastic. Even so, the rate is pretty good - I was able to transfer the file in 1 MB/s.
 
-## Command-line 
+## `wormhole` 
 
 It still turns out that there are solutions that work on the command-line. There is [toss](https://github.com/zerotier/toss)[^toss] and there is the amazing [wormhole](https://github.com/warner/magic-wormhole) package. Still, though, when I looked at `wormhole` I realized I would have to install it on Jessie's computer. Normally that wouldn't be a problem, except that Jessie uses Windows and the only thing Jessie knows about Python is that it is a snake. Also the installation for `wormhole` is not simple - it seems to require Visual C++, and very likely some Cygwin-ninjaing. 
+
+
+## `croc`
+
+Here's my shameless plug of a new tool I've been working on. Essentially it is the same as `wormhole` but it has no dependencies, you [can just download it and run](https://github.com/schollz/croc/releases/latest). It does encryption, too, and uses parallel TCP ports to transfer files as fast as possible (which is about as fast as all the other programs).
 
 
 [^direct]: By "directly" I mean generally without being stored on a server in the process of transferring. Things like email, Dropbox, Google Drive, OneDrive, etc. all have an intermediate server which stores your file before the other person can retrieve it. 
