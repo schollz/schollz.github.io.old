@@ -8,7 +8,10 @@ tags: [thoughts]
 ---
 
 
-Social media seems to be more about creating a persona that voicing your thoughts and ideas. Not thinking about public opinion enables you too emit thoughts without fear of judgment, which is why I've found it helpful to use social media without being social.
+Social media seems to be more about creating a persona that voicing your
+thoughts and ideas. Not thinking about public opinion enables you too emit
+thoughts without fear of judgment, which is why I've found it helpful to
+use social media without being social.
 
 I make accounts on social media that are totally protected. I don't follow anyone or let anyone follow me. I keep the account locked so no one can even visit it. This way, I can use the  cutting edge technology ecosystem and infrastructure of social media giants for my own personal journal.
 
@@ -70,7 +73,8 @@ The word Polysyllabic is defined by being polysyllabic.</p>&mdash; Zak (@?) <a h
 
 ### Using IFTTT to keep track of everything else
 
-There are many things you can hook up to [IFTTT](https://ifttt.com/), to keep a record of in your Twitter biography. For example:
+There are many things you can hook up to [IFTTT](https://ifttt.com/), to
+keep a record of in your Twitter biography. For example:
 
 1. Keep track of songs I like on Spotify. *E.g.*:
 
@@ -88,7 +92,11 @@ There are many things you can hook up to [IFTTT](https://ifttt.com/), to keep a 
 
 # Caveats
 
-Obviously, Twitter is a company basically offering a service for free. I would always be wary of that. So, I would never post things that are truly secret (i.e. passwords, bank statements, etc.).
+Obviously, Twitter is a company basically offering a service for free.
+I would always be wary of that. So, I would never post things that are
+truly secret (i.e. passwords, bank statements, etc.).
 
-Also, I chose Twitter because it has a option for export. Their export option is suboptimal (it only updates every two weeks or so), but it is a requirement that I can have my data that I create.
+Also, I chose Twitter because it has a option for export. Their export
+option is suboptimal (it only updates every two weeks or so), but it is
+a requirement that I can have my data that I create.
 
