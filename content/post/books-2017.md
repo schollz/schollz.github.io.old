@@ -41,3 +41,5 @@ An epic tale that goes back and forth between reality and fantasy until they mer
 **Leven Thumps and the Gateway to Foo** by *Obert Skye*
 
 **Pieces of the Left Hand** by *J. Robert Lennon*
+
+**American Bison** by *Steven Rinella*
