@@ -1,6 +1,6 @@
 ---
 title: "Unraveling the Molecular Structure"
-date: 2017-12-31T09:41:01-06:00
+date: 2016-12-31T09:41:01-06:00
 slug: molecular-structures
 draft: true
 tags: [science]

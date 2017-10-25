@@ -1,6 +1,6 @@
 ---
 title: "Homomorphic encryption"
-date: 2017-12-31T09:41:01-06:00
+date: 2016-07-31T09:41:01-06:00
 slug: homomorphic-encryption
 draft: true
 keywords: science
