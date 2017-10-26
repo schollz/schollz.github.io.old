@@ -17,3 +17,7 @@ be to reduce the amount of time on the server and increase the amount of
 time in between. The first can be reduced with something very high
 performance, maybe like writing in Go or Rust, and the second can be done
 by choosing other servers that are far away. 
+
+What about making a neural network with an actual network? Have several
+nodes that are actual connections and strengthen/weaken them based on the
+network itself.

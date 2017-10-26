@@ -1,7 +1,6 @@
 ---
 title: "What we say has never been said"
 date: 2017-10-14T21:16:56-06:00
-draft: true
 tags: [thoughts]
 slug: words
 ---
@@ -10,21 +9,32 @@ The internet is *not* a million monkeys typing on a keyboard.[^1] Although,
 there is a place on the internet that is,[^2] it seems that the current 25
 billion or so webpages[^3] do not yet contain the sum of all possible thoughts. 
 
+
 Its interesting to see how fast the number of possible pages drops as you
 elongate a sentence. How many words does it take to be a unique sentence, on the
-internet? Surprisingly few.
+internet? Surprisingly few. 
+
+## A quick experiment
+
+Here's a quick experiment to see how few words you need to actually
+produce a totally and completely unique sentence into the universe.
+
+![My actual painting of a donkey in the desert.](/img/donkey.jpg)
 
 Lets take the sentence (which I'm making up as I type):
 
 > A painting of a donkey in the desert.
 
-This sentence comes from a painting I made that I'm looking at. For searching
-"A" there are 25.3 billion results. The exact phrase "A painting" narrows it down
-to 22.4 million. Already we've decreased by a factor of 1,000. The phrase "A
-painting of" decreases it to 5.3 million (4x decrease) and adding "a donkey"
-decreases it to 131,000 (50x decrease). The smallest number of results is "a
-painting of a donkey in the" which yields only a single result.[^4] There are no results
-for "A painting of a donkey in the desert", at least until this post is
+
+This sentence comes from a painting I made that I'm looking at. For
+searching "A" there are 25.3 billion results. The exact phrase "A
+painting" narrows it down to 22.4 million. Already we've decreased by
+a factor of 10<sup>3</sup>. The phrase "A painting of" decreases it to 5.3
+million (another 10<sup>~1</sup> decrease) and adding "a donkey" decreases
+it to 131,000 (another 10<sup>~2</sup> decrease). The smallest number of
+results is "a painting of a donkey in the" which yields only a single
+result (another 10<sup>~5</sup> decrease).[^4] There are no results for "A
+painting of a donkey in the desert", at least until this post is
 published.
 
 
@@ -50,8 +60,8 @@ internet, than that would mean that **most 11 word sentences have never been
 uttered before!**
 
 Take these calculations with a big big big grain of salt, but since these
-numbers lie in the world of logarithms, they won't be off my much more than
-a factor of two.
+numbers lie in the world of logarithms, they won't be off my much more
+than an order of magnitude.
 
 [^1]: See the [infinite monkey theorem](https://en.wikipedia.org/wiki/Infinite_monkey_theorem)
 [^2]: See the [Library of Babel .info](https://libraryofbabel.info/)
