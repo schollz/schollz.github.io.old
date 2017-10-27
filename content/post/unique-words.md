@@ -5,13 +5,8 @@ tags: [thoughts]
 slug: words
 ---
 
-The internet is *not* a million monkeys typing on a keyboard.[^1] Although,
-there is a place on the internet that is,[^2] it seems that the current 25
-billion or so webpages[^3] do not yet contain the sum of all possible thoughts. 
-
-
-Its interesting to see how fast the number of possible pages drops as you
-elongate a sentence. How many words does it take to be a unique sentence, on the
+All that humans has ever been written on the internet is not a million monkeys typing on a keyboard (although a million monkeys typing on a keyboard could produce all the current content),[^1] with exception of a website that generates random text.[^2] Still, it seems that the current 25
+billion or so webpages[^3] do not yet contain the sum of all possible thoughts.  Its interesting to see how fast the number drops for possible matches on a sentence as the sentence gets longer and longer. How many words does it take to be a unique sentence, on the
 internet? Surprisingly few. 
 
 ## A quick experiment
@@ -41,10 +36,10 @@ published.
 This makes sense, as there are increasing combinatorial factors that limit the probability of
 a given sentence for each new word. Each word has many possibilities as there
 are hundreds of thousands of 
-english words. Although, most of the words are *not* possible because there are
+English words. Although, most of the words are *not* possible because there are
 requirements on grammar and context. We can very roughly approximate this by
 solving for the 7th root (since we only had seven words that gave us a few
-results) os the total number of sites (25 billion), which gives ~30. Although
+results) as the total number of sites (25 billion), which gives ~30. Although
 this number is inflated for the nouns and deflated for the prepositions.
 
 But the size of this number, 30, gives pause to ever think that the internet
@@ -53,11 +48,11 @@ word sentences, it would need 30x as many pages to have 8 word sentence. It
 would need ~900x more pages to have 9 word sentences, and so on *exponentially*.
 
 So far now, it is really amusing and satisfying to relish in the thought that
-**most 8 word sentences we create, are totally unique to the internet and have
-never existed before.** And if we extrapolate a little bit, and say that the sum
-of total language *ever spoken* may be only a million times bigger than the
-internet, than that would mean that **most 11 word sentences have never been
-uttered before!**
+most 8 word sentences we create, are totally unique to the internet and have
+never existed before. And if we extrapolate a little bit, and say that the sum
+of total language ever spoken may be only a million times bigger than the
+internet, than that would mean that most 11 word sentences have never been
+uttered before!*
 
 Take these calculations with a big big big grain of salt, but since these
 numbers lie in the world of logarithms, they won't be off my much more

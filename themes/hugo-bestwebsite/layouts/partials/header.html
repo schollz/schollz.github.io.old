@@ -70,8 +70,10 @@
 		}
 		blockquote {
 		  font-style: italic;
-		  margin: 1.5em 10px;
-		  padding: 0.5em 10px;
+		  font-size: 1.3em;
+		  margin: 1.5em 5px;
+		  padding: 0.5em 5px;
+		  margin-bottom: 0px;
 		  quotes: "\201C""\201D""\2018""\2019";
 		}
 		blockquote:before {
@@ -82,8 +84,21 @@
 		  margin-right: 0.25em;
 		  vertical-align: -0.4em;
 		}
+
+		blockquote:after {
+		  color: #ccc;
+		  content: close-quote;
+		  font-size: 4em;
+		  line-height: 0.1em;
+		  margin-right: 0.25em;
+		  vertical-align: -0.4em;
+		}
 		blockquote p {
 		  display: inline;
+		}
+
+		p {
+			padding-top: 10px;
 		}
 
 
@@ -148,12 +163,15 @@
 			font-style: normal;
 		}
 		figure {
+			text-indent: 0px;
 			padding-top:10px;
 			padding-bottom:10px;
 		    -webkit-margin-start: 0px;
 		    -webkit-margin-end: 0px;
 		    padding-left: 0px;
 		    padding-right: 0px;
+		    margin-left: 0px;
+		    margin-right: 0px;
     	}
 
 		figcaption {
