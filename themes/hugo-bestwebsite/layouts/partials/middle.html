@@ -32,17 +32,14 @@ sf6 {
 <div class="content"><div id="doc">
 {{ range first 100000 .Pages }}
 {{ if eq .Type "post"}}
-<p>
-<aside>{{ .Date.Format "January 2, 2006"}}
-</aside>
-<a href="/{{ .Slug }}/">{{ .Title }}</a>
-(<em>{{ range .Params.tags }}<a href="/tags/{{.}}/" class="w3-tag">{{.}}</a>{{end}}</em>)
-</p>
+    <p>
+    <aside>{{ .Date.Format "January 2, 2006"}}</aside>
+    <a href="/{{ .Slug }}/">{{ .Title }}</a>
+    <!-- (<em>{{ range .Params.tags }}<a href="/tags/{{.}}/" class="w3-tag">{{.}}</a>{{end}}</em>) -->
+    </p>
+{{ end }}
+{{ end }}
 
-						{{ end }}
-						{{ end }}
-
-	</div>
-</div>
+</div></div>
 	
 

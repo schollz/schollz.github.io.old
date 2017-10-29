@@ -84,18 +84,19 @@ margin-right: 2.5rem;
 
 @media all and (max-width:520px) {
     body > * {
-    margin: 2rem;}
+        margin: 0.7rem 1.5rem 0 1.5rem;
+    }
 }
 
 
 
 div.content { /* wraps both main and subnavigation */
-    display: block; padding: 1rem 0 5rem 0;
+    display: block; padding: 1rem 0rem 5rem 0;
 }
 
 header {
 	display:block;
-	padding: 1rem 0 1rem 0;
+	padding: 0.5rem 0 0.2rem 0;
 }
 
 
@@ -201,18 +202,21 @@ clear:both; margin-bottom: 1rem; }
 
 
 @media all and (max-width:520px) {
-    title-block, aside { float: inherit;
-    position: inherit;
-    width: 100%;
-    text-align: left;}
+    title-block, aside { 
+        float: inherit;
+        position: inherit;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 0px;
+    }
 
-    aside {
+/*    aside {
         background: #fefefe;
         padding: 0.5rem;
         width: 90%;
         border: 1px solid #ccc;
         border-left: 3px solid #ccc;
-    }
+    }*/
 }
 
 title-block {

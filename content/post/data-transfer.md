@@ -29,15 +29,15 @@ My good friend Jessie and I want to watch a documentary movie on turkeys togethe
     <a href="#mail">mail</a>
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f644.svg"/>
-    </div>
+    </div></center>
     mail a USB drive
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f600.svg" alt="" />
-    </div>
+    </div></center>
     plug in USB drive 
 </td>
 </tr>
@@ -46,15 +46,15 @@ My good friend Jessie and I want to watch a documentary movie on turkeys togethe
     <a href="#scp"><code>scp</code></a>
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f600.svg"/>
-    </div>
+    </div></center>
     run <code>scp</code>
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f635.svg" alt="" />
-    </div>
+    </div></center>
     determine local IP, log-in to router and forward port 22, start SSH server, generate guest account and send password
 </td>
 </tr>
@@ -63,15 +63,15 @@ My good friend Jessie and I want to watch a documentary movie on turkeys togethe
     <a href="#scp">personal server</a>
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f614.svg"/>
-    </div>
+    </div></center>
     setup port-forwarding, download a server and a reverse proxy
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f604.svg" alt="" />
-    </div>
+    </div></center>
     click a link
 </td>
 </tr>
@@ -80,15 +80,15 @@ My good friend Jessie and I want to watch a documentary movie on turkeys togethe
     <a href="#ipfs">IPFS</a>
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f615.svg"/>
-    </div>
+    </div></center>
     <a href="/ipfs-transfer/">install IPFS</a>, pin file, warm up cache
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f604.svg" alt="" />
-    </div>
+    </div></center>
     click a link
 </td>
 </tr>
@@ -97,15 +97,15 @@ My good friend Jessie and I want to watch a documentary movie on turkeys togethe
     <a href="#ipfs">WebTorrent</a>
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f610.svg"/>
-    </div>
+    </div></center>
     drag-and-drop file 
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f604.svg" alt="" />
-    </div>
+    </div></center>
     click a link (hopefully)
 </td>
 </tr>
@@ -114,15 +114,15 @@ My good friend Jessie and I want to watch a documentary movie on turkeys togethe
     <a href="#wormhole"><code>wormhole</code></a>
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f612.svg"/>
-    </div>
+    </div></center>
     apt-get Python2 ecosystem 
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f62d.svg" alt="" />
-    </div>
+    </div></center>
     install Python ecosystem and Visual C++ 
 </td>
 </tr>
@@ -131,15 +131,15 @@ My good friend Jessie and I want to watch a documentary movie on turkeys togethe
     <a href="#croc"><code>croc</code></a>
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/1f600.svg"/>
-    </div>
+    </div></center>
     run <code>croc</code>
 </td>
 <td align="center"> 
-    <div style="width:30%">
+    <center><div style="width:30%">
         <img src="/img/thumbs-up-sign_1f44d.png" alt="" />
-    </div>
+    </div></center>
     download <code>croc</code> and double-click
 </td>
 </tr>
