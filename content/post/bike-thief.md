@@ -4,6 +4,7 @@ date: 2017-10-28T04:31:13-06:00
 draft: true
 tags: [thoughts]
 slug: bike-thief
+description: My bike is stolen, but I am able to get it back.
 ---
 
 

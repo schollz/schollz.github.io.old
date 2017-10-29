@@ -1,15 +1,23 @@
 {{ partial "header.html" . }}
 
-<header>
-  	{{ range .Params.tags }}
-  		<a href="https://schollz.github.io/tags/{{.}}/" class="w3-tag">{{.}}</a>
-  	{{end}}
-</header>
 
-<article>
-<h1>{{ .Title }}</h1>
-{{ .Content }}
-</article>
+<div class="content">
+	<div id="doc">
+		<title-block>
+			<topic>
+			{{ .Title }}
+			</topic>
+		<short-rule>
+			        {{ range .Params.tags }}
+				                <a href="https://schollz.github.io/tags/{{.}}/" class="w3-tag">{{.}}</a>
+						        {{end}}
+
+							<br><br>{{ .Description }}</short-rule>
+		</title-block>
+		{{ .Content }}
+	</div>
+</div>
+
 
 {{ if (eq .Type "post") }}
 <footer>

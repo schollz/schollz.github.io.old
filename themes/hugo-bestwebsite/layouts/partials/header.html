@@ -20,7 +20,40 @@
 	<meta name="og:description" content="{{ .Description }}">
 	<meta name="og:type" content="website">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/fonts/1406-fonts.css">
 	<script src="/js/caption.js"></script>
+	<script type="text/javascript">
+if (navigator.appVersion.indexOf("Win")!=-1) {
+	    document.write('<link rel="stylesheet" type="text/css" media="all" href="/fonts/equity-a.css" />');
+} else if (navigator.appVersion.indexOf("Mac")!=-1) {
+	    if (navigator.userAgent.match(/iPad/i) != null) {
+		            document.write('<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="/fonts/equity-b.css" type="text/css" />');
+			            document.write('<link rel="stylesheet" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2)" type="text/css" href="/fonts/equity-a.css" />');
+				        } else {
+						        document.write('<link rel="stylesheet" type="text/css" media="all" href="/fonts/equity-b.css" />');
+							    }
+} else {
+	    document.write('<link rel="stylesheet" type="text/css" media="all" href="/fonts/equity-a.css" />');
+}
+
+	</script>
+	<script type="text/javascript">
+var isFirefox = typeof InstallTrigger !== 'undefined';
+if (isFirefox) {
+	document.write('<link rel="stylesheet" type="text/css" media="all" href="/css/firefox.css" />');
+}
+var isChromium = window.chrome,
+        winNav = window.navigator,
+	    vendorName = winNav.vendor,
+	        isOpera = winNav.userAgent.indexOf("OPR") > -1,
+		    isIEedge = winNav.userAgent.indexOf("Edge") > -1,
+		        isIOSChrome = winNav.userAgent.match("CriOS");
+if(isChromium !== null && isChromium !== undefined && vendorName === "Google Inc." && isIEedge == false) {
+	   // is Google Chrome or Opera
+	   document.write('<link rel="stylesheet" type="text/css" media="all" href="/css/chrome.css" />');
+}
+	</script>
+
 </head>
 <body>
 
@@ -28,9 +61,9 @@
 {{ if .Draft }}
 <h1>DRAFT</h1>
 {{ end }}
-<p><small>
+<header><small>
   <span style="color:black;">schollz</span>&nbsp;&nbsp;·&nbsp;
   <a href="https://schollz.github.io"  style="color:black;">/posts</a>&nbsp;&nbsp;·&nbsp;
   <a href="https://schollz.github.io/about/" style="color:black;">/about</a>&nbsp;&nbsp;·&nbsp;
   <a href="https://schollz.github.io/contact/" style="color:black;">/contact</a>
-</small></p>
+	</small></header>
