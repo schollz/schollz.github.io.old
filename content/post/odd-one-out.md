@@ -63,3 +63,4 @@ Or answer Yes to any six of these questions:
 - Do you have a PhD?
 - Have you run a marathon?
 - Can you speak more than four languages?
+- Are you religous but not adherent to christianity, islamd, hinduism, or buddhism?
