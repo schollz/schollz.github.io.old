@@ -33,15 +33,15 @@ The first number, *n*, that satisfies this equation is **36**. That means you on
 14. Are you religious? Yes.
 15. Are you married? No.
 16. Are you overweight? No.
-17. Are you ever late to work during the month? Yes.
+17. Do you sometimes sleep naked? Yes.
 18. Do you save your money? Yes.
 19. Do you have brown eyes? No.
 20. Do you use ever use cash? Yes.
 21. Are you under 30? Yes.
 22. Are you a man or a woman? A man.
 23. Did you go to college? Yes.
-24. Do you have kids? No.
-25. Do you wear contacts/glasses?
+24. Can you change a flat tire? Yes.
+25. Do you wear contacts/glasses? Yes.
 26. Do you own a pet? No.
 27. Have you ever flown in an airplane? Yes.
 28. Do you read the news? Yes.
@@ -54,8 +54,14 @@ The first number, *n*, that satisfies this equation is **36**. That means you on
 35. Are you vegetarian? No.
 36. Can you sew? Yes.
 
-If the math is right, and the assumptions are right, then you will never find another person that has answered the same way. We are all the odd one out.
+If the math is right, and the assumptions are right, then you will never
+find another person that has answered the same way as I have. If you
+answer the questions, there is basically a zero chance that you will
+answer the same that I have and only a less-than-1% change than anyone on
+earth will answer the same I have. We are all the odd one out.
 
+
+## Short-list of rare questions
 
 Or answer Yes to any six of these questions:
 
@@ -63,4 +69,8 @@ Or answer Yes to any six of these questions:
 - Do you have a PhD?
 - Have you run a marathon?
 - Can you speak more than four languages?
-- Are you religous but not adherent to christianity, islamd, hinduism, or buddhism?
+- Are you religous but not adherent to christianity, islam, hinduism, or buddhism?
+- Have you served in the army?
+- Do you have green eyes? 
+- Do you have a healthy life style (no smoking, exercising 3 hours a week,
+  body fat under 20%)?
