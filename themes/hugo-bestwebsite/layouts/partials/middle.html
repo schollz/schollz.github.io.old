@@ -1,45 +1,13 @@
-<style>
-ul {
-  list-style-type: none;
-}
-
-.b {
-    font-style: italic;
-}
-
-.lh-title {
-    line-height: 1.35;
-}
-
-.ml0 {
-    margin-left: 0;
-}
-
-.mt0 {
-    margin-top: 0;
-}
-
-.mt2 {
-    margin-top: 1rem;
-}
-
-sf6 {
-    font-size: .875rem;
-}
-
-</style>
-
-<div class="content"><div id="doc">
-{{ range first 100000 .Pages }}
-{{ if eq .Type "post"}}
-    <p>
-    <aside>{{ .Date.Format "January 2, 2006"}}</aside>
-    <a href="/{{ .Slug }}/">{{ .Title }}</a>
-    <!-- (<em>{{ range .Params.tags }}<a href="/tags/{{.}}/" class="w3-tag">{{.}}</a>{{end}}</em>) -->
-    </p>
-{{ end }}
-{{ end }}
-
-</div></div>
+<div class="content">
+    {{ range first 100000 .Pages }}
+    {{ if eq .Type "post"}}
+        <p>
+        <aside>{{ .Date.Format "January 2, 2006"}} /// <em>{{ range .Params.tags }}<a href="/tags/{{.}}/">{{.}}</a>{{end}}</em></aside>
+        <a href="/{{ .Slug }}/">{{ .Title }}</a>
+        <!-- (<em>{{ range .Params.tags }}<a href="/tags/{{.}}/" class="w3-tag">{{.}}</a>{{end}}</em>) -->
+        </p>
+    {{ end }}
+    {{ end }}
+</div>
 	
 

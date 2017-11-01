@@ -3,6 +3,7 @@ title: "Sending a file in 2017"
 date: 2017-10-21T20:11:36-06:00
 tags: [coding]
 slug: sending-a-file
+description: Evaluating different means to send a file.
 ---
 
 My good friend Jessie and I want to watch a documentary movie on turkeys together.[^turkey] I have the file on my computer and she does not, so I want to send this file to her directly[^direct] from my computer. There are a couple of restrictions though:
@@ -149,7 +150,7 @@ My good friend Jessie and I want to watch a documentary movie on turkeys togethe
 
 Read the following for a more in-depth description of the methods. Basically after investigating a lot of the techniques I ended up making my own.[^standards]
 
-# Mail
+## Mail
 
 ![Transfer rate: roughly 0.002 MB/s and cost is ~$1.20.](/img/mail.png)
 
