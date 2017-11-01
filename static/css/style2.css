@@ -13,6 +13,8 @@ body, li  p {
 @media all and (max-width:840px){html {font-size: 20px;}}
 @media all and (max-width:800px){html {font-size: 19px;}}
 @media all and (max-width:760px){html {font-size: 18px;}}
+@media all and (max-width:720px){html {font-size: 17px;}}
+@media all and (max-width:580px){html {font-size: 16px;}}
 
 /* reset */
 * {
@@ -106,11 +108,12 @@ aside em {
 
 p {
 	margin-bottom: 1em;
-	line-height: 1.35;
+	line-height: 1.45;
 }
 
 ul,ol {
 	margin-bottom: 1em;
+	padding-left: 1em;
 }
 
 li {
@@ -122,10 +125,6 @@ table {
 	margin-bottom: 1.5em;
 	border-collapse: collapse;
 	width: 95%;
-}
-
-table.shortcut {
-	font-size: 90%;
 }
 
 table tr + tr {
