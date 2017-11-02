@@ -2,7 +2,7 @@
 
 
 <div class="content">
-	<h1>{{ .Title }} <aside>/ {{ range .Params.tags }}<a href="https://schollz.github.io/tags/{{.}}/" class="w3-tag">{{.}}</a>{{end}} </aside></h1>
+	<h1>{{ .Title }} <aside>{{ range .Params.tags }}<a href="https://schollz.github.io/tags/{{.}}/" class="w3-tag">/{{.}}</a>&nbsp;{{end}} </aside></h1>
 	{{ .Content }}
 </div>
 

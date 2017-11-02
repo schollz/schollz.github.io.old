@@ -30,13 +30,15 @@
 <body>
 
 <img src="https://analytics.schollz.com/1.png?page={{ .Permalink }}" width=1px height=1px style="float:right;">
-<header><small><strong>
-  <a href="https://schollz.github.io"  style="color:black;">/posts</a>&nbsp;&nbsp;·&nbsp;
-  <a href="https://schollz.github.io/about/" style="color:black;">/about</a>&nbsp;&nbsp;·&nbsp;
-  <a href="https://schollz.github.io/contact/" style="color:black;">/contact</a>
+<header>
+	<a href="/">/posts</a>
+{{ range .Site.RegularPages }}
+	{{ if or (eq .Type "page") (eq .Type "about") }}
+	&nbsp;&nbsp;·&nbsp;<a href="{{ .RelPermalink }}" style="color:black;">/{{ .Title | lower }}</a>
+	{{ end }}
+{{ end }}
 
 {{ if .Draft }}
 DRAFT
 {{ end }}
-
-	</strong></small></header>
+</header>
