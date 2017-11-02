@@ -7,3 +7,6 @@ enableGitInfo = true
 
 [permalinks]
   post = "/:slug/"
+
+[params]
+  twitter = "yakczar"
