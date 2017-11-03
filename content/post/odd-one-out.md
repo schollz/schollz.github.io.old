@@ -17,6 +17,8 @@ A divisive question makes 50% of people answer one way and 50% the other. The pr
 
 The first number, *n*, that satisfies this equation is **36**. That means you only need 36 questions before the answers to those questions uniquely identify that person as the odd one out, and it guarantees (with 99% confidence) that no other person has answered the same as you. Here's my 36 questions, and their answers, which makes me the odd one out. If you are able to answer all these questions too, then you will find out exactly how you are the odd one out.
 
+### 36 Questions of Uniqueness
+
 1. Can you draw? Yes.
 2. Can you play a musical instrument? Yes.
 3. Can you whistle? Yes.
@@ -63,8 +65,9 @@ earth will answer the same I have. We are all the odd one out.
 
 ## Short-list of rare questions
 
-Or answer Yes to any six of these questions:
+If you consider questions that only 0.1-1% of the population can say *yes* to, then you need much fewer questions than you would normally need. In fact, for this you only need to answer *yes* to **six** of these rare questions and then you will be uniquely defined on Earth.
 
+### Rare Questions
 - Are you transgender?
 - Do you have a PhD?
 - Have you run a marathon?
@@ -74,3 +77,6 @@ Or answer Yes to any six of these questions:
 - Do you have green eyes? 
 - Do you have a healthy life style (no smoking, exercising 3 hours a week,
   body fat under 20%)?
+- Are you famous?
+
+You may notice that some questions are omitted which are also considered *"rare."* The rare questions I selected here pertain to the positive aspects of one's life, instead of the negative aspects. These positive aspects are basically aspects of your life that you would be more likely to share with someone else rather than just share with your doctor. Also, it is better to define yourself by your positive aspects than by your negative aspects.
