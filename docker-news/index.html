@@ -1,21 +1,19 @@
 <!doctype html><html lang=en><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Read news in the terminal with Docker</title><meta name=description content><meta itemprop=name content="Read news in the terminal with Docker"><meta itemprop=description content><meta name=twitter:card content=summary><meta name=twitter:title content="Read news in the terminal with Docker"><meta name=twitter:description content><meta name=twitter:site content=@yakczar><meta name=twitter:creator content=@yakczar><meta name=og:title content="Read news in the terminal with Docker"><meta name=og:description content><meta name=og:type content=website><link rel=stylesheet href=/css/style.css><script src=/js/caption.js></script><header><a href=/>/posts</a>
 &nbsp;·&nbsp;&nbsp;<a href=https://schollz.github.io/about/ style=color:#000>/About</a>
 &nbsp;·&nbsp;&nbsp;<a href=https://schollz.github.io/contact/ style=color:#000>/Contact</a></header><div class=content><h1>Read news in the terminal with Docker<aside><a href=/tags/coding/ class=w3-tag>/coding</a>&nbsp;</aside></h1><p>I&rsquo;ve been working on <em>readable</em>, a simple bookmarklet for easily reading articles in the browser (<a href=https://github.com/schollz/readable>Github</a>). As part of this, I made a Docker image that utilizes <a href=https://github.com/mozilla/readability>Mozilla&rsquo;s <em>readability</em> package</a>.<p>You can easily use the Docker image to directly read articles from the command line.<p>First pull it.<pre><code>$ docker pull schollz/readable
-</code></pre><p>Then set a URL that contains a news article:<pre><code class=language-bash>$ URL=http://www.cnn.com/2017/10/03/world/nobel-physics-prize-2017/index.html
-</code></pre><p>Then read!<pre><code class=language-shell>$ docker run --rm -t schollz/readable $URL | more
-
-----------------------------------------------------------
-Nobel Prize in Physics goes to 'black hole telescope' trio
-----------------------------------------------------------
-
-Story highlights
-
--   The development proves Einstein's prediction of gravitational waves
--   More than 1,000 people worked on the technology over four decades
-
-(CNN)The 2017 Nobel Prize in Physics has been awarded to Rainer Weiss,
-Barry C. Barish and Kip S. Thorne for their detection of gravitational
-waves, a development scientists believe could give vital clues to the
-origins of the universe.
-</code></pre></div><footer><p><small><em>Written October 5, 2017.</em>
+</code></pre><p>Then set a URL that contains a news article:<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span>$ </span><span>URL</span><span></span><span style=color:#f92672>=</span><span>http://www.cnn.com/2017/10/03/world/nobel-physics-prize-2017/index.html</span></code></pre></div><p>Then read!<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span>$ docker run --rm -t schollz/readable </span><span>$URL</span><span> </span><span>|</span><span> more
+</span><span>
+</span><span>----------------------------------------------------------
+</span><span>Nobel Prize in Physics goes to </span><span style=color:#e6db74>&#39;black hole telescope&#39;</span><span> trio
+</span><span>----------------------------------------------------------
+</span><span>
+</span><span>Story highlights
+</span><span>
+</span><span>-   The development proves Einstein</span><span style=color:#960050;background-color:#1e0010>&#39;</span><span>s prediction of gravitational waves
+</span><span>-   More than </span><span style=color:#ae81ff>1</span><span>,000 people worked on the technology over four decades
+</span><span>
+</span><span></span><span style=color:#f92672>(</span><span>CNN</span><span style=color:#f92672>)</span><span>The </span><span style=color:#ae81ff>2017</span><span> Nobel Prize in Physics has been awarded to Rainer Weiss,
+</span><span>Barry C. Barish and Kip S. Thorne </span><span style=color:#66d9ef>for</span><span> their detection of gravitational
+</span><span>waves, a development scientists believe could give vital clues to the
+</span><span>origins of the universe.</span></code></pre></div></div><footer><p><small><em>Written October 5, 2017.</em>
 Leave a comment for me on Twitter <a href="https://twitter.com/intent/tweet?text=%40yakczar%20%23docker-news%20">@yakczar</a>.</small><p><a href=/captioning-images/>← Easily captioning images from Markdown</a>&nbsp;<a href=/crawdad/ style=float:right>Using crawdad →</a></span></footer>
