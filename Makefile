@@ -1,6 +1,6 @@
 build:
 	git submodule update --init --recursive
-	hugo server -D --watch -t onetwothree -b http://localhost:1313 --bind 0.0.0.0 --enableGitInfo 
+	hugo server --ignoreCache -D --watch -t onetwothree -b http://localhost:1313 --bind 0.0.0.0 --enableGitInfo 
 
 publish:
 	#go get -v github.com/tdewolff/minify/cmd/minify

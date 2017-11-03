@@ -4,6 +4,7 @@ title = "schollz blog"
 publishDir = "tmp"
 RSSLink = "rss.xml"
 enableGitInfo = true
+pygmentsCodeFences=true 
 
 [permalinks]
   post = "/:slug/"
