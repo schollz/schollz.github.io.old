@@ -1,10 +1,8 @@
 build:
-	git submodule update --init --recursive
 	hugo server --ignoreCache -D --watch -t onetwothree -b http://localhost:1313 --bind 0.0.0.0 --enableGitInfo 
 
 publish:
 	#go get -v github.com/tdewolff/minify/cmd/minify
-	git submodule update --init --recursive
 	git status -s
 	hugo -t onetwothree
 	minify -a -r -o tmp/ tmp
@@ -20,6 +18,7 @@ publish:
 	git commit -am "Update site"
 	git push origin master
 	git checkout source
+	git clone git@github.com:schollz/onetwothree.git themes/onetwothree
 
 update:
 	git add content/post/
