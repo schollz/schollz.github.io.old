@@ -8,7 +8,6 @@
 </span><span>Scrapy </span><span style=color:#ae81ff>1</span><span>.4.0 - project: quotesbot</span></code></pre></div><h2 id=configure-1>Configure</h2><p>Actually, I will just use the <a href=https://github.com/scrapy/quotesbot>tutorial of <em>scrapy</em></a> to skip building it myself.<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span>$ git clone https://github.com/scrapy/quotesbot.git
 </span><span>$ </span><span>cd</span><span> quotesbot</span></code></pre></div><p><em>scrapy</em> is not simple. It requires &gt; 40 lines of Python code in several different files (<code>items.py</code>, <code>pipelines.py</code>, <code>settings.py</code>, <code>spiders/toscrape-css.py</code>).<h2 id=run-1>Run</h2><p>Lets run and time the result:<pre><code>$ time scrapy crawl toscrape-xpath -o quotes.json
 1.06s user 0.08s system 29% cpu 3.877 total
-</code></pre><p><em>scrapy</em> is about 10-30% slower than <em>crawdad</em>, plus it can not easily be run in a distributed, persistent way.</div><header><a href=/>/posts</a>
-&nbsp;·&nbsp;&nbsp;<a href=https://schollz.github.io/about/ style=color:#000>/About</a>
-&nbsp;·&nbsp;&nbsp;<a href=https://schollz.github.io/contact/ style=color:#000>/Contact</a></header><footer><p><small><em>Written October 11, 2017.</em>
-Leave a comment for me on Twitter <a href="https://twitter.com/intent/tweet?text=%40yakczar%20%23crawdad%20">@yakczar</a>.</small><p><a href=/docker-news/>← Read news in the terminal with Docker</a>&nbsp;<a href=/words/ style=float:right>What we say has never been said →</a></footer>
+</code></pre><p><em>scrapy</em> is about 10-30% slower than <em>crawdad</em>, plus it can not easily be run in a distributed, persistent way.</div><footer><p><small><em>Written October 11, 2017.</em>
+Send feedback to <a href="https://twitter.com/intent/tweet?text=%40yakczar%20%23crawdad%20">@yakczar</a>.</small><p><a href=/docker-news/>← Read news in the terminal with Docker</a>&nbsp;
+<a href=/words/ style=float:right>What we say has never been said →</a></footer>
