@@ -1,6 +1,7 @@
 ---
 title: "Favorite music of 2017"
 date: 2017-12-31T09:41:01-06:00
+draft: true
 slug: music-2017
 keywords: thoughts
 tags: [thoughts]
