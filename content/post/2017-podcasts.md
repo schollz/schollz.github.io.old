@@ -1,15 +1,16 @@
 ---
-title: "Favorite podcasts of 2017"
+title: "Podcasts I listened to (2017)"
 date: 2017-12-31T09:41:01-06:00
 slug: podcasts-2017
 keywords: thoughts
+draft: true
 tags: [thoughts]
 ---
 
 I've spent days sitting in a dark room looking into a microscope. Lots of
 the time I listen to music, but I've started to listen to podcasts. I've
 found a lot of great podcasts out there. I think my number one category of
-podcast is the **Podcast about the beauty in small things**. Its always
+podcast is “*the podcast about the small things*.” Its always
 a welcome relief from the mainstream media which focuses more on the
 hyperbole of small things. I do like some news, but I've found some great
 podcasts that pitch the news in a more informal and friendly way. These
@@ -17,8 +18,7 @@ are my favorite podcasts discovered this year, I hope I continue to
 discover new ones.
 
 
-My favorite type of podcast is this generic theme of podcast which I can
-call *The Podcast of Small Things*. The basic premise is always to find
+The basic premise of *the podcast about the small things* is always to find
 some small thing that no one thinks about and talk about it for 20-30
 minutes and often interview the main players involved in the production
 of the Small Things. I think the major bastion of this type of podcast is

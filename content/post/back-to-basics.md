@@ -1,12 +1,17 @@
 ---
-title: "My first year of painting"
+title: "One year of painting"
 date: 2017-12-03T18:25:57-07:00
 draft: true
 tags: [thoughts]
-slug: back-to-basics
+slug: painting-2017
 ---
 
-Computers can do many amazing things with art, [especially with the advent of neural networks](https://deepart.io/). Computer-generated art inspired me to generate art as a human. I saw some [renditions of photos in primitives](https://github.com/fogleman/primitive), and it made me want to learn to paint in that style. Even though I'm not a painter, I thought I could do better than this computer program. So, in September 2016, I sought to become an artist using a computer as a teacher and started painting in acrylic. 
+Computers can do many amazing things with art, [especially with the advent of neural networks](https://deepart.io/). In 2016, I saw some computer-generated art that inspired me to generate art as a human. The art I saw was [a rendition of photos in primitives](https://github.com/fogleman/primitive), and it made me want to learn to paint in that style. Even though I'm not a painter, I thought I could do better than this computer program. So, in September 2016, I sought to become an artist using a computer as a teacher and started painting in acrylic. 
+
+I started out trying to take a photo and paint primitives. The photo I chose was of a bison:
+
+![Stock image of Bison I chose to use](/img/bison_sergioboccardo_shutterstock3.jpg)
+![Primitive procedure generated](/img/bison_primitives.gif)
 
 My first painting follows exactly the primitive style using only rectangles. It remains one of my favorites though it is quite amateur.
 
