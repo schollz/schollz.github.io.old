@@ -16,7 +16,6 @@ podcasts that pitch the news in a more informal and friendly way. These
 are my favorite podcasts discovered this year, I hope I continue to
 discover new ones.
 
-## Podcasts about Small Things
 
 My favorite type of podcast is this generic theme of podcast which I can
 call *The Podcast of Small Things*. The basic premise is always to find
@@ -58,12 +57,10 @@ a minor mystery which cannot be solved with search engines."*
 
 
 
-## News at a bar
 
 My other favorite podcasts are the news ones that are toned as if you were having a beer with the podcasters. They still relay information, but in a way that is so informal you barely realize that they are relaying some information that they spent their week learning. For politics, there is **[NPR politics](http://www.npr.org/podcasts/510310/npr-politics-podcast)** and often (nowadays) **[This American Life](https://www.thisamericanlife.org/podcast)**, for art there is **[A Piece of Work](https://www.moma.org/calendar/exhibitions/3860)**, for science there is **[Science Vs.](https://gimletmedia.com/science-vs/)**, and for music there is **[All Songs Considered](http://www.npr.org/podcasts/510019/all-songs-considered)** and for culture there is **[Pop Culture Happy Hour](http://www.npr.org/sections/monkeysee/129472378/pop-culture-happy-hour/)**. I love these podcasts, but I have to pace myself with them because the constant loose informality of the tone can become disingenuous and grating after awhile.
 
 
-## Guilty pleasure listening
 
 I have some favorite podcasts that are just funny or amusing to me, and
 not entirely educational. These would include **[Why oh

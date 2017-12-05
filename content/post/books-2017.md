@@ -11,15 +11,15 @@ many as I'd like to. Although I've been reading a lot of the *New Yorker*
 which takes up quite a bit of my reading time. I can lump my reading into
 some broad categories.
 
-## Non-fictional animal encounters
-
+The first main category are books about *non-fictional animal encounters*.
 I started out the year reading **What a Fish Knows** by *Jonathan
 Balcombe*. I didn't quite finish this book - the first chapters a good but
 it turns into a bit of a direct plea to save the fish instead of an
 account of how amazing they are. An animal book shouldn't need to make
-a direct plea - the book should show enough how amazing the animals are
-and the reader can decide for themselves, and its a hard decision to make
-if you learn how awesome some of these animals are. 
+a direct plea
+- the book should show enough how amazing the animals are and the reader
+can decide for themselves, and its a hard decision to make if you learn
+how awesome some of these animals are. 
 
 
 The being said, **Illumination in the Flat-woods** by *Joe Hutto* is my
@@ -52,13 +52,11 @@ history. A lot of the focus is on hunting, but hunting in a humane way
 which is really interesting to learn about. Its a very respectful book
 about the bison with lots of great information.
  
- 
- 
-## Magical horror realism
 
-I didn't realize this was a genre, but once I found it I realized it was
-something that I really enjoyed. **Library at Mount Char** by *Scott
-Hawkins* is my second-favorite book of
+The next major category of book that I really enjoyed are books about
+*magical horror realism*. I didn't realize this was a genre, but once
+I found it I realized it was something that I really enjoyed. **Library at
+Mount Char** by *Scott Hawkins* is my second-favorite book of
 2017. The premise is bizarre, but the books twists in a much more bizarre
       way than imaginable. This book is to fantasy what The Matrix is to
       science fiction.
@@ -73,16 +71,13 @@ program](https://rpiai.com/why-i-made-a-book-recommendation-service/)
 which ended up becoming a website for people:
 [booksuggestions.ninja](https://www.booksuggestions.ninja).
 
-
-## Fictional non-fiction
-
-
-The first book I read of 2017 was **Pieces of the Left Hand** by *J.
-Robert Lennon* and it is a little work of genius. They are a collection of
-very, very short tales of a seemingly non-fictional account of the
-author's life. The stories of very mundane things - stories about the
-locals smashing mailboxes and dinner parties. Except they inexplicably
-almost always take a weird and unbelievable end.
+The third major category that I greatly enjoyed is of *ficiontal
+non-fiction.* The first book I read of 2017 was **Pieces of the Left
+Hand** by *J. Robert Lennon* and it is a little work of genius. They are
+a collection of very, very short tales of a seemingly non-fictional
+account of the author's life. The stories of very mundane things - stories
+about the locals smashing mailboxes and dinner parties. Except they
+inexplicably almost always take a weird and unbelievable end.
 
 I have a soft spot for nonconformist writers like Bukowski and Hunter
 Thompson. I found **Gonzo Girl** by *Cheryl Della Pietra* to be an
