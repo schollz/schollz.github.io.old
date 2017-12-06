@@ -12,3 +12,4 @@ pygmentsCodeFences=true
 [params]
   twitter = "yakczar"
   navigation = ["about.md","contact.md"]
+  analytics=true
