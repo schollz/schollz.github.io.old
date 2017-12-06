@@ -7,15 +7,16 @@ draft: true
 tags: [thoughts]
 ---
 
-I've read about 15 books this year, not as many as I usually do and not as
-many as I'd like to. Although I've been reading a lot of the *New Yorker*
-which takes up quite a bit of my reading time. I can lump my reading into
-some broad categories.
+I've read about 15 books this year - not as many as I'd like, but I did a lot of magazine reading too (e.g. *The Sun* and *The New Yorker*). The books that I read can be classified into three major categories: *non-fictional animal encounters*, *magical horror realism* and *fictional non-fiction.*
 
-The first main category are books about *non-fictional animal encounters*.
-I started out the year reading **What a Fish Knows** by *Jonathan
-Balcombe*. I didn't quite finish this book - the first chapters a good but
-it turns into a bit of a direct plea to save the fish instead of an
+The first main category are books I read in 2017 are about *non-fictional animal encounters*. My favorite book in this category, and of 2017 overall, is **Illumination in the Flat-woods** by *Joe Hutto*. Its the real-like story of an experiment to raise turkey's through their entire life.
+I never knew how amazing turkeys were until I read
+this book. There is a movie by the same name that also is amazing, as they
+were able to recapitulate a lot which occurred in the book (i.e. replicating the experiment). I can say, for
+sure, that I think turkeys are amazing now. I will still eat turkey, but
+now with a reverence I never had before.
+
+I started out the year reading **What a Fish Knows** by *Jonathan Balcombe*. I didn't quite finish this book - the first chapters a good but it turns into a bit of a direct plea to save the fish instead of an
 account of how amazing they are. An animal book shouldn't need to make
 a direct plea
 - the book should show enough how amazing the animals are and the reader
@@ -23,12 +24,7 @@ can decide for themselves, and its a hard decision to make if you learn
 how awesome some of these animals are. 
 
 
-The being said, **Illumination in the Flat-woods** by *Joe Hutto* is my
-favorite book of 2017. I never knew how amazing turkeys were until I read
-this book. There is a movie by the same name that also is amazing, as they
-were able to recapitulate a lot which occurred in the book. I can say, for
-sure, that I think turkeys are amazing now. I will still eat turkey, but
-now with a reverence I never had before.
+
 
 
 Another good example of animal writing is **Last Chance to See** by
@@ -109,8 +105,6 @@ which posits that its easy to learn a little bit about everything and
 them](https://www.newyorker.com/magazine/2017/11/06/is-bigfoot-likelier-than-the-loch-ness-monster)**
 which tries to understand why its possible to make judgements about things
 that don't exist.
-
-Another illuminating story was one in *The Sun*, an interview with ?
 
 ## Other books
 
