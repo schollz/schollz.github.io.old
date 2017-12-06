@@ -5,7 +5,7 @@ date: 2017-09-17T09:04:10-06:00
 
 My name is Zack and I am an academic scientist and programmer. 
 
-This site has my notes on [interesting recent science](/tags/science) and my [adventures in coding](/tags/coding).
+This site has my notes on interesting recent [science](/tags/science) and my adventures in [coding](/tags/coding) and [art](/tags/art) (which often overlap).
 
 I've made other sites, including
 [a list of my open-source projects](https://schollz.github.io/projects),
