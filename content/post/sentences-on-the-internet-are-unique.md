@@ -1,13 +1,19 @@
 ---
-title: "What we say has never been said"
+title: "Most sentences are unique"
 date: 2017-10-14T21:16:56-06:00
 tags: [thoughts]
-slug: words
+slug: sentences
 ---
 
-All that humans has ever been written on the internet is not a million monkeys typing on a keyboard (although a million monkeys typing on a keyboard could produce all the current content),[^1] with exception of a website that generates random text.[^2] Still, it seems that the current 25
-billion or so webpages[^3] do not yet contain the sum of all possible thoughts.  Its interesting to see how fast the number drops for possible matches on a sentence as the sentence gets longer and longer. How many words does it take to be a unique sentence, on the
-internet? Surprisingly few. 
+How long does a sentence have to be to gaurantee its uniqueness? This
+question can be answered by looking at a huge corpora of indexed
+sentences, e.g. the text of the internet. All that has been written on the
+internet is not nessecarily a million monkeys typing on a keyboard
+(although a million monkeys typing on a keyboard could produce all the
+current content),[^1] with exception of a website that generates random
+text.[^2] Still, I was wondering, out of the current 25 billion or so
+webpages[^3], how long does a sentence have to be to make it unique?
+Surprisingly short, as it turns out.
 
 ## A quick experiment
 
