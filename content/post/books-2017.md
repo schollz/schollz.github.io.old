@@ -4,7 +4,7 @@ date: 2017-12-31T09:41:01-06:00
 slug: books-2017
 keywords: thoughts
 draft: true
-tags: [thoughts]
+tags: [thoughts, books]
 ---
 
 I've read about 15 books this year - not as many as I'd like, but I did a lot of magazine reading too (e.g. *The Sun* and *The New Yorker*). The books that I read can be classified into three major categories: *non-fictional animal encounters*, *magical horror realism* and *fictional non-fiction.*
