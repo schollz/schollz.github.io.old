@@ -5,9 +5,27 @@ slug: captioning-images
 tags: [coding]
 ---
 
-Here is a nice trick for captioning images with only `alt` tags. This is  useful when using Markdown to generate HTML pages, since Markdown in its natural form only includes creates an image tag, i.e. `![alt tag](img src)` -> `<img alt="alt tag" src="img src">`. For good captions, we need to add a `figcaption` and wrap both inside a `figure`.
+I like to caption my images and I like to write in Markdown. However it is
+currently not possible to make captioned images, i.e. make
+[figures](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+in Markdown, at for the spec at the time of this writing ([version
+0.27](http://spec.commonmark.org/0.27/#images).  Of course, Markdown
+supports HTML, so you could just insert a `<figure>` tag everywhere
+instead of using the Markdown `![]()` syntax. However, I want to use the
+`![]()` syntax, so here is a nice trick for captioning images (by creating
+figures) using only the Markdown syntax.
 
-Turns out this is easily done with Javascript to generate figure captions on the load of the page. The script [I initially found to do this](https://blog.kchung.co/adding-image-captions-to-ghost/) is the following:
+![This picture of worms has a caption!](/img/worms.svg)
+
+This is basically a drop-in Javascript function that finds images with
+`alt` tags and converts them to figures with the caption filled in with
+the content of the `alt` tag.
+
+
+Turns out this is easily done with Javascript to generate figure captions
+on the load of the page. The script [I initially found to do
+this](https://blog.kchung.co/adding-image-captions-to-ghost/) is the
+following:
 
 ```javascript
 $(".post-content img").each(
@@ -27,10 +45,13 @@ function() {
 
 It works great, but it requires JQuery. 
 
-I carefully followed [oneuijs/You-Dont-Need-jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery) and I was able to convert this to just plain Javascript:
+I carefully followed
+[oneuijs/You-Dont-Need-jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery)
+and I was able to convert this to just plain Javascript:
 
 
 ```javascript
+// licensed under wtfpla
 function ready(fn) {
     if (document.attachEvent ? document.readyState === "complete" :
         document.readyState !== "loading") {
@@ -55,8 +76,7 @@ function ready(fn) {
 window.onload = ready;
 ```
 
-Of course this looks a little more complicated, but it works just the same. This is what is running on this site! Here's an example of a captioned image:
-
-![This picture of worms has a caption!](/img/worms.svg)
+Of course this looks a little more complicated, but it works just the
+same. This is what is running on this site!
 
 Go ahead and copy that to whatever site you want!
