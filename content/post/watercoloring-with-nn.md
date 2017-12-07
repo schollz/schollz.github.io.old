@@ -1,16 +1,19 @@
 ---
 title: "Watercoloring with neural networks"
 date: 2017-06-14T05:48:49-07:00
-draft: true
 tags: [art]
+description: "Can a neural network help me improve my art? Could I take a photo, paint it, and then use a neural network to render the original photo in the style of my painting to make it better?"
 slug: watercolor
+image: img/heron3.jpg
 ---
 
 
 
-Can a neural network help me improve my art?
+Can a neural network help me improve my art? Could I take a photo, paint it, and then use a neural network to render the original photo in the style of my painting to make it better? Could I learn something from it?
 
-What if the artist painted a photo, and then used a neural network to render the photo in the style of the same painting? Would it improve the art? I decided to see for myself if neural networks would improve my watercoloring. I started thinking about these questions because I’ve been reading about neural networks, and I’ve seen a lot of these neural networks create new works of art by rendering a photo in the style of a famous painting[^1]. 
+## Some background 
+
+I started thinking about these questions because I’ve been reading about neural networks, and I’ve seen a lot of these neural networks create new works of art by rendering a photo in the style of a famous painting[^1]. 
 
 ![The "content" of Jean-Jacques Rosseau’s painting is recognizable as a cat, despite the painting "style".](/img/rosseauscat.jpg)
 
