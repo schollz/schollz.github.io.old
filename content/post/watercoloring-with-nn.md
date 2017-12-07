@@ -6,44 +6,39 @@ tags: [art]
 slug: watercolor
 ---
 
+
+
 Can a neural network help me improve my art?
 
-What if the artist painted a photo, and then used a neural network to render the photo in the style of the same painting? Would it improve the art? I decided to see for myself if neural networks would improve my watercoloring.
+What if the artist painted a photo, and then used a neural network to render the photo in the style of the same painting? Would it improve the art? I decided to see for myself if neural networks would improve my watercoloring. I started thinking about these questions because I’ve been reading about neural networks, and I’ve seen a lot of these neural networks create new works of art by rendering a photo in the style of a famous painting[^1]. 
 
-I started thinking about these questions because I’ve been reading about neural networks, and I’ve seen a lot of these neural networks create new works of art by rendering a photo in the style of a famous painting[^1].
+![Jean-Jacques Rosseau’s cat is still recognizable as a cat "content" despite its "style".](/img/rosseauscat.jpg)
 
-
-Neural networks are complicated, but worth reading about[^2], but namely it is a system composed of computational “neurons” linked up in a way that is similar to the brain that try to solve problems. The connections between these neurons are given specific weights, as they learn how to classify one thing from another. Groups of neurons work in tandem to determine specific features (i.e. the make of the car vs. the color of the car).
-
-![Jean-Jacques Rosseau’s cat.](/img/rosseauscat.jpg)
-
-A neural network understands a painting by looking at its specific features. Luckily, paintings have two main transferable features: *content* and *style*. When we look at a painting, like Jean-Jacques Rosseau’s cat, we experience both the *content* and the *style* of the painting simultaneously, but we can (usually) identify them separately. *Content* is the the subject of that the painter is trying to convey (the cat), where *style* is the manner which they convey it (bold colors and strokes, awkward proportions in the legs). Rosseau cannot fool us into thinking he did not paint a cat, even though he did an awfully strange representation of it.
-
-Recently, a paper by Gatys, Ecker, and Bethge[^3] was able to show that **representations of content and style are separable**. They used an algorithm that makes use of a convolutional neural network[^4] and demonstrated the separability of content and style by transferring the style of a *Starry Night* by Van Gogh (i.e. the iconic swirls of dark blue pastel) to a photograph of the Neckarfront houses of Tubingen, Germany.
+Neural networks are complicated and worth reading about[^2]. Basically, a neural network is a system composed of computational “neurons” linked up in a way that is similar to the brain that try to solve problems. The connections between these neurons are given specific weights, as they learn how to classify one thing from another. A neural network understands a painting by looking at its specific features. So far researchers have discovered that paintings have two main transferable features: *content* and *style*. When we look at a painting, like Jean-Jacques Rosseau’s cat, we experience both the *content* and the *style* of the painting simultaneously, but we can (usually) identify them separately. *Content* is the the subject of that the painter is trying to convey (the cat), where *style* is the manner which they convey it (bold colors and strokes, awkward proportions in the legs). Rosseau cannot fool us into thinking he did not paint a cat, even though he did an awfully strange representation of it.
 
 ![Neural network rendered painting in the style of *Starry Night* with the content from Neckarfront houses. Photo credit: github.com slash jcjohnson](/img/tubingen_starry.png)
 
-The genius of this paper was to leverage neural networks for classifying local features in images to extract the representations of content. The neural network used here is the VGG-Network by Simonyan and Zisserman which is the state-of-the-art for identifying things in images[^5]. To transfer *Starry Night* to Neckarfront, Gatys, Ecker, and Bethge simply exploited the neural network to copy the set of neurons that finds representations of content (which parts of the image are the “building”), and then using another layer that extracts the style, or texture (i.e. non-features that are local in context, like the swirls in Van Gogh’s painting).
+Recently, a paper by Gatys, Ecker, and Bethge[^3] was able to show that **representations of content and style are separable**. They used an algorithm that makes use of a convolutional neural network[^4] and demonstrated the separability of content and style by transferring the style of a *Starry Night* by Van Gogh (i.e. the iconic swirls of dark blue pastel) to a photograph of the Neckarfront houses of Tubingen, Germany. 
+
+The genius of the paper by Gatys, Ecker, and Bethge[^3] is that they leverage neural networks for classifying local features in images to extract the representations of content. The neural network used here is the VGG-Network by Simonyan and Zisserman which is the state-of-the-art for identifying things in images[^5]. To transfer *Starry Night* to Neckarfront, Gatys, Ecker, and Bethge simply exploited the neural network to copy the set of neurons that finds representations of content (which parts of the image are the “building”), and then using another layer that extracts the style, or texture (i.e. non-features that are local in context, like the swirls in Van Gogh’s painting).
 
 ## Making a neural network to paint with my style
 
 To make a neural network paint like me, I will first select a photo and then paint the photo myself. Then I will use my painting to generate a neural network rendering from the original photo. That is, I will use the *style* from the painting I create and transfer it to the *content* of the photo that I used to create the painting. Technically speaking, I used the algorithm from Gatys, Ecker, and Bethge, as coded by [jcjohnson](https://github.com/awentzonline/image-analogies) compiled with the CUDA backend to use on a GTX 1080Ti.
 
-For example, I can start with a photo of a heron.
 
 
 ![Source photo for painting](/img/heron1.jpg)
 
-
-Then, I create my own Gouache painting of the photo.
+I started with a photo of a heron.
 
 ![My painting](/img/heron2.jpg)
 
-
-Finally, I transfer the *style* of my painting to the *content* of the photo to create a neural network rendering.
+Then, I create my own Gouache painting of the photo.
 
 ![Transfer of my style to original photo](/img/heron3.jpg)
 
+Finally, I used Torch[^1] to transfer the *style* of my painting to the *content* of the photo to create a neural network rendering.
 The results are impressive. The neural network uses my color palette and some of my strokes, but seems to suppress a lot of my mistakes and more precisely articulates the original photo. For example - the wings that I painted are very unordered and sloppy, but the neural network used the original wings and used the idea of my painting to fix them.
 
 ## The neural network becomes the teacher
