@@ -7,9 +7,12 @@ This is a list and description of projects that I created that I still maintain.
 
 ## croc
 
-Secure transfer of stuff from one side of the internet to the other. This is more or less (but mostly less) a Go port of @warner's magic-wormhole which allows you to directly transfer files and folders between computers.
+Secure transfer of stuff from one side of the internet to the other. This is is a OS cross-compatible utility that allows you to directly transfer files and folders between computers.
 
-*[Written in Go](https://github.com/schollz/croc).*
+<small><em>
+First commit on Oct 15 2017.
+Written in Go. [View source](https://github.com/schollz/croc).
+</em></small>
 
 ---
 
