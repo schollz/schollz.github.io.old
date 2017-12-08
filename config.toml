@@ -1,6 +1,6 @@
-baseURL = "https://schollz.github.io"
+baseURL = "https://yakczar.com"
 languageCode = "en-us"
-title = "schollz blog"
+title = "Zack's personal blog"
 publishDir = "tmp"
 RSSLink = "rss.xml"
 enableGitInfo = true

@@ -1,5 +1,8 @@
-build:
+serve:
 	hugo server --ignoreCache -D --watch -t onetwothree -b http://localhost:1313 --bind 0.0.0.0 --enableGitInfo 
+
+build:
+	hugo -t onetwothree
 
 publish:
 	#go get -v github.com/tdewolff/minify/cmd/minify
@@ -26,6 +29,6 @@ update:
 	git push origin source
 	
 
-serve:
-	hugo server --disableLiveReload --bind 0.0.0.0 -t onetwothree -b http://blog.schollz.com --appendPort=false
+# serve:
+# 	hugo server --disableLiveReload --bind 0.0.0.0 -t onetwothree -b http://blog.schollz.com --appendPort=false
 
