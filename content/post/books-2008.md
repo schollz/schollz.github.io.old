@@ -1,7 +1,6 @@
 ---
 title: "Books I read (2008)"
 date: 2008-12-31T15:00:45-07:00
-draft: true
 tags: [thoughts, books]
 slug: books-2008
 ---

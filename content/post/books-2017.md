@@ -7,7 +7,7 @@ draft: true
 tags: [thoughts, books]
 ---
 
-I've read about 15 books this year - not as many as I'd like, but I did a lot of magazine reading too (e.g. *The Sun* and *The New Yorker*). The books that I read can be classified into three major categories: *non-fictional animal encounters*, *magical horror realism* and *fictional non-fiction.*
+I've read about 15 books this year - not as many as I'd like ([I was reading 40/year in college](/books-2008)), but I did a lot of magazine reading too (e.g. *The Sun* and *The New Yorker*). The books that I read can be classified into three major categories: *non-fictional animal encounters*, *magical horror realism* and *fictional non-fiction.*
 
 The first main category are books I read in 2017 are about *non-fictional animal encounters*. My favorite book in this category, and of 2017 overall, is **Illumination in the Flat-woods** by *Joe Hutto*. Its the real-like story of an experiment to raise turkey's through their entire life.
 I never knew how amazing turkeys were until I read
