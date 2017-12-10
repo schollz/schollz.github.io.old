@@ -1,13 +1,16 @@
 ---
 title: "Books I read (2017)"
-date: 2017-12-31T09:41:01-06:00
+date: 2017-12-10T09:41:01-06:00
 slug: books-2017
 keywords: thoughts
-draft: true
 tags: [thoughts, books]
 ---
 
-I've read about 15 books this year - not as many as I'd like ([I was reading 40/year in college](/books-2008)), but I did a lot of magazine reading too (e.g. *The Sun* and *The New Yorker*). The books that I read can be classified into three major categories: *non-fictional animal encounters*, *magical horror realism* and *fictional non-fiction.*
+I've read about 15 books this year - not as many as I'd like ([I read 40
+in college](/books-2008)), but I did a lot of magazine reading too (e.g.
+*The Sun* and *The New Yorker*). The books that I read can be classified
+into three major categories: *non-fictional animal encounters*, *magical
+horror realism* and *fictional non-fiction.*
 
 The first main category are books I read in 2017 are about *non-fictional animal encounters*. My favorite book in this category, and of 2017 overall, is **Illumination in the Flat-woods** by *Joe Hutto*. Its the real-like story of an experiment to raise turkey's through their entire life.
 I never knew how amazing turkeys were until I read
@@ -16,7 +19,9 @@ were able to recapitulate a lot which occurred in the book (i.e. replicating the
 sure, that I think turkeys are amazing now. I will still eat turkey, but
 now with a reverence I never had before.
 
-I started out the year reading **What a Fish Knows** by *Jonathan Balcombe*. I didn't quite finish this book - the first chapters a good but it turns into a bit of a direct plea to save the fish instead of an
+I started out the year reading **What a Fish Knows** by *Jonathan
+Balcombe*. I didn't quite finish this book - the first chapters a good but
+it turns into a bit of a direct plea to save the fish instead of an
 account of how amazing they are. An animal book shouldn't need to make
 a direct plea
 - the book should show enough how amazing the animals are and the reader
@@ -109,10 +114,11 @@ that don't exist.
 ## Other books
 
 - **The Three-Body Problem** by *Liu Cixin*
-- **Calculating God** by *Robert J. Sawyer* 
+- **Calculating God** by *Robert J. Sawyer* (not finished)
 - **Hard Magic** by *Larry Correia*
-- **Death Comes for the Archbishop** by *Willa Cather*
+- **Death Comes for the Archbishop** by *Willa Cather* (not finished)
 - **Everyone's An Aliebn when you're an Aliebn Too** by *Jomny Sun* 
 - **Jack Reacher 61 hours** by *Lee Child*
 - **True Grit** by *Charles Portis*
 - **Leven Thumps and the Gateway to Foo** by *Obert Skye*
+- **Annihilation** by *Jeff Vandermeer*
