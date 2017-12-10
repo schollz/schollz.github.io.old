@@ -1,7 +1,6 @@
 ---
 title: "Send a file with netcat"
 date: 2017-10-28T04:15:10-06:00
-draft: true
 tags: [coding]
 slug: send-with-netcat
 ---
