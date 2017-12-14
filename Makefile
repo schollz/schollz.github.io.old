@@ -1,5 +1,5 @@
 serve:
-	hugo server --ignoreCache -D --watch -t onetwothree -b http://localhost:1313 --bind 0.0.0.0 --enableGitInfo 
+	hugo server --ignoreCache -D --watch -t onetwothree -b http://localhost:1313 --bind 0.0.0.0 --enableGitInfo --disableFastRender
 
 build:
 	hugo -t onetwothree
