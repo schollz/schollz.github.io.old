@@ -1,6 +1,6 @@
 baseURL = "https://yakczar.com"
 languageCode = "en-us"
-title = "Zack's personal blog"
+title = "Zack's Notablog"
 publishDir = "tmp"
 RSSLink = "rss.xml"
 enableGitInfo = true
