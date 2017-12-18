@@ -94,6 +94,8 @@ books that have never existed (like a book about bacteria that
 communicate). A lot of the Polish wordplay is lost in English, but it is
 still funny nevertheless.
 
+Towards the end of the year I read **The Three-Body Problem** by *Liu Cixin* which I saw was recommended by former president Barack Obama. It gladdens my heart that this book in particular was recommended by Obama - its about the looming destruction of Earth by an Alien race which undermines humans by attempting to destroy their progress in *basic science*. The importance of basic science in this book makes me think that Obama may have had similar sentiments. Anways, the book is great - its translated well from Chinese and has lots of great information about the Chinese revolution and communism. The science explainations are not bad either.
+
 ## Epistemological articles
 
 One author has been sticking out to me this year
@@ -113,7 +115,6 @@ that don't exist.
 
 ## Other books
 
-- **The Three-Body Problem** by *Liu Cixin*
 - **Calculating God** by *Robert J. Sawyer* (not finished)
 - **Hard Magic** by *Larry Correia*
 - **Death Comes for the Archbishop** by *Willa Cather* (not finished)
