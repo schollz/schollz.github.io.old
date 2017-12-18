@@ -1,7 +1,6 @@
 ---
 title: "Odd one out"
 date: 2017-10-29T12:01:10-06:00
-draft: true
 tags: [thoughts]
 slug: odd-one-out
 ---
