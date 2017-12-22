@@ -1,40 +1,40 @@
 <!doctype html><html lang=en><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Using Wordpress with Docker</title><meta name=description content><meta name=image content><meta itemprop=name content="Using Wordpress with Docker"><meta itemprop=description content><meta itemprop=image content><meta name=twitter:card content=summary><meta name=twitter:title content="Using Wordpress with Docker"><meta name=twitter:description content><meta name=twitter:site content=@yakczar><meta name=twitter:creator content=@yakczar><meta name=twitter:image:src content><meta name=og:title content="Using Wordpress with Docker"><meta name=og:description content><meta name=og:url content=https://yakczar.com/wordpress-on-docker/><meta name=og:site_name content="Using Wordpress with Docker"><meta name=og:type content=article><meta name=article:author content=yakczar><meta name=article:tag content=coding><link rel=stylesheet href=/css/style3.css><script src=/js/caption.js></script><img src="https://analytics.schollz.com/1.png?page=https%3a%2f%2fyakczar.com%2fwordpress-on-docker%2f" width=1px height=1px style=float:right><header><a href=/ style=float:left;color:#777><strong>Zack&#39;s Notablog</strong></a>
 <a href=https://yakczar.com/projects/ style=color:#777><strong>Projects</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href=https://yakczar.com/contact/ style=color:#777><strong>Contact</strong></a></header><div id=loadingMask style=width:100%;height:100%;position:fixed;background:#fff></div><script>function fadeOut(el){el.style.opacity=1;var last=+new Date();var tick=function(){el.style.opacity=+el.style.opacity-(new Date()-last)/80;last=+new Date();if(el.style.opacity>0){(window.requestAnimationFrame&&requestAnimationFrame(tick))||setTimeout(tick,16);}else{el.style.display='none';}};tick();}
 function ready(fn){if(document.attachEvent?document.readyState==="complete":document.readyState!=="loading"){el=document.getElementById('loadingMask');fadeOut(el);var elements=document.querySelectorAll("img");Array.prototype.forEach.call(elements,function(el,i){if(el.getAttribute("alt")){const caption=document.createElement('figcaption');var node=document.createTextNode(el.getAttribute("alt"));caption.appendChild(node);const wrapper=document.createElement('figure');wrapper.className='image';el.parentNode.insertBefore(wrapper,el);el.parentNode.removeChild(el);wrapper.appendChild(el);wrapper.appendChild(caption);}});}else{document.addEventListener('DOMContentLoaded',fn);}}
-window.onload=ready;</script><div class=content><h1>Using Wordpress with Docker<aside><a href=/tags/coding/ class=w3-tag>/coding</a>&nbsp;&nbsp;&nbsp;</aside></h1><p>I like wordpress, but it is very intensive to get working, as it uses a lot of PHP and requires SQL. Of course, nowadays you can do everything in Docker, so here is my method for getting wordpress to work great on Docker.<p>Using Docker, I was able to get 2 blogs run on the smallest DigitalOcean droplet (which was already running two dozen other things). Each blog required 360MB of RAM, and the total Docker space was 3.1G.<p>The following instructions will enable you to go from zero to Wordpress in about six minutes.<h3 id=setup>Setup</h3><p>First make a file <code>docker-compose.yml</code>:<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml>version: <span style=color:#e6db74>&#39;2&#39;</span>
-
-services:
-   db:
-     image: mysql:<span style=color:#ae81ff>5.7</span>
-     volumes:
-       - db_data:/var/lib/mysql
-     restart: always
-     environment:
-       MYSQL_ROOT_PASSWORD: wordpress
-       MYSQL_DATABASE: wordpress
-       MYSQL_USER: wordpress
-       MYSQL_PASSWORD: wordpress
-
-   wordpress:
-     depends_on:
-       - db
-     image: wordpress:latest
-     ports:
-       - <span style=color:#e6db74>&#34;8001:80&#34;</span>
-     restart: always
-     environment:
-       WORDPRESS_DB_HOST: db:<span style=color:#ae81ff>3306</span>
-       WORDPRESS_DB_PASSWORD: wordpress
-     volumes:
-       - /path/to/some/folder/on/your/computer/wp_html:/var/www/html
-volumes:
-    db_data:</code></pre></div><p>Then, to start just use (add <code>-d</code> for daemon mode)<pre><code>docker-compose up
+window.onload=ready;</script><div class=content><h1>Using Wordpress with Docker<aside><a href=/tags/coding/ class=w3-tag>/coding</a>&nbsp;&nbsp;&nbsp;</aside></h1><p>I like wordpress, but it is very intensive to get working, as it uses a lot of PHP and requires SQL. Of course, nowadays you can do everything in Docker, so here is my method for getting wordpress to work great on Docker.<p>Using Docker, I was able to get 2 blogs run on the smallest DigitalOcean droplet (which was already running two dozen other things). Each blog required 360MB of RAM, and the total Docker space was 3.1G.<p>The following instructions will enable you to go from zero to Wordpress in about six minutes.<h3 id=setup>Setup</h3><p>First make a file <code>docker-compose.yml</code>:<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span>version: &#39;2&#39;
+</span><span>
+</span><span>services:
+</span><span>   db:
+</span><span>     image: mysql:5.7
+</span><span>     volumes:
+</span><span>       - db_data:/var/lib/mysql
+</span><span>     restart: always
+</span><span>     environment:
+</span><span>       MYSQL_ROOT_PASSWORD: wordpress
+</span><span>       MYSQL_DATABASE: wordpress
+</span><span>       MYSQL_USER: wordpress
+</span><span>       MYSQL_PASSWORD: wordpress
+</span><span>
+</span><span>   wordpress:
+</span><span>     depends_on:
+</span><span>       - db
+</span><span>     image: wordpress:latest
+</span><span>     ports:
+</span><span>       - &#34;8001:80&#34;
+</span><span>     restart: always
+</span><span>     environment:
+</span><span>       WORDPRESS_DB_HOST: db:3306
+</span><span>       WORDPRESS_DB_PASSWORD: wordpress
+</span><span>     volumes:
+</span><span>       - /path/to/some/folder/on/your/computer/wp_html:/var/www/html
+</span><span>volumes:
+</span><span>    db_data:</span></code></pre></div><p>Then, to start just use (add <code>-d</code> for daemon mode)<pre><code>docker-compose up
 </code></pre><p>If you need to stop it just use<pre><code>docker-compose stop
-</code></pre><h3 id=reverse-proxy>Reverse proxy</h3><p>If you are using a domain name, you can easily use Caddy as a reverse proxy. Here is an example <code>Caddyfile</code>:<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>http://blogname <span style=color:#f92672>{</span>
-    proxy / <span style=color:#ae81ff>127</span>.0.0.1:8006 <span style=color:#f92672>{</span>
-        transparent
-    <span style=color:#f92672>}</span>
-<span style=color:#f92672>}</span></code></pre></div><p>Make sure to goto your blog and update it accordingly to <a href=http://blogname>http://blogname</a>.<p>For using SSL, <a href=https://www.heavymetalcoder.com/how-to-get-wordpress-working-with-https-behind-a-reverse-proxy/>checkout this blog</a> which describes the process for correctly configuring Wordpress to allow it.<h3 id=backup-restore>Backup/Restore</h3><p>Wordpress on docker is also nice because its very easy to move. I basically <a href=https://libertyseeds.ca/2015/11/24/Backup-migration-and-recovery-with-WordPress-and-Docker-Compose/>copied the instructions here</a> to get a simple way to backup and restore a Wordpress instance.<p>To backup:<pre><code>docker exec -i wordpress_db_1 mysqldump --user=wordpress --password=wordpress wordpress &gt; backup.sql
+</code></pre><h3 id=reverse-proxy>Reverse proxy</h3><p>If you are using a domain name, you can easily use Caddy as a reverse proxy. Here is an example <code>Caddyfile</code>:<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span>http://blogname </span><span style=color:#f92672>{</span><span>
+</span><span>    proxy / </span><span style=color:#ae81ff>127</span><span>.0.0.1:8006 </span><span style=color:#f92672>{</span><span>
+</span><span>        transparent
+</span><span>    </span><span style=color:#f92672>}</span><span>
+</span><span></span><span style=color:#f92672>}</span></code></pre></div><p>Make sure to goto your blog and update it accordingly to <a href=http://blogname>http://blogname</a>.<p>For using SSL, <a href=https://www.heavymetalcoder.com/how-to-get-wordpress-working-with-https-behind-a-reverse-proxy/>checkout this blog</a> which describes the process for correctly configuring Wordpress to allow it.<h3 id=backup-restore>Backup/Restore</h3><p>Wordpress on docker is also nice because its very easy to move. I basically <a href=https://libertyseeds.ca/2015/11/24/Backup-migration-and-recovery-with-WordPress-and-Docker-Compose/>copied the instructions here</a> to get a simple way to backup and restore a Wordpress instance.<p>To backup:<pre><code>docker exec -i wordpress_db_1 mysqldump --user=wordpress --password=wordpress wordpress &gt; backup.sql
 tar -czvf wp_html.tar.gz wp_html
 </code></pre><p>To restore:<pre><code>docker exec -i wordpress_db_1 mysql --user=wordpress --password=wordpress wordpress &lt; backup.sql
 tar -xvzf wp_html.tar.gz 
