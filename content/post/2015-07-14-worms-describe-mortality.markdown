@@ -21,15 +21,12 @@ By looking at the physiological parameters they determined at which point in the
 
 The researchers found that the worm mutants could live longer - up to twice as long as normal worms. Using these physiological parameters above to gauge well-being, though, the researchers showed that an increase in lifespan simply increases the gerospan (the crappy part of life) *for every worm mutant*. In other words, every worm that had mutations to live longer ended up just increasing the gerospan and not the healthspan.
 
-## So what?
 
 Unfortunately most people obsess about how long they live, neglecting whether their longevity of life is also *healthy and happy*. That's the distinction the authors are looking at here. Though this study was done on worms, the ideas easily carry over to human medical practices and emphasize the need to study whether healthcare practices increase our own healthspan or our gerospan.
 
-## Who cares? 
 
 Anyone who has to make a decision about how much money to invest in living longer - whether it be extreme (life support, cancer treatments) or minor (staying out of the sun for the rest of your life to avoid skin cancer). This study shows that we need to rethink the assumption that longer life is a better life, but rather longer *healthier* life is a better life.
 
-## Now what?
 
 This studies opens up a new avenue of research that has since been neglected - one that needs to now answer the question *Quantity or Quality?* The authors invented a new term, gerospan, that will help in this endeavor because it allows scientists to determine whether claims about longer lives are truly making a healthier, longer lives.
 

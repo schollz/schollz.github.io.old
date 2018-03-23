@@ -13,7 +13,7 @@
             <div class="maintext">
                 <div class="wikitext titlehack">
                   
-                        <p>My name is Zack and I am an academic scientist and programmer.</p>
+                        <p>My name is Zack and I am an scientist by profession and artist/coder by hobby.</p>
 
                         <p>This site has my notes on interesting recent <a href="/tags/science">science</a> and my adventures in <a href="/tags/coding">coding</a> and <a href="/tags/art">art</a> (which often overlap) and sometimes my <a href="/tags/thoughts">thoughts</a> on other projects.</p>
                         
@@ -27,9 +27,8 @@
                         <a href="https://goodmovies.ninja/">movie suggestions</a> and
                         <a href="https://timetomakefood.com/">a recursive recipe cookbook</a>.</p>
                         
-                        
-                            <h1>All posts</h1>
-                        
+                        <h3>All posts:</h3>
+
                             {{ range first 100000 .Pages }}
                             {{ if eq .Type "post"}}
                                 <p>
@@ -42,37 +41,6 @@
 
                 </div>
     
-                <small>Written on
-                    <a href="/~cks/space/blog/2018/03/18/">28</a>
-                    <a href="/~cks/space/blog/2018/03/">October</a>
-                    <a href="/~cks/space/blog/2018/">2017</a>.</small>
-                <br>
-                <table border=0 width="100%">
-                    <tr>
-                        <td width="50%" style="padding-right: 0.5em">
-                            <table>
-                                <tr>
-                                    <td> &laquo; </td>
-                                    <td>
-                                            
-                                            <a href="/just-ram/">Look ma, no hard disk</a>&nbsp;
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                        <td width="50%" style="padding-left: 0.5em; border-left: 1px dotted;">
-                            <table>
-                                <tr>
-                                    <td>
-                                            
-                                            <a href="/bike-thief/" style="float:right;">Bike thief</a>
-                                    </td>
-                                    <td> &raquo; </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
             </div>
             <div class="sidebar">
                 <div class="readme">
@@ -81,13 +49,19 @@
                         <p>
                             <a href="/">Full index of entries</a>
                         </p>
-                        <p>Twitter:
+                        <p>
+                            Subjects: <a href="/tags/science">science</a>, <a href="/tags/art">art</a>, <a href="/tags/coding">coding</a>, 
+                            <a href="/tags/food">food</a>, <a href="/tags/thoughts">thoughts</a>
+                        </p>
+                            <p>Twitter:
                             <a href="https://twitter.com/yakczar/">@yakczar</a>
                         </p>
                         <p align="center">* * *</p>
-                        <p>Categories:
-                                <a href="/tags/coding/">coding</a>
-                        </p>
+                        <div class="sidesearch" style="font-size: small">
+                            <form onsubmit="location.href='/search/?s=' + document.getElementById('myInput').value; return false;">
+                                Search: <input type="text" id="myInput"  size=15 />
+                              </form>
+                        </div>
                         
                     </div>
                 </div>

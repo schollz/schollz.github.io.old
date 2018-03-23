@@ -3,7 +3,7 @@ title: "Consensus cookery"
 date: 2018-03-20T09:41:01-06:00
 slug: consensus-cookery
 keywords: cooking
-tags: [coding, cooking]
+tags: [coding, food]
 ---
 Sometimes when I want a recipe to cook something new I will find several recipes for the same thing and try to use them as a guide to generate an average or "consensus" recipe. This code should make it easy to generate consensus recipes (useful!) and also show variation between recipes (interesting!).
 
