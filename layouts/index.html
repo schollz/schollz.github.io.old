@@ -1,42 +1,101 @@
 {{ partial "header.html" . }}
 
 
-<div class="content">
-	<h1>Welcome</h1>
-	<p>My name is Zack and I am an academic scientist and programmer.</p>
-
-<p>This site has my notes on interesting recent <a href="/tags/science">science</a> and my adventures in <a href="/tags/coding">coding</a> and <a href="/tags/art">art</a> (which often overlap) and sometimes my <a href="/tags/thoughts">thoughts</a> on other projects.</p>
-
-<p>I&rsquo;ve made other sites, including
-<a href="https://schollz.github.io/projects">a list of my open-source projects</a>,
-<a href="https://zackaryscholl.com/">my academic page</a>,
-<a href="https://rpiai.com">my "smart" Raspberry Pi projects</a>,
-<a href="https://zackscholl.blogspot.ca/">essays on afrofuturism</a>,
-<a href="https://www.booksuggestions.ninja/">book suggestions</a>,
-<a href="https://www.musicsuggestions.ninja/">music suggestions</a>,
-<a href="https://goodmovies.ninja/">movie suggestions</a> and
-<a href="https://timetomakefood.com/">a recursive recipe cookbook</a>.</p>
 
 
-	<h1>All posts</h1>
 
-    {{ range first 100000 .Pages }}
-    {{ if eq .Type "post"}}
-        <p>
-        <aside>{{ .Date.Format "January 2, 2006"}} 
-            <!--{{ if .Params.tags }}
-            /// <em>{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}<a href="/tags/{{$e}}/">{{ $e }}</a>{{ end }}
-                </em>
+    
+    
+    
+    
+    <div id="documentbody">
+        <div class="wtblog">
+            <div class="maintext">
+                <div class="wikitext titlehack">
+                  
+                        <p>My name is Zack and I am an academic scientist and programmer.</p>
 
-            {{ end }}-->
-        </aside>
-        <a href="{{ .Permalink }}" style="color:black;">{{ .Title }}</a>{{ if .Draft }} <span style="color:#FF4136;">(unpublished)</span>
-{{ end }}
-        </p>
-    {{ end }}
-    {{ end }}
-</div>
+                        <p>This site has my notes on interesting recent <a href="/tags/science">science</a> and my adventures in <a href="/tags/coding">coding</a> and <a href="/tags/art">art</a> (which often overlap) and sometimes my <a href="/tags/thoughts">thoughts</a> on other projects.</p>
+                        
+                        <p>I&rsquo;ve made other sites, including
+                        <a href="https://schollz.github.io/projects">a list of my open-source projects</a>,
+                        <a href="https://zackaryscholl.com/">my academic page</a>,
+                        <a href="https://rpiai.com">my "smart" Raspberry Pi projects</a>,
+                        <a href="https://zackscholl.blogspot.ca/">essays on afrofuturism</a>,
+                        <a href="https://www.booksuggestions.ninja/">book suggestions</a>,
+                        <a href="https://www.musicsuggestions.ninja/">music suggestions</a>,
+                        <a href="https://goodmovies.ninja/">movie suggestions</a> and
+                        <a href="https://timetomakefood.com/">a recursive recipe cookbook</a>.</p>
+                        
+                        
+                            <h1>All posts</h1>
+                        
+                            {{ range first 100000 .Pages }}
+                            {{ if eq .Type "post"}}
+                                <p>
+                                {{ .Date.Format "January 2, 2006"}} - <a href="{{ .Permalink }}" style="color:black;">{{ .Title }}</a>{{ if .Draft }} <span style="color:#FF4136;">(unpublished)</span>
+                        {{ end }}
+                                </p>
+                            {{ end }}
+                            {{ end }}
 
+
+                </div>
+    
+                <small>Written on
+                    <a href="/~cks/space/blog/2018/03/18/">28</a>
+                    <a href="/~cks/space/blog/2018/03/">October</a>
+                    <a href="/~cks/space/blog/2018/">2017</a>.</small>
+                <br>
+                <table border=0 width="100%">
+                    <tr>
+                        <td width="50%" style="padding-right: 0.5em">
+                            <table>
+                                <tr>
+                                    <td> &laquo; </td>
+                                    <td>
+                                            
+                                            <a href="/just-ram/">Look ma, no hard disk</a>&nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="50%" style="padding-left: 0.5em; border-left: 1px dotted;">
+                            <table>
+                                <tr>
+                                    <td>
+                                            
+                                            <a href="/bike-thief/" style="float:right;">Bike thief</a>
+                                    </td>
+                                    <td> &raquo; </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="sidebar">
+                <div class="readme">
+                    <div class="wikitext">
+                        
+                        <p>
+                            <a href="/">Full index of entries</a>
+                        </p>
+                        <p>Twitter:
+                            <a href="https://twitter.com/yakczar/">@yakczar</a>
+                        </p>
+                        <p align="center">* * *</p>
+                        <p>Categories:
+                                <a href="/tags/coding/">coding</a>
+                        </p>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <hr> 
 
 
 {{ partial "footer.html" . }}

@@ -13,4 +13,7 @@ pygmentsCodeFences=true
   twitter = "yakczar"
   navigation = ["projects.md","contact.md"]
   analytics=true
-  style="3"
+  style="4"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
