@@ -6,11 +6,11 @@ slug: average-cookies
 written: ["2018-03-23","2018-03","2018"]
 ---
 
-I recently wrote [a program to determine consensus recipes](/consensus-cookery/). It scrapes the web for a thousand recipes for a given recipe (e.g. cookies), then clusters the recipes and finally computes an average ingredient list for each cluster. This idea was prompted by making brownies, because I wasn't sure whether to use cocoa, chocolate, or both. Turns out there is a recipe for each variation.
+I recently wrote [a program to determine consensus recipes](/consensus-cookery/). It scrapes the web for a thousand recipes for a given recipe (e.g. cookies), then clusters the recipes and finally computes an average ingredient list for each cluster. This idea was prompted by making brownies, because I wasn't sure whether to use cocoa, chocolate, or both. Turns out there is [a recipe for each variation of brownie](https://github.com/schollz/consensus-cookery#brownies).
 
-I decided to try out my software in the real world. What would an average recipe taste like? I computed the average recipes for "chocolate chip cookies" and took the second largest cluster because it had both baking powder and baking soda.
+I decided to try out my software in the real world. What would one of these average recipes taste like? To see, I computed the average recipes for "chocolate chip cookies" and took the second largest cluster because it had both baking powder and baking soda.
 
-**An average chocolate chip cooke recipe:**
+**The computed average chocolate chip cookie recipe:**
 
 |   Ingredient  |   Amount  | Variation | Rel. Freq. |
 |---------------|-----------|-----------|------------|
@@ -48,4 +48,4 @@ When I modified the densities, it indeed changed the flour to  1 3/4 cup instead
 
 In this case the flour seems a lot more reasonable too (2 cups). I'd be interested in trying this recipe, instead. 
 
-If you'd like to generate your own check out [the source on Github](https://github.com/schollz/consensus-cookery).
+If you'd like to generate your own average recipes, check out [the source on Github](https://github.com/schollz/consensus-cookery).
