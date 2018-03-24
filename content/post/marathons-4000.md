@@ -1,7 +1,6 @@
 ---
 title: "Analyzing 15 marathons over 4,000 days"
 date: 2018-03-23T23:07:45-07:00
-draft: true
 tags: [running]
 slug: marathons-2018
 written: ["2018-03-23","2018-03","2018"]
