@@ -20,8 +20,9 @@ publish:
 	git add .
 	git commit -am "Update site"
 	git push origin master
-	git checkout source
+	git checkout simplify
 	git clone git@github.com:schollz/onetwothree.git themes/onetwothree
+	cd themes/onetwothree && git checkout two
 
 update:
 	git add content/post/
