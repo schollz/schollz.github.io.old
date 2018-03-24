@@ -1,5 +1,5 @@
 ---
-title: "Books I read (2008)"
+title: "Books I read"
 date: 2008-12-31T15:00:45-07:00
 tags: [thoughts, books]
 slug: books-2008

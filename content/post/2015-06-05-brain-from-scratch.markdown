@@ -1,5 +1,5 @@
 ---
-title: How do you make a brain from scratch?
+title: Making a brain from scratch
 date: 2015-06-05
 tags: [science]
 description: Neurons recently found in jellyfish have made scientists rethink the origins of the brain as it seems that neurons may be able to evolve independently.

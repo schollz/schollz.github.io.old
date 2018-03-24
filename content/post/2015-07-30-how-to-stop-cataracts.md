@@ -1,5 +1,5 @@
 ---
-title: How can cataracts be stopped?
+title: A possible cure for cataracts
 tags: [science]
 date: 2015-07-30
 description: Researchers know that people that are born with cataracts due to mutations in crystallin proteins. Now, researchers find another cause and cure!

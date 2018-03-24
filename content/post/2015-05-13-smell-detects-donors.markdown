@@ -1,5 +1,5 @@
 ---
-title: How can potential transplant donors be identified by their sense of smell?
+title: Smelling bone marrow transplants
 tags: [science]
 date: 2015-05-13
 description: Using only the uniqueness of a individual's sense of smell, researchers are able to find potential transplant donors.
@@ -7,9 +7,7 @@ slug: sense-of-smell
 keywords: science
 ---
 
-## Researchers discover a new way of discovering bone marrow transplants matches by using only their sense of smell!
-
-I just recently wrote about a recent discovery that find [people can smell without their noses (hint they use their skin)](http://sciencesowhatwhocares.xyz/how-does-your-skin-act-like-a-nose/) . Well, a new article by Lavi Secundo *et. al.* finds that the nose is still useful, since [the olfactory receptors in a nose are **so** unique that they can distinguish humans](http://dx.doi.org/10.1073/pnas.1424826112) from one another and this distinction can be used to find bone marrow transplant donors! [1]
+I just recently wrote about a recent discovery that find [people can smell without their noses (hint they use their skin)](/skin) . Well, a new article by Lavi Secundo *et. al.* finds that the nose is still useful, since [the olfactory receptors in a nose are **so** unique that they can distinguish humans](http://dx.doi.org/10.1073/pnas.1424826112) from one another and this distinction can be used to find bone marrow transplant donors! [1]
 
 Every person has about ~400 different olfactory receptor subtypes. The exact amount and kind of all receptors are probably unique for every person which implies that its likely that all people percieve smells slightly differently from one another. To test this, Lavi Secundo gave a bunch of people things to smell and asked them to rate the smell on a sliding scale about whether the smell was "masculine" or "lemony" or "edible". After barging with smells, the researchers built up a matrix containing the smell profile of each person. Not surprisingly, the matrices were unique enough to easily identify people!
 

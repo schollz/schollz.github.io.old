@@ -1,5 +1,5 @@
 ---
-title: How does your skin act like a nose?
+title: Smelling with skin
 tags: [science]
 date: 2014-08-07
 slug: skin

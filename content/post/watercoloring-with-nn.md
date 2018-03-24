@@ -1,7 +1,7 @@
 ---
 title: "Watercoloring with neural networks"
 date: 2017-06-14T05:48:49-07:00
-tags: [art]
+tags: [painting]
 description: "Can a neural network help me improve my art? Could I take a photo, paint it, and then use a neural network to render the original photo in the style of my painting to make it better?"
 slug: watercolor
 image: img/heron3.jpg

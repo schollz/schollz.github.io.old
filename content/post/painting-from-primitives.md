@@ -1,7 +1,7 @@
 ---
 title: "Painting from computer-generated primitives"
 date: 2017-12-03T18:25:57-07:00
-tags: [art]
+tags: [painting]
 slug: painting-primitives
 written: ["2017","2017-12","2017-12-03"]
 ---

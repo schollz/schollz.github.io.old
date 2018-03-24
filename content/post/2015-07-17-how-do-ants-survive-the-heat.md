@@ -1,5 +1,5 @@
 ---
-title: How do ants survive in the heat in the Sahara desert?
+title: Ants thrive in the Sahara desert
 tags: [science]
 date: 2015-07-17
 slug: ants

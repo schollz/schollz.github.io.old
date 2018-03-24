@@ -1,7 +1,7 @@
 ---
-title: How can a protein tune the circadian rhythms by switching its fold?
+title: Proteins can tune their folding to circadian rhythms
 date: 2015-07-17
-tags: [science]
+tags: [science, protein folding]
 description: Though most proteins have a single structure, a protein has been found to have two completely different structures that are crucial to the workings of the internal clock.
 slug: protein-switching
 keywords: science

@@ -1,8 +1,8 @@
 ---
-title: How to evaluate the driving forces behind Bitcoin?
+title: Driving forces of bitcoin
 date: 2015-04-15
 slug: bitcoin-forces
-tags: [science]
+tags: [science, bitcoin]
 description: Cryptocurrencies are still fairly new, so it will be important to keep a finger on the pulse of the economic landscape of cryptocurrencies to understand how they rise, or fall.
 keywords: science
 ---
