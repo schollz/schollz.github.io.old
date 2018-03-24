@@ -4,6 +4,7 @@ date: 2017-04-29T09:48:59-06:00
 slug: why-go
 keywords: coding
 tags: [coding]
+written: ["2017","2017-04","2017-04-29"]
 ---
 
 Lots of people ask me this question, and I end up writing the same answer over and over. I just wrote my plain answer here so I can just link to it. Don't hesitate to ask me other questions, though if you need. The basic answer is: because of *time* and *money*.

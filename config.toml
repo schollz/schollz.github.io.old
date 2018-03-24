@@ -17,3 +17,9 @@ pygmentsCodeFences=true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  written = "written"
+  tags = "tags"
+  category = "categories"
+  keywords = "keywords"
