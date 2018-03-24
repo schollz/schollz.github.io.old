@@ -4,6 +4,7 @@ date: 2017-12-15T09:41:01-06:00
 slug: podcasts-2017
 keywords: thoughts
 tags: [thoughts]
+written: ["2017","2017-12","2017-12-15"]
 ---
 
 I've spent days sitting in a dark room looking into a microscope. Lots of

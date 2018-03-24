@@ -3,6 +3,7 @@ title: "Look ma, no hard disk"
 date: 2017-10-27T04:51:39-06:00
 tags: [coding]
 slug: just-ram
+written: ["2017","2017-10","2017-10-27"]
 ---
 
 

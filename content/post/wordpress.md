@@ -3,6 +3,7 @@ title: "Using Wordpress with Docker"
 date: 2017-01-11T13:54:51-06:00
 tags: [coding]
 slug: wordpress-on-docker
+written: ["2017","2017-01","2017-01-11"]
 ---
 
 I like wordpress, but it is very intensive to get working, as it uses a lot of PHP and requires SQL. Of course, nowadays you can do everything in Docker, so here is my method for getting wordpress to work great on Docker. 

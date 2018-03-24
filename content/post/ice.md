@@ -4,6 +4,7 @@ date: 2017-09-24T09:43:35-06:00
 slug: ice-cubes
 keywords: science
 tags: [science]
+written: ["2017","2017-09","2017-09-24"]
 ---
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>

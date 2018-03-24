@@ -5,6 +5,7 @@ draft: true
 tags: [stories]
 slug: bike-thief
 description: My bike is stolen, but I am able to get it back.
+written: ["2017","2017-10","2017-10-28"]
 ---
 
 

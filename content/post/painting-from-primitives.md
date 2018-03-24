@@ -3,6 +3,7 @@ title: "Painting from computer-generated primitives"
 date: 2017-12-03T18:25:57-07:00
 tags: [art]
 slug: painting-primitives
+written: ["2017","2017-12","2017-12-03"]
 ---
 
 Computers can do many amazing things with art, especially with the advent of neural networks[^deep]. In 2016, I saw some computer-generated art that inspired me to generate art as a human. The art I saw was a rendition of photos in primitives. Here's an example (For much more, just [follow @primitivepic](https://twitter.com/PrimitivePic)):

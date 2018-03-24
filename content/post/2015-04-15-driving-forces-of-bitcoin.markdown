@@ -11,18 +11,12 @@ A recent article published in *PloS ONE* attempts to figure out [the origin of t
 
 ![Stock markets flucuate - but why?](/img/stocks.svg)
 
-## So what?
-
 Bitcoin has been purported to be a very speculative asset and not as much a standard financial asset. Using cross wavelet transforms Kristoufek analyzes correlations between standard factors like Bitcoin price and Trade-Exchange ratio, Bitcoin supply, trade volume, hashrate, difficulty, number of trade transactions, Financial stress index, and the price of Gold. The researcher also investigates speculative properties, like involving correlations between Bitcoin and Google or Wikipedia searches.
 
 The main finding is that, though Bitcoin is considered to be a purely speculative asset, it is highly influenced by standard long-term fundamental factors like supply, usage in trade and price levels. Still, there is high correlation between Bitcoin price and investors' interest which makes hinders the stability of the Bitcoin market.
 
-
-## Who cares?
-
 Bitcoin is used by many and millions of dollars of Bitcoin exist on the market. Even if Bitcoin fails eventually, [it will only likely be replaced](http://arxiv.org/abs/1403.6378) by another similar cryptocurrency. [3] It is important for people that use Bitcoin to also understand the economic and financial aspects of the currency and how they are related to global events.
 
-## Now what?
 
 Cryptocurrencies are still fairly new, so it will be important to keep a finger on the pulse of the economic landscape of cryptocurrencies to understand how they rise, or fall.
 

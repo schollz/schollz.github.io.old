@@ -4,6 +4,7 @@ date: 2017-11-10T04:50:00-07:00
 draft: true
 tags: [coding]
 slug: golang-nested-templates
+written: ["2017","2017-11","2017-11-10"]
 ---
 
 https://play.golang.org/p/OVkruYsBVV

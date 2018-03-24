@@ -4,6 +4,7 @@ date: 2017-12-17T07:16:03-07:00
 tags: [thoughts, coding]
 slug: anonfiction
 description: "anonfiction - a homemade CMS for anonynmous nonfiction stories"
+written: ["2017","2017-12","2017-12-17"]
 ---
 
 

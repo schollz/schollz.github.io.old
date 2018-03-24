@@ -8,15 +8,11 @@ keywords: science
 
 (Yes, yet another description of how Bitcoin works)
 
-## Why isn't USD good enough anymore?
 
 Standard currencies like USD, Yen, Euro's all have a central bank associated with them that can print and distribute money at their whim. Bitcoins are a special type of currency - a cryptocurrency that is completely decentralized. Instead of a bank manager looking over the system and injecting cash when needed, the decentralized currency system monitors and regulates itself! How is this possible?
 
-## How to make a decentralized currency?
 
 The decentralized Bitcoin currency operates with a security system that is inherent to its creation. Security is mainly provided through [RSA encryption](http://en.wikipedia.org/wiki/RSA_(cryptosystem)) (widely used on the internet) and hashing. [Hashing](http://en.wikipedia.org/wiki/Hash_function) is basically a irreversible and unique encryption of any string of number and letters. For instance, "The quick brown fox." becomes "b61e52d47fe1c856c5f0fec57b560b794adf6561" after a SHA-1 hash while a sentence with only one difference ("The quick, brown fox.") becomes "cd857b0849271ecfc0ba58e5db27dcba8e8d054f". Hashes are useful because their randomness gives no inclination to the content of the original text, and the process of reversing a hashed value into its original string is essentially impossible.
-
-## The three problems, and their solutions is the essence of Bitcoin
 
 However, a system of a decentralized cryptocurrency necessitates security beyond universal encryption. The **first major problem is how to prevent malicious attacks onto a ledger which is available to everyone and anyone on the peer-to-peer network?** The solution to this is hashing the first transaction and then propagating the previous hash with all following transactions. Thus the true ledger can easily be checked by hashing every transaction. If the ledger had been altered in any way, the resulting hash would not match the previously accepted versions of the ledger and it would be rejected.
 

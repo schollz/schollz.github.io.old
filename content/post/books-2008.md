@@ -3,6 +3,7 @@ title: "Books I read (2008)"
 date: 2008-12-31T15:00:45-07:00
 tags: [thoughts, books]
 slug: books-2008
+written: ["2008","2008-12","2008-12-31"]
 ---
 
 Here is a comprehensive list of all the books that I read in 2008. This list does not include Sherman's Lagoon or Get Fuzzy comic books, and it does not include textbooks.

@@ -3,6 +3,7 @@ title: "Downloading sounds from the JS-8"
 date: 2015-04-10T13:54:40-06:00
 tags: [coding]
 slug: js8
+written: ["2015","2015-04","2015-04-10"]
 ---
 
 Boss makes a really cool Audio player with guitar effects, the JS-8. It turns out that some of the cool sounds that is has can be downloaded directly via a little hacking.

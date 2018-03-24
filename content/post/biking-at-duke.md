@@ -5,6 +5,7 @@ slug: biking
 draft: true
 keywords: thoughts
 tags: [thoughts]
+written: ["2017","2017-02","2017-02-02"]
 ---
 
 Dear Parking & Transportation,

@@ -5,6 +5,7 @@ draft: true
 slug: music-2017
 keywords: thoughts
 tags: [thoughts]
+written: ["2017","2017-12","2017-12-31"]
 ---
 
 I have been using *Spotify Discovery Weekly* playlists, *Sound Opinions* podcast, and the *NPR All Songs Considered* podcast to discover all sorts of great music.

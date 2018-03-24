@@ -3,6 +3,7 @@ title: "Skip swiping with adb and bash"
 date: 2016-09-10T06:41:49-06:00
 slug: skip-swiping
 tags: [coding]
+written: ["2016","2016-09","2016-09-10"]
 ---
 
 Like many, I've used dating apps (Tinder / Bumble / OkCupid) to find potential dates. I was annoyed at having to swipe right on a lot of people who would probably never respond to me after I swiped right. It seemed to me to be a waste of time to swipe through those people who would not actually be available in my dating pool. I'd rather only view a pool of people who respond to me so we can open a dialog right away to see whether we would match. 

@@ -3,6 +3,7 @@ title: "Odd one out"
 date: 2017-10-29T12:01:10-06:00
 tags: [thoughts]
 slug: odd-one-out
+written: ["2017","2017-10","2017-10-29"]
 ---
 
 

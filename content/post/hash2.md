@@ -3,6 +3,7 @@ title: "Hash v.2"
 date: 2007-10-03T13:36:55-04:00
 slug: hash2
 tags: [tools]
+written: ["2007","2007-10","2007-10-03"]
 ---
 
 

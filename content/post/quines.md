@@ -3,6 +3,7 @@ title: "Autological words and quines"
 date: 2017-06-04T09:48:59-06:00
 slug: quines
 keywords: thoughts
+written: ["2017","2017-06","2017-06-04"]
 ---
 
 The word *"noun"* is a singular word. It is the only word that is what it is. Such a word is an *"autological word"* as they posses the property that they express. To determine if *X* is autological, it requires answering yes to any of the following questions:

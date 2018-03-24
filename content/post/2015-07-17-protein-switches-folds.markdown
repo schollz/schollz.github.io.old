@@ -18,17 +18,11 @@ The researchers study the circadian clock of cyanobacteria. This internal clock 
 
 The researchers found that one of the proteins can adopt a very different fold when it is bound to one of other clock proteins compared to when it is unbound or "free." In this fold-switched state, the protein flips an [alpha-helix](https://en.wikipedia.org/wiki/Beta_sheet) into a [beta-strand](https://en.wikipedia.org/wiki/Beta_sheet) and flips a different beta-strand turns into a new alpha-helix! The researchers theorized that they could tune the switching behavior by making specific mutations that could make the protein switch more often, or switch irreversibly.
 
-## So what?
-
 This study shows that the ability to fold-switch and the speed of fold-switching is very important for regulating the circadian rhythms in the organisms studied. When mutated proteins that had messed-up switching were put into cells, it caused the cells to elongate without dividing and totally screwed up the phosphorylation cycles. Protein dynamics may be much more subtle and important than previously though, and clearly an amino acid sequence does not absolutely determine its structure.
-
-## Who cares?
 
 Anyone who studies proteins should care, because this report tells us that protein structures are more malleable than previously thought and, though subtle, the differences can be quite important for a healthy functioning biological organism.
 
 ![Timing is very important to regulate the biological activities!](/content/images/2015/07/rich-feldmann-oh-my-gosh-it-s-three-o-clock-already-new-yorker-cartoon.jpg)
-
-## Now what?
 
 A lot of studies on proteins focus on crystallography which essentially "locks" in a conformational state. However, we may have been missing out on a lot of important conformation states if other proteins out there also have this ["metamorphic" behavior](http://dx.doi.org/10.1126/science.1158868) using these techniques. [2] New techniques may be needed to unlock more of these interesting proteins!
 

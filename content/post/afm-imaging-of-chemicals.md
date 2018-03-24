@@ -5,6 +5,7 @@ slug: molecular-structures
 draft: true
 tags: [science]
 keywords: science
+written: ["2016","2016-12","2016-12-31"]
 ---
 
 Unraveling the Molecular Structures of Asphaltenes by Atomic Force Microscopy

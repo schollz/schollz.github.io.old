@@ -3,6 +3,7 @@ title: "Most sentences are unique"
 date: 2017-10-14T21:16:56-06:00
 tags: [thoughts]
 slug: sentences
+written: ["2017","2017-10","2017-10-14"]
 ---
 
 How long does a sentence have to be to gaurantee its uniqueness? This

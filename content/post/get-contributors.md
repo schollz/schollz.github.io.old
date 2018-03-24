@@ -4,6 +4,7 @@ date: 2017-10-25T09:53:32-06:00
 draft: true
 tags: [thoughts]
 slug: get-contributors
+written: ["2017","2017-10","2017-10-25"]
 ---
 
 Open-source code invites the possibility for others to help your (or hurt you).

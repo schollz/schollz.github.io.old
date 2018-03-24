@@ -11,14 +11,10 @@ No one knows where neurons, the basic of human thought, come from. They are thou
 
 ![Where do brains come from?](/img/brain.svg)
 
-## So what?
-
 The brain is one of the most complex components of any anatomical system, [maybe the most complicated thing in the universe](http://www.wnyc.org/story/michio-kaku-explores-human-brain/) - consisting of neurons, cerebral tissue, neurotransmitters, etc. Jellyfish have long been known to have a primitive version of a human brain, and indeed they both share a common ancestor that did. However, the ancestor to jelly fish and humans, placozoa, did <i>not</i> have neurons or muscles! This studies finds that a [comb jelly](https://en.wikipedia.org/wiki/Ctenophora) - which shares a common ancestor with placozoa but derives its lineage from a different side of the tree - has neurons and muscles! The only plausible explanation is that this clade of comb jellies evolved neurons independently.
 
 Indeed, the giant research group (almost 50 scientists) played around with the neurons and found that classical neurotransmitters (GABA, acetylcholine, histamine) could not induce neural firing in the Pacific gooseberry, while some amino acids could (glutamate and aspartate) could induce firing. This [actually goes along with prevailing theories that primordial nervous systems were peptide-based](http://dx.doi.org/10.1159/000258665)<sup>3</sup>. But in this case it is somewhat of a coincidence because the neural system of the Pacific sea gooseberry evolved completely independently of other known living things with neural systems. 
 
-
-## Who cares?
 
 Scientists are constantly trying to develop new biological systems from scratch - including [lungs](http://www.cnn.com/2014/02/14/health/texas-lungs-grown/), [hearts](http://rt.com/news/france-artificial-heart-transplant-662/), and, yes, [brains](http://www.forbes.com/sites/daviddisalvo/2013/08/29/its-alive-scientists-create-mini-human-brains-for-the-first-time/) - for new [regenerative medicine](http://report.nih.gov/nihfactsheets/viewfactsheet.aspx?csid=62). Very few scientists had ever thought about creating a new brain from scratch, but this ctenophore gives us all hope that it may be possible. After all, if it can evolve separately it may not be all that complicated as we thought. And if we can understand it well enough, we can build it and we can improve it. 
 

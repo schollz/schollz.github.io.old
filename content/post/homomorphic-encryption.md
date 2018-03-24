@@ -5,6 +5,7 @@ slug: homomorphic-encryption
 draft: true
 keywords: science
 tags: [science]
+written: ["2016","2016-07","2016-07-31"]
 ---
 
 How can sensitive information be used and encrypted at the same time?

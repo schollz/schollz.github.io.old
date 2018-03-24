@@ -4,6 +4,7 @@ date: 2017-10-06T08:10:35-06:00
 draft: true
 tags: [coding]
 slug: qrcodes
+written: ["2017","2017-10","2017-10-06"]
 ---
 
 Is it possible to back up a computer program onto a piece of paper so that it can be restored with a couple of photos?

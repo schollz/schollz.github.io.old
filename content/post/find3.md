@@ -4,6 +4,7 @@ date: 2018-03-17T09:41:01-06:00
 slug: find3
 keywords: coding
 tags: [coding, golang]
+written: ["2018","2018-03","2018-03-17"]
 ---
 
 The Framework for Internal Navigation and Discovery (FIND) is like indoor GPS for your house or business, using only a simple smartphone or laptop. Its an idea I started thinking about 8 years ago and  wrote the [first code](https://github.com/schollz/wifi_triangulation/tree/984ee1110e864b4bc4e751cab1a81c5688c3c0a6) in PHP almost four years ago, dubbed version 0, as a proof-of-concept. Two years later the project was [re-written in Python](https://github.com/schollz/find/tree/python3). Then it was [re-written in Go](https://github.com/schollz/find) and called "FIND". It's been [ported again to Python](https://github.com/kootenpv/whereami) and called "whereami". Now its been [re-written one more time and called "FIND3"](https://github.com/schollz/find3), with better speed, efficiency and new features.

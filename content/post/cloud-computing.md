@@ -4,6 +4,7 @@ date: 2017-10-24T21:00:41-06:00
 draft: true
 tags: [thoughts]
 slug: cloud-computing
+written: ["2017","2017-10","2017-10-24"]
 ---
 
 The `pingfs` repo got me thinking. How could would it be if you could

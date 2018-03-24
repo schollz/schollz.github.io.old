@@ -4,6 +4,7 @@ date: 2017-10-15T20:43:31-06:00
 draft: true
 tags: [coding]
 slug: ipfs
+written: ["2017","2017-10","2017-10-15"]
 ---
 
 This idea is to create a pipline for a totally content-addressable website, using IPFS with Hugo. The idea is that each page, on its own, is a self-contained content-addressable website, except for the index page which contains the content-addressed links. This way you can share a website and everyone will know (or maybe not) that it is immutable. If you do decide to change a site, it will be reflected on the index page, which is mutable and on a mutable domain.

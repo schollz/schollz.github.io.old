@@ -13,15 +13,9 @@ I just recently wrote about a recent discovery that find [people can smell witho
 
 Every person has about ~400 different olfactory receptor subtypes. The exact amount and kind of all receptors are probably unique for every person which implies that its likely that all people percieve smells slightly differently from one another. To test this, Lavi Secundo gave a bunch of people things to smell and asked them to rate the smell on a sliding scale about whether the smell was "masculine" or "lemony" or "edible". After barging with smells, the researchers built up a matrix containing the smell profile of each person. Not surprisingly, the matrices were unique enough to easily identify people!
 
-## So what?
-
 Whats amazing, is that the researchers took this one step beyond just telling people apart. Its been established that [the olfactory receptor genome is linked to the immune system genes](http://genome.cshlp.org/content/11/4/519.full) in mice. [2] The researchers hypothesized that maybe the olfactory genes are also linked to the human immune system - the Human Leukocyte Antigens (HLAs). [HLA matching](http://bethematch.org/for-patients-and-families/finding-a-donor/hla-matching/) is a prerequisite for bone marrow or blood cord transplants and its very important to have methods to determine whether people are matches (that hopefully are not super intrusive). It turns out that the ability to percieve smells did help to find HLA matches - in fact, using a simple smell test could reduce the number of HLA tests needed by **more than 30%**!
 
-## Who cares?
-
 The health industry should care, because anything that cuts the cost and time of matching potential bone marrow donors could be very competitive in a market where the main alternative is to draw blood. Also, you should care because you can now feel special that you smell a world that is totally unique to *you*!
-
-## Now what?
 
 The authors didn't actually compare the genomes of different patients to check how similar a smell fingerprint is to a HLA genotype or a olfactory receptor genotype... so that's one thing to do! Also there is a problem in that the sense of smell can change over time so the persistence of these types of tests would have to be validated for future uses.
 

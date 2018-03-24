@@ -4,6 +4,7 @@ date: 2017-12-10T09:41:01-06:00
 slug: books-2017
 keywords: thoughts
 tags: [thoughts, books]
+written: ["2017","2017-12","2017-12-10"]
 ---
 
 I've read about 15 books this year - not as many as I'd like ([I read 40

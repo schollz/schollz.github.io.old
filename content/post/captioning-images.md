@@ -3,6 +3,7 @@ title: "Automatic captioning of images using Javascript"
 date: 2017-09-27T13:55:03-06:00
 slug: captioning-images
 tags: [coding]
+written: ["2017","2017-09","2017-09-27"]
 ---
 
 I like to caption my images and I like to write in Markdown. However, it is

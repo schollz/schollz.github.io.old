@@ -5,6 +5,7 @@ tags: [science]
 slug: science-of-humor
 draft: true
 keywords: science
+written: ["2015","2015-08","2015-08-13"]
 ---
 
 The general science of humor:

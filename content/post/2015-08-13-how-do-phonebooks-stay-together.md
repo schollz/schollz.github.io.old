@@ -4,6 +4,7 @@ date: 2015-08-13
 tags: [science]
 slug: interleaved-phonebooks
 keywords: science
+written: ["2015","2015-08","2015-08-13"]
 ---
 
 We have all marveled at the astonishing feat of being able to hold up massive amounts of weight with only phonebooks. [Mythbusters even went so far as to use tanks](https://www.youtube.com/watch?v=hOt-D_ee-JE) to try to pull apar the phone books. Since then, however, the origin of this phenomenon has remained very elusive and escaped full description.
@@ -15,11 +16,9 @@ It was first thought that the mechanism is due to the friction between interleav
 
 ![Chinese finger trap](/img/finger_trap.svg)
 
-# So what?
 
 It's important to correct ourselves when we mispeak and to re-interpret theories when new evidence presents itself. The previous explaination of the phonebooks ammends itself to this. The previous assertion and accepted answer was that the increase in the number of pages increased the frictional force. While this is true, the researchers noticed that friction cannot explain the strength because the gravitational forces that can apply orthogonal forces do not change when the books are flipped to their side (where the friction is changed).
 
-# Who cares?
 
 Enthusiasts of physics should care, as now their is better theory and experiment to support a better hypothesis about the interleaved phonebooks. Popular culture enthusiasts might care too, to learn that Mythbusters maybe got it wrong.
 

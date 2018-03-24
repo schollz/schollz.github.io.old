@@ -3,6 +3,7 @@ title: "Send a file with IPFS"
 date: 2017-10-15T21:27:07-06:00
 tags: [coding]
 slug: ipfs-transfer
+written: ["2017","2017-10","2017-10-15"]
 ---
 
 Sending a file with IPFS is fun (after all it is leveraging the peer-to-peer network and content-addressable blocks of data!) and easy. 

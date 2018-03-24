@@ -4,6 +4,7 @@ date: 2017-06-29T09:51:22-06:00
 slug: beware-of-the-free-trial
 keywords: rant
 tags: [thoughts]
+written: ["2017","2017-06","2017-06-29"]
 ---
 
 I was looking at my bank statement last week and something was wrong. I had a charge of $15 for The Service (a big company that I will not name here), a service I hadn't used for years after I tried one of their free items. Did I cancel it? No, I didn't think so. But also, I couldn't remember actually signing up for it.

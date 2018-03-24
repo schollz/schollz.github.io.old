@@ -3,6 +3,7 @@ title: "Using crawdad"
 date: 2017-10-11T20:03:10-06:00
 tags: [coding]
 slug: crawdad
+written: ["2017","2017-10","2017-10-11"]
 ---
 
 

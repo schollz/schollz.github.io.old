@@ -3,6 +3,7 @@ title: "Genesis"
 date: 2008-06-02T21:54:46-07:00
 tags: [thoughts, science]
 slug: genesis
+written: ["2008","2008-06","2008-06-02"]
 ---
 
 In the beginning, 10 to 20 times 10<sup>9</sup> years ago, there was a big bang. A hundredth of a second later electrons, photons and neutrinos appeared. Three minutes later the quarks of the fundamental particles formed into light nuclei, approximently 76% Hydrogen and 24% Helium. 300,000 years later G-d said, "Let there be light"; and the nuclei combined with electrons to form neutral atoms, making the universe transparent to photons.

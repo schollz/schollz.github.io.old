@@ -3,6 +3,7 @@ title: "Ten Commandments (for a scientist)"
 date: 2008-06-03T15:19:41-07:00
 tags: [science, thoughts]
 slug: ten-commandments
+written: ["2008","2008-06","2008-06-03"]
 ---
 
 Moses reached upon Mt. Sinai and was given the gift of the Ten Commandments which have dictated the fundamental rules of life ever since. Scrawled on the back of the Ten Commandments was actually another set of commandments that determined the virtuousness of science and the held commandments to follow when Moses led his people to the promised land to live fruitfully in the pursuit of scientific knowledge.
