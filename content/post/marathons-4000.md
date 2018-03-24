@@ -7,13 +7,13 @@ written: ["2018-03-23","2018-03","2018"]
 ---
 
 
-I've run dozens of races and about 15 marathons since I started running. I've plotted my pace for 15 official marathons. Its quite obvious now that I've plateaued at a nominal pace.  You can see that I got fast quite quickly - after about three years I hit my plateau of about 8 minutes per mile.
+I've done dozens of races and about 15 marathons since I started running. I've plotted my pace for 15 official marathons. Its quite obvious now that I've plateaued at a nominal pace.  You can see that I got fast quite quickly - after about three years I hit my plateau of about 8 minutes per mile.
 
 ![My pacing in the past 15 marathons](/img/marathon_pacing.png)
 
-Those were three years of running about 20 miles a week, every week. Sometimes more, sometimes less. I started running fast and a year of intense training got the lowest dot on that graph - a sub 7 minute per mile marathon (which qualified me for the Boston marathon). 
+In my first three years of running I ran about 20 miles a week - sometimes more, sometimes less. I started running fast and a year of intense training about five years in, which got the lowest dot on that graph - a sub 7 minute per mile marathon (which qualified me for the Boston marathon). 
 
-Also interesting is the relative placement in these marathons. The relative placement is my place overall divided by the number of people in the race. A relative placement of 1 means that I finished last, and 0.5 means I finished right in the middle.
+I also computed my relative placement in marathons to see how I did compared to others. The relative placement is my place overall divided by the number of people in the race. A relative placement of 1 means that I finished last, and 0.5 means I finished right in the middle.
 
 ![My placement in the past 15 marathons](/img/marathon_placement.png)
 
