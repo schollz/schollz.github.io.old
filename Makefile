@@ -3,6 +3,7 @@ serve:
 
 build:
 	hugo -t onetwothree
+	minify -a -r -o tmp/ tmp
 
 publish:
 	#go get -v github.com/tdewolff/minify/cmd/minify
