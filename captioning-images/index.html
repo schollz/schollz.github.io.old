@@ -20,8 +20,7 @@ instead of writing with the Markdown &ldquo;<code>![]()</code>&rdquo; image synt
             <span style=color:#e6db74>&#39;&lt;/figcaption&gt;&#39;</span>
         );
     }
-}); <span style=color:#75715e>// from https://blog.kchung.co/adding-image-captions-to-ghost/
-</span><span style=color:#75715e></span></code></pre></div><p>It works great, but it requires JQuery. I don&rsquo;t want to use JQuery so I carefully followed
+}); <span style=color:#960050;background-color:#1e0010>// from https://blog.kchung.co/adding-image-captions-to-ghost/</span></code></pre></div><p>It works great, but it requires JQuery. I don&rsquo;t want to use JQuery so I carefully followed
 <a href=https://github.com/oneuijs/You-Dont-Need-jQuery>oneuijs/You-Dont-Need-jQuery</a>
 and I was able to convert this to just plain Javascript:<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>ready</span>(<span style=color:#a6e22e>fn</span>) {
     <span style=color:#66d9ef>if</span> (document.<span style=color:#a6e22e>attachEvent</span> <span style=color:#f92672>?</span> document.<span style=color:#a6e22e>readyState</span> <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;complete&#34;</span> <span style=color:#f92672>:</span>
@@ -44,11 +43,9 @@ and I was able to convert this to just plain Javascript:<div class=highlight><pr
         document.<span style=color:#a6e22e>addEventListener</span>(<span style=color:#e6db74>&#39;DOMContentLoaded&#39;</span>, <span style=color:#a6e22e>fn</span>);
     }
 }
-window.<span style=color:#a6e22e>onload</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>ready</span>;
-</code></pre></div><p>Of course this looks a little more complicated, but it works just the
+window.<span style=color:#a6e22e>onload</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>ready</span>;</code></pre></div><p>Of course this looks a little more complicated, but it works just the
 same.<p>The only issue here is that when you load a page you will see all the figures &ldquo;jump&rdquo; into place as the captions are written to them, about one hundred milliseconds after the page loads. To avoid this, you can cover up the page until it is totally ready with a div:<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;loadingMask&#34;</span> <span style=color:#a6e22e>style</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;width: 100%; height: 100%; position: fixed; background: #fff;&#34;</span>&gt;&lt;/<span style=color:#f92672>div</span>&gt;</code></pre></div><p>Then you can add a fade out to this div in the Javascript <code>ready()</code> function:<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#a6e22e>el</span> <span style=color:#f92672>=</span> document.<span style=color:#a6e22e>getElementById</span>(<span style=color:#e6db74>&#39;loadingMask&#39;</span>);
-<span style=color:#a6e22e>fadeOut</span>(<span style=color:#a6e22e>el</span>);
-</code></pre></div><p>The <code>fadeOut()</code> function is adapted from the <a href=http://youmightnotneedjquery.com/>youmightnotneedjquery.com</a> <code>fadeIn()</code> function:<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>fadeOut</span>(<span style=color:#a6e22e>el</span>) {
+<span style=color:#a6e22e>fadeOut</span>(<span style=color:#a6e22e>el</span>);</code></pre></div><p>The <code>fadeOut()</code> function is adapted from the <a href=http://youmightnotneedjquery.com/>youmightnotneedjquery.com</a> <code>fadeIn()</code> function:<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>fadeOut</span>(<span style=color:#a6e22e>el</span>) {
   <span style=color:#a6e22e>el</span>.<span style=color:#a6e22e>style</span>.<span style=color:#a6e22e>opacity</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>;
 
   <span style=color:#66d9ef>var</span> <span style=color:#a6e22e>last</span> <span style=color:#f92672>=</span> <span style=color:#f92672>+</span><span style=color:#66d9ef>new</span> Date();
@@ -65,12 +62,12 @@ same.<p>The only issue here is that when you load a page you will see all the fi
   };
 
   <span style=color:#a6e22e>tick</span>();
-}
-</code></pre></div><p>Go ahead and copy that to whatever site you want! The full code is <a href=https://gist.github.com/schollz/ecc814acfa546721acdb9e55107b7277>here</a>.</div><br><div class=collapse tabindex=1><a id=commenttoggle href=#commentssection onclick="toggle_visibility('commentssection');">Show comments</a>
+}</code></pre></div><p>Go ahead and copy that to whatever site you want! The full code is <a href=https://gist.github.com/schollz/ecc814acfa546721acdb9e55107b7277>here</a>.</div><br><div class=collapse tabindex=1><a id=commenttoggle href=#commentssection onclick="toggle_visibility('commentssection');">Show comments</a>
 <script>function toggle_visibility(id){var e=document.getElementById(id);if(e.style.display=='block'){e.style.display='none';document.getElementById("commenttoggle").innerText="Show comments";}else{e.style.display='block';document.getElementById("commenttoggle").innerText="Hide comments";}}</script><div id=commentssection style=display:none><hr><div id=comments></div><div class=guestbook-form><strong>Leave a comment:</strong>
 <textarea rows=5 cols=75 id=message name=message class=guestbook></textarea><br><table style=margin-bottom:0><tr><td style=padding-right:10px><label for=name>Who are you?</label><td><input id=name class=guestbook size=40><tr><td style=padding-right:10px><label for=whourl>(optional URL)</label><td><input id=email class=guestbook size=40 type=url><tr><td><input class=guestbook-button type=button id=btn value=Submit></table></div><script>var serverURL="https://guestbook.schollz.com"
 var btn=document.getElementById("btn");var guestbook=document.getElementById("comments");var firstMessage=0;function myCallback(acptlang){console.log(firstMessage);console.log((acptlang.Message!=""&&firstMessage==1));if(acptlang.Message!=""&&firstMessage==1){alert(acptlang.Message);firstMessage=1;}
-console.log(acptlang);guestbook.innerHTML="";console.log(acptlang.Entries.length);for(var i=0;i<acptlang.Entries.length;i++){guestbook.innerHTML=guestbook.innerHTML+`<div class="comment">
+console.log(acptlang);guestbook.innerHTML="";console.log(acptlang.Entries.length);for(var i=0;i<acptlang.Entries.length;i++){guestbook.innerHTML=guestbook.innerHTML+
+`<div class="comment">
     <div class="entryid"> By ${acptlang.Entries[i].Name} on ${acptlang.Entries[i].DateString} in ${acptlang.Entries[i].Location}: </div>
     <blockquote> <div class="wikitext">${acptlang.Entries[i].Message}
     </div> </blockquote> </div>`}}
