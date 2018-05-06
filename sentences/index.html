@@ -6,9 +6,9 @@ question can be answered by looking at a huge corpora of indexed
 sentences, e.g. the text of the internet. All that has been written on the
 internet is not nessecarily a million monkeys typing on a keyboard
 (although a million monkeys typing on a keyboard could produce all the
-current content),<sup class=footnote-ref id=fnref:1><a rel=footnote href=#fn:1>1</a></sup> with exception of a website that generates random
-text.<sup class=footnote-ref id=fnref:2><a rel=footnote href=#fn:2>2</a></sup> Still, I was wondering, out of the current 25 billion or so
-webpages<sup class=footnote-ref id=fnref:3><a rel=footnote href=#fn:3>3</a></sup>, how long does a sentence have to be to make it unique?
+current content),<sup class=footnote-ref id=fnref:1><a href=#fn:1>1</a></sup> with exception of a website that generates random
+text.<sup class=footnote-ref id=fnref:2><a href=#fn:2>2</a></sup> Still, I was wondering, out of the current 25 billion or so
+webpages<sup class=footnote-ref id=fnref:3><a href=#fn:3>3</a></sup>, how long does a sentence have to be to make it unique?
 Surprisingly short, as it turns out.<h2 id=a-quick-experiment>A quick experiment</h2><p>Here&rsquo;s a quick experiment to see how few words you need to actually
 produce a totally and completely unique sentence into the universe.<p><img src=/img/donkey.jpg alt="My actual painting of a donkey in the desert."><p>Lets take the sentence (which I&rsquo;m making up as I type):<blockquote><p>A painting of a donkey in the desert.</blockquote><p>This sentence comes from a painting I made that I&rsquo;m looking at. For
 searching &ldquo;A&rdquo; there are 25.3 billion results. The exact phrase &ldquo;A
@@ -17,7 +17,7 @@ a factor of 10<sup>3</sup>. The phrase &ldquo;A painting of&rdquo; decreases it 
 million (another 10<sup>~1</sup> decrease) and adding &ldquo;a donkey&rdquo; decreases
 it to 131,000 (another 10<sup>~2</sup> decrease). The smallest number of
 results is &ldquo;a painting of a donkey in the&rdquo; which yields only a single
-result (another 10<sup>~5</sup> decrease).<sup class=footnote-ref id=fnref:4><a rel=footnote href=#fn:4>4</a></sup> There are no results for &ldquo;A
+result (another 10<sup>~5</sup> decrease).<sup class=footnote-ref id=fnref:4><a href=#fn:4>4</a></sup> There are no results for &ldquo;A
 painting of a donkey in the desert&rdquo;, at least until this post is
 published.<p>This makes sense, as there are increasing combinatorial factors that limit the probability of
 a given sentence for each new word. Each word has many possibilities as there
@@ -44,8 +44,7 @@ than an order of magnitude.<div class=footnotes><hr><ol><li id=fn:1>See the <a h
 <script>function toggle_visibility(id){var e=document.getElementById(id);if(e.style.display=='block'){e.style.display='none';document.getElementById("commenttoggle").innerText="Show comments";}else{e.style.display='block';document.getElementById("commenttoggle").innerText="Hide comments";}}</script><div id=commentssection style=display:none><hr><div id=comments></div><div class=guestbook-form><strong>Leave a comment:</strong>
 <textarea rows=5 cols=75 id=message name=message class=guestbook></textarea><br><table style=margin-bottom:0><tr><td style=padding-right:10px><label for=name>Who are you?</label><td><input id=name class=guestbook size=40><tr><td style=padding-right:10px><label for=whourl>(optional URL)</label><td><input id=email class=guestbook size=40 type=url><tr><td><input class=guestbook-button type=button id=btn value=Submit></table></div><script>var serverURL="https://guestbook.schollz.com"
 var btn=document.getElementById("btn");var guestbook=document.getElementById("comments");var firstMessage=0;function myCallback(acptlang){console.log(firstMessage);console.log((acptlang.Message!=""&&firstMessage==1));if(acptlang.Message!=""&&firstMessage==1){alert(acptlang.Message);firstMessage=1;}
-console.log(acptlang);guestbook.innerHTML="";console.log(acptlang.Entries.length);for(var i=0;i<acptlang.Entries.length;i++){guestbook.innerHTML=guestbook.innerHTML+
-`<div class="comment">
+console.log(acptlang);guestbook.innerHTML="";console.log(acptlang.Entries.length);for(var i=0;i<acptlang.Entries.length;i++){guestbook.innerHTML=guestbook.innerHTML+`<div class="comment">
     <div class="entryid"> By ${acptlang.Entries[i].Name} on ${acptlang.Entries[i].DateString} in ${acptlang.Entries[i].Location}: </div>
     <blockquote> <div class="wikitext">${acptlang.Entries[i].Message}
     </div> </blockquote> </div>`}}
